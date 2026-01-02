@@ -1,3 +1,13 @@
-title: Jodie Wiggins, Ph.D.
-description: Scientific & Technical Content Portfolio
+title: "Jodie Wiggins — Scientific & Technical Content"
+description: "Clinician- and patient-facing genomics content, evidence-aware writing, and content strategy."
 theme: minima
+
+
+author: "Jodie Wiggins"
+show_excerpts: false
+
+header_pages:
+  - index.md
+  - samples/index.md
+  - about.md
+

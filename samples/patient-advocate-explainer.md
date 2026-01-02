@@ -1,10 +1,8 @@
 ---
-title: "Understanding Exome and Genome Sequencing"
+title: "For Patients: Understanding Exome and Genome Sequencing"
 description: "What these tests can (and can’t) tell you"
 layout: page
----
-
-# Understanding Exome and Genome Sequencing  
+--- 
 ## What These Tests Can (and Can’t) Tell You
 
 **Audience:** Patients, families, and advocates  
@@ -63,11 +61,15 @@ Some results may:
 
 A result called a **Variant of Uncertain Significance (VUS)** means that scientists do not currently have enough evidence to determine whether a specific DNA change is related to a health condition. These findings are common and do **not** confirm or rule out a diagnosis on their own.
 
+> **Important:** A **Variant of Uncertain Significance (VUS)** does not confirm or rule out a diagnosis and should not be used on its own to make medical decisions.
+
 Importantly, genetic test results may be updated over time as new research becomes available.
 
 ---
 
 ## Why Results Don’t Always Provide Clear Answers
+
+> **Note:** A negative result does **not** mean symptoms are not real or important. It may mean the genetic cause is not yet identifiable with current knowledge.
 
 Even with advanced testing, genetic results do not always explain a person’s symptoms.
 
@@ -140,6 +142,8 @@ Healthcare providers and genetic counselors are trained to explain genetic test 
 ---
 
 ## What to Ask Your Healthcare Provider
+
+> **Tip:** Genetic testing is most informative when interpreted in the context of medical history, symptoms, and family history.
 
 If you are considering exome or genome sequencing, or if you have already received results, the following questions may help guide conversations with your healthcare provider or genetic counselor:
 
