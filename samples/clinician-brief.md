@@ -1,3 +1,9 @@
+---
+title: "Understanding Clinical Exome and Genome Testing"
+description: "Capabilities, interpretation, and limitations for clinical use"
+layout: page
+---
+
 # Understanding Clinical Exome and Genome Testing: Capabilities, Interpretation, and Limitations
 
 **Audience:** Healthcare Providers, Clinical Geneticists, Genetic Counselors  
