@@ -30,7 +30,7 @@ A plain-language explainer designed to support patient understanding, trust, and
 
 ## What I bring
 
-- - Intellectual creativity and scientific ingenuity: synthesizing complex and evolving evidence, recognizing patterns others miss, and shaping clear, credible narratives where uncertainty exists    
+- Intellectual creativity and scientific ingenuity: synthesizing complex and evolving evidence, recognizing patterns others miss, and shaping clear, credible narratives where uncertainty exists    
 - Scientific leadership and review: ensuring accuracy, evidence alignment, calibrated interpretation, and narrative coherence across high-stakes scientific content  
 - Content strategy and systems: building frameworks, templates, and scalable review workflows that elevate quality and consistency across teams  
 - Cross-functional collaboration: partnering with subject-matter experts and stakeholders to translate deep scientific expertise into usable, audience-appropriate communication  

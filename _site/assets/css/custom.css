@@ -24,3 +24,11 @@
 .callout.risk {
     border-left-color: #b15a2b;
 }
+
+/* Minima footer: remove duplicated site title on the left */
+.site-footer .footer-heading,
+.site-footer .site-title,
+.site-footer h2,
+.site-footer .p-name {
+    display: none !important;
+}

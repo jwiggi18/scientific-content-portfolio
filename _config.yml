@@ -1,10 +1,7 @@
 title: "Jodie Wiggins — Scientific & Technical Content"
-description: "Clinician- and patient-facing genomics content, evidence-aware writing, and content strategy."
+description: "Scientific content leadership, evidence-aware genomics communication, and content strategy."
+
 theme: minima
-
-
-author: "Jodie Wiggins"
-show_excerpts: false
 
 header_pages:
   - samples/index.md

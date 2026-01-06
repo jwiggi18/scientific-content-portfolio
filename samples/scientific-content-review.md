@@ -4,7 +4,6 @@ description: "An example of scientific oversight, risk-aware review, and strateg
 layout: page
 ---
 
-# Scientific Content Review & Strategic Recommendations  
 **Internal Review Memo (Anonymized Example)**
 
 **Author:** Jodie Wiggins, Ph.D.  
