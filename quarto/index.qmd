@@ -1,0 +1,66 @@
+---
+pagetitle: "Jodie Wiggins, PhD"
+description: "PhD biologist working at the intersection of clinical science, patient communication, and content strategy."
+page-layout: full
+format:
+  html:
+    css: styles.scss
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+---
+
+```{=html}
+<section class="hero">
+  <img src="assets/karyotype.svg" alt="A stylized colorful karyotype: 23 chromosome pairs in different colors." class="hero__image">
+  <p class="hero__caption">A spectral karyotype paints each chromosome a different color so we can finally see what's there. The same principle applies to the rest of science.</p>
+  <a href="#what-i-do" class="hero__scroll">scroll ↓</a>
+</section>
+
+<section class="do-band" id="what-i-do">
+  <div class="do-band__inner">
+    <p class="tagline">Science is the language of our health, our food, our environment and <em>everyone</em> deserves access to that language.</p>
+
+    <p style="font-size: 1.12rem; line-height: 1.55; margin-bottom: 0;">I build content and learning systems for genuinely difficult things — and I measure whether they do what they're supposed to. PhD in biology, ten-plus years across university teaching, instructional design, scientific writing, and editorial leadership.</p>
+
+    <ul class="do-list">
+      <li><strong>Translate.</strong> Clinical and research science, rewritten for the people who actually use it — clinicians, patients, learners, advocates. Without flattening the uncertainty that's really there.</li>
+      <li><strong>Design.</strong> Content systems, review frameworks, and editorial workflows that scale without losing rigor. I've built ones that work for two students and ones that work for two thousand.</li>
+      <li><strong>Lead.</strong> Teams, courses, and high-stakes scientific communication, end to end. I'm the person you call when a sentence is wrong, and the person who can explain why.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="work-section">
+  <div class="work-section__inner">
+    <h2>Featured work</h2>
+
+    <a href="samples/patient-advocate-explainer.html" class="work-card">
+      <div class="work-card__meta">For patients &amp; advocates · Plain-language explainer</div>
+      <h3 class="work-card__title">Understanding Exome and Genome Sequencing</h3>
+      <p class="work-card__teaser">A plain-language explainer that gives people enough information to ask better questions of their care team — without flattening the uncertainty that's really there.</p>
+    </a>
+
+    <a href="samples/clinician-brief.html" class="work-card">
+      <div class="work-card__meta">For clinicians &amp; counselors · Technical brief</div>
+      <h3 class="work-card__title">Clinical Exome and Genome Testing</h3>
+      <p class="work-card__teaser">The same science as the patient piece, rewritten for the people interpreting the results — with the calibration and limitations a clinician actually needs.</p>
+    </a>
+
+    <a href="samples/scientific-content-review.html" class="work-card">
+      <div class="work-card__meta">Editorial leadership · Anonymized review memo</div>
+      <h3 class="work-card__title">A Scientific Review Memo</h3>
+      <p class="work-card__teaser">An anonymized example of how I think about accuracy, interpretive risk, and audience fit when overseeing other people's scientific content.</p>
+    </a>
+
+    <p style="margin-top: 2.5rem; font-size: 0.95rem;"><a href="work/index.qmd">See more work →</a></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <a href="mailto:jodiewiggins18@gmail.com">jodiewiggins18@gmail.com</a> ·
+  <a href="https://www.linkedin.com/in/jodie-wiggins/" target="_blank" rel="noopener">LinkedIn</a> ·
+  <a href="about.qmd">About</a>
+</footer>
+```

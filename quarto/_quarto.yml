@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jodie Wiggins"
+  description: "Scientific content, strategy, and bridges between research and the people it serves."
+  page-navigation: false
+  reader-mode: false
+  navbar:
+    background: light
+    pinned: false
+    collapse-below: lg
+    left:
+      - text: "Jodie Wiggins, PhD"
+        href: index.qmd
+    right:
+      - text: "Work"
+        href: work/index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Contact"
+        href: "mailto:jodiewiggins18@gmail.com"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    page-layout: article
+    grid:
+      body-width: 720px
+      sidebar-width: 0px
+      margin-width: 0px
+    fontsize: 1.0625rem
+    linestretch: 1.65
+    smooth-scroll: true
+    code-copy: false
+    anchor-sections: false
+    link-external-newwindow: true

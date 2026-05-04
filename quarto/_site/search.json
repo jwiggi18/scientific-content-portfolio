@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "NOTES.html",
+    "href": "NOTES.html",
+    "title": "Quarto draft — preview notes",
+    "section": "",
+    "text": "This is a draft Quarto build of the portfolio, living alongside the existing Jekyll site so nothing breaks while we iterate.\n\n\nFrom inside this folder:\ncd quarto\nquarto preview\nThat’ll open it at http://localhost:&lt;port&gt; and live-reload as files change. Quit with Ctrl-C.\nIf you don’t have Quarto installed yet:\nbrew install --cask quarto\n\n\n\n\nindex.qmd — homepage. Hero karyotype, tagline, three “what I do” lines, three featured work cards, footer.\nabout.qmd — the real story. Short version, “why now,” what I bring, lived-experience note.\nwork/index.qmd — samples landing.\nsamples/*.qmd — your three existing genomics samples, ported.\nassets/karyotype.svg — the hero. A stylized 23-pair karyotype I drew in SVG. Swap it for a real spectral-karyotype image when we find or commission one — just replace the file at the same path.\nassets/headshot.jpg — copied from the Escaping academia folder.\nstyles.scss — palette, typography, layout. All the visual decisions live here.\n_quarto.yml — site config (navbar, theme, etc.).\n\n\n\n\n\nVoice on home + about. Does it sound like you? If any sentence makes you cringe, mark it.\nKaryotype. It’s drawn — not a real photographic SKY karyotype. Easy to swap. Tell me if the proportions/colors feel right or if you’d rather have a real one (I can recommend sources).\nThe three “what I do” lines. Do they cover what you actually do, in your words?\nThe featured work order. Patient → clinician → review memo. Reasonable?\nHeadshot. Currently round, 220px, in the about page. Want it on the homepage too?\nLived-experience paragraph on the About page. Lean-in version is in there. Tone okay? Too much, not enough, just right?\n\n\n\n\n\nSample pages still look default-Quarto on the inside; we’ll style them once you bless the homepage direction.\nThe Safe Evolution and teaching-design samples mentioned on the work page — we’ll write those as new pieces.\nDomain / deployment. Once you bless this, we promote quarto/ to be the root of the site (or move the Jekyll files into _legacy/) and update GitHub Pages settings.\nA real karyotype image (if you want one)."
+  },
+  {
+    "objectID": "NOTES.html#preview-locally",
+    "href": "NOTES.html#preview-locally",
+    "title": "Quarto draft — preview notes",
+    "section": "",
+    "text": "From inside this folder:\ncd quarto\nquarto preview\nThat’ll open it at http://localhost:&lt;port&gt; and live-reload as files change. Quit with Ctrl-C.\nIf you don’t have Quarto installed yet:\nbrew install --cask quarto"
+  },
+  {
+    "objectID": "NOTES.html#whats-in-here",
+    "href": "NOTES.html#whats-in-here",
+    "title": "Quarto draft — preview notes",
+    "section": "",
+    "text": "index.qmd — homepage. Hero karyotype, tagline, three “what I do” lines, three featured work cards, footer.\nabout.qmd — the real story. Short version, “why now,” what I bring, lived-experience note.\nwork/index.qmd — samples landing.\nsamples/*.qmd — your three existing genomics samples, ported.\nassets/karyotype.svg — the hero. A stylized 23-pair karyotype I drew in SVG. Swap it for a real spectral-karyotype image when we find or commission one — just replace the file at the same path.\nassets/headshot.jpg — copied from the Escaping academia folder.\nstyles.scss — palette, typography, layout. All the visual decisions live here.\n_quarto.yml — site config (navbar, theme, etc.)."
+  },
+  {
+    "objectID": "NOTES.html#things-to-react-to",
+    "href": "NOTES.html#things-to-react-to",
+    "title": "Quarto draft — preview notes",
+    "section": "",
+    "text": "Voice on home + about. Does it sound like you? If any sentence makes you cringe, mark it.\nKaryotype. It’s drawn — not a real photographic SKY karyotype. Easy to swap. Tell me if the proportions/colors feel right or if you’d rather have a real one (I can recommend sources).\nThe three “what I do” lines. Do they cover what you actually do, in your words?\nThe featured work order. Patient → clinician → review memo. Reasonable?\nHeadshot. Currently round, 220px, in the about page. Want it on the homepage too?\nLived-experience paragraph on the About page. Lean-in version is in there. Tone okay? Too much, not enough, just right?"
+  },
+  {
+    "objectID": "NOTES.html#whats-not-done-yet-intentionally",
+    "href": "NOTES.html#whats-not-done-yet-intentionally",
+    "title": "Quarto draft — preview notes",
+    "section": "",
+    "text": "Sample pages still look default-Quarto on the inside; we’ll style them once you bless the homepage direction.\nThe Safe Evolution and teaching-design samples mentioned on the work page — we’ll write those as new pieces.\nDomain / deployment. Once you bless this, we promote quarto/ to be the root of the site (or move the Jekyll files into _legacy/) and update GitHub Pages settings.\nA real karyotype image (if you want one)."
+  },
+  {
+    "objectID": "samples/scientific-content-review.html",
+    "href": "samples/scientific-content-review.html",
+    "title": "Scientific Content Review & Strategic Recommendations",
+    "section": "",
+    "text": "Internal Review Memo (Anonymized Example)\nAuthor: Jodie Wiggins, Ph.D.\nRole Context: Scientific Director / Scientific Content Lead\nPurpose: Demonstrate scientific review, risk assessment, and strategic guidance for scientific and medical communications"
+  },
+  {
+    "objectID": "samples/scientific-content-review.html#context",
+    "href": "samples/scientific-content-review.html#context",
+    "title": "Scientific Content Review & Strategic Recommendations",
+    "section": "Context",
+    "text": "Context\nThis memo illustrates my approach to reviewing and guiding scientific content at a leadership level. The example below reflects a representative internal scientific review, conducted to assess accuracy, interpretive risk, clarity, and alignment with audience and strategic objectives.\nThe focus of this review is scientific oversight rather than line editing, with emphasis on judgment, risk-aware framing, and support for high-quality, fit-for-purpose communication."
+  },
+  {
+    "objectID": "samples/scientific-content-review.html#reviewed-content-anonymized",
+    "href": "samples/scientific-content-review.html#reviewed-content-anonymized",
+    "title": "Scientific Content Review & Strategic Recommendations",
+    "section": "Reviewed Content (Anonymized)",
+    "text": "Reviewed Content (Anonymized)\n\nFormat: 12-slide educational slide deck\n\nAudience: Healthcare professionals and scientific stakeholders\n\nPurpose:\nTo summarize current scientific understanding of a disease area, including biological mechanisms, emerging research findings, and areas of active investigation\n\nSource Material:\nPeer-reviewed literature, mechanistic studies, and clinical research\n\nDevelopment Context:\nContent developed by a multidisciplinary team for educational use"
+  },
+  {
+    "objectID": "samples/scientific-content-review.html#summary-assessment",
+    "href": "samples/scientific-content-review.html#summary-assessment",
+    "title": "Scientific Content Review & Strategic Recommendations",
+    "section": "Summary Assessment",
+    "text": "Summary Assessment\nOverall, the content demonstrates a high level of scientific rigor, thoughtful evidence selection, and clear educational intent, reflecting strong foundational work by the team. With small, targeted refinements, the material can further reduce interpretive risk, enhance clarity for the intended audience, and strengthen alignment between the evidence presented and the resulting conclusions. These adjustments build on an already solid framework and will help ensure the content is as clear, credible, and impactful as possible."
+  },
+  {
+    "objectID": "samples/scientific-content-review.html#strengths-identified",
+    "href": "samples/scientific-content-review.html#strengths-identified",
+    "title": "Scientific Content Review & Strategic Recommendations",
+    "section": "Strengths Identified",
+    "text": "Strengths Identified\n\nScientific Accuracy and Evidence Base\nThe content demonstrates strong scientific rigor and careful use of evidence throughout. Key mechanistic claims are supported by appropriate primary literature, and citations are used consistently to anchor interpretations in data rather than speculation.\nRepresentative strengths include: - Clear and accurate depiction of the biological pathway of interest, with mechanistic steps aligned with current peer-reviewed understanding.\n- Effective integration of findings from multiple study types (e.g., mechanistic studies and clinical research) to provide a balanced scientific picture rather than relying on a single line of evidence.\nThese choices establish a solid and credible scientific foundation for the material.\n\n\n\nLogical Organization and Narrative Flow\nThe content is well structured, with a logical progression from foundational concepts to more detailed scientific discussion. This sequencing supports comprehension and allows readers to build understanding as the narrative advances.\nRepresentative strengths include: - Early introduction of core biological concepts and terminology, which are then consistently referenced and built upon in later sections.\n- Use of intermediate summary slides or transitions that reinforce key takeaways before introducing additional complexity.\nThis organization supports clarity and reduces cognitive load for the audience.\n\n\n\nAppropriate Educational Tone\nThe material maintains a clear educational focus and avoids promotional framing. Language choices consistently signal that the science is being presented to inform understanding rather than to direct conclusions or actions.\nRepresentative strengths include: - Careful framing of emerging data as part of an evolving evidence base, rather than presenting preliminary findings as definitive.\n- Explicit use of neutral, explanatory language when discussing mechanisms and research outcomes, reinforcing the educational intent of the content.\nThis tone supports responsible interpretation and aligns well with expectations for scientific and medical education materials."
+  },
+  {
+    "objectID": "samples/scientific-content-review.html#strategic-recommendations",
+    "href": "samples/scientific-content-review.html#strategic-recommendations",
+    "title": "Scientific Content Review & Strategic Recommendations",
+    "section": "Strategic Recommendations",
+    "text": "Strategic Recommendations\nThe following recommendations are intended to build on the content’s existing strengths by enhancing clarity, appropriately calibrating interpretation, and reinforcing alignment between evidence and conclusions. These are small, targeted refinements that support scientific rigor while improving usability and confidence for the intended audience.\n\n\n1. Calibrate Interpretive Language to Match Evidence Strength\n\nWhy this matters\nPrecise calibration of interpretive language helps maintain scientific credibility and supports responsible audience understanding, particularly when presenting emerging or evolving data.\n\nSeveral statements would benefit from minor wording adjustments to more explicitly reflect the current strength of evidence. This does not change the scientific message, but ensures that interpretations are consistently aligned with what the data can support.\nRecommended approach: - Use language that distinguishes association from causation where appropriate\n- Clearly signal when findings are hypothesis-generating or under active investigation\nExample language strategies: - “Current evidence suggests…”\n- “Has been associated with…”\n- “Is an area of ongoing research…”\n\n\n\n2. Surface Key Limitations and Uncertainty at Decision Points\n\nWhy this matters\nExplicit acknowledgment of uncertainty reinforces trust and prevents overextension of conclusions, especially in educational scientific content.\n\nWhile limitations are present in the underlying literature, they are not always surfaced at the points where conclusions are drawn. Briefly highlighting these considerations strengthens credibility without adding unnecessary complexity.\nRecommended approach: - Incorporate concise statements addressing study design, population scope, or variability in findings\n- Reinforce where evidence is converging versus where it remains incomplete\nOutcome:\nImproved transparency and a clearer signal to the audience about how confidently findings should be interpreted.\n\n\n\n3. Strengthen Narrative Signposting and Message Hierarchy\n\nWhy this matters\nClear signposting helps audiences orient themselves within complex scientific material and retain key takeaways.\n\nThe overall structure is strong; however, elevating key messages earlier and reinforcing them throughout the narrative will further enhance clarity and impact.\nRecommended approach: - Introduce high-level scientific takeaways early in the content\n- Use brief transition statements to connect detailed sections back to overarching objectives\nOutcome:\nA more cohesive narrative that reinforces strategic intent while preserving scientific depth.\n\n\n\n4. Support Accessibility Through Layered Detail\n\nWhy this matters\nLayered presentation allows diverse audiences to engage with content at an appropriate depth without diluting rigor.\n\nSome highly technical sections could benefit from brief contextual framing to support readers with varying levels of background knowledge.\nRecommended approach: - Add short framing statements or summaries before dense technical sections\n- Maintain detailed explanations for readers seeking deeper engagement\nOutcome:\nImproved usability across the intended audience while maintaining scientific precision."
+  },
+  {
+    "objectID": "samples/scientific-content-review.html#summary",
+    "href": "samples/scientific-content-review.html#summary",
+    "title": "Scientific Content Review & Strategic Recommendations",
+    "section": "Summary",
+    "text": "Summary\nThese recommendations are designed to enhance an already strong piece of scientific content. By making small, targeted refinements to language, structure, and framing, the material can further strengthen its clarity, credibility, and educational impact while remaining firmly grounded in the underlying science."
+  },
+  {
+    "objectID": "samples/scientific-content-review.html#conclusion",
+    "href": "samples/scientific-content-review.html#conclusion",
+    "title": "Scientific Content Review & Strategic Recommendations",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis review reflects my approach to scientific content leadership: balancing accuracy, clarity, and strategic intent while proactively identifying risks related to overinterpretation, ambiguity, or audience mismatch. My goal in this role is to elevate content through thoughtful guidance, support contributors in producing their strongest work, and ensure that scientific communications are credible, responsible, and fit for purpose.\n\n\nNotes for Reviewers\nThis memo is an anonymized, representative example intended to demonstrate scientific oversight, mentorship, and strategic review at a leadership level. It is not tied to a specific product, therapeutic area, or client."
+  },
+  {
+    "objectID": "samples/clinician-brief.html",
+    "href": "samples/clinician-brief.html",
+    "title": "Understanding Clinical Exome and Genome Testing",
+    "section": "",
+    "text": "Audience: Healthcare Providers, Clinical Geneticists, Genetic Counselors\nPurpose: To support accurate interpretation and responsible clinical use of exome and genome sequencing results\nContext: Scientific writing sample demonstrating translation of genomic testing methodology into clinician-facing technical content\n\n\n\nClinical exome sequencing and whole genome sequencing (WGS) are used both to diagnose known rare genetic diseases and to evaluate patients whose conditions remain undiagnosed after standard testing. When appropriately applied and interpreted, these technologies can provide actionable insights that inform diagnosis, guide clinical management, and support patient care. However, effective use requires a clear understanding of what these tests can—and cannot—reliably determine.\nThis brief outlines the core capabilities, interpretive considerations, and limitations of clinical exome and genome sequencing to support informed clinical decision-making.\n\n\n\n\n\n\n## What Exome and Genome Sequencing Are\n\n\nExome sequencing focuses on the protein-coding regions of the genome, where a substantial proportion of currently recognized disease-causing variants have been identified.\n\n\nWhole genome sequencing (WGS) captures both coding and non-coding regions, enabling evaluation of regulatory and other non-coding variation that may contribute to disease in select cases.\n\n\nSelection of testing modality should be guided by clinical context, prior testing history, and diagnostic goals.\n\n\n\n\n\n\nExome and genome sequencing can reliably detect certain classes of genetic variants, with detection scope determined by the testing modality. Exome sequencing identifies single nucleotide variants (SNVs) and small insertions and deletions (indels) within protein-coding regions, while genome sequencing enables detection of these variants across both coding and non-coding regions of the genome.\nWhen combined with robust variant annotation, curated reference databases, and phenotype-driven analysis, sequencing results may support the identification of variants associated with genetic disease in patients with suspected inherited conditions.\n\n\n\n\nClinical laboratories classify variants using established frameworks that consider multiple lines of evidence, including population frequency data, functional studies, segregation analysis, and prior clinical observations.\nCommon classifications include: - Pathogenic\n- Likely pathogenic\n- Variant of uncertain significance (VUS)\n- Likely benign\n- Benign\nPathogenic and likely pathogenic variants may be considered consistent with a genetic diagnosis when they align with the patient’s clinical presentation. Variants classified as benign or likely benign are not expected to contribute to disease. Variants of uncertain significance (VUS) reflect insufficient evidence to determine whether a variant is pathogenic or benign and should not be used as the sole basis for clinical decision-making.\nIt is important to recognize that variant classification reflects the current state of scientific evidence and may change as new data emerge. Clinical interpretation should integrate sequencing results with patient phenotype, family history, and additional diagnostic information.\n\n\n\n\nAccurate and detailed phenotypic information substantially improves variant interpretation. Phenotype-driven analysis enables prioritization of variants that are most consistent with observed clinical features, reducing ambiguity and supporting more confident conclusions.\nIncomplete or nonspecific phenotype data can limit interpretive power and increase the likelihood of uncertain results.\n\n\n\n\nWhile powerful, exome and genome sequencing have important limitations:\n\nNot all disease-causing variants are detectable with current sequencing technologies\n\nStructural variants, repeat expansions, and certain mosaic variants may be missed or incompletely characterized\n\nA negative result does not exclude a genetic etiology\n\nVariants of uncertain significance should not be used as the sole basis for clinical decision-making\n\nUnderstanding these limitations is essential for setting appropriate expectations and avoiding over-interpretation.\n\n\n\n\nClinical genomic testing is most effective when used as part of a comprehensive diagnostic strategy that includes clinical evaluation, family history, and ongoing re-assessment as scientific knowledge evolves. Clear communication with patients and families regarding uncertainty, limitations, and the potential need for reinterpretation over time is critical.\nExome sequencing is often appropriate as a first-line test for suspected single-gene conditions, while genome sequencing may be considered when prior testing is negative or when broader variant detection is clinically warranted.\n\n\n\n\nExome and genome sequencing offer transformative opportunities in the diagnosis of genetic disease, but their clinical value depends on careful interpretation, appropriate contextualization, and responsible use. By understanding both the capabilities and limitations of these technologies, healthcare providers can maximize their benefit while maintaining scientific rigor and patient trust."
+  },
+  {
+    "objectID": "samples/clinician-brief.html#overview",
+    "href": "samples/clinician-brief.html#overview",
+    "title": "Understanding Clinical Exome and Genome Testing",
+    "section": "",
+    "text": "Clinical exome sequencing and whole genome sequencing (WGS) are used both to diagnose known rare genetic diseases and to evaluate patients whose conditions remain undiagnosed after standard testing. When appropriately applied and interpreted, these technologies can provide actionable insights that inform diagnosis, guide clinical management, and support patient care. However, effective use requires a clear understanding of what these tests can—and cannot—reliably determine.\nThis brief outlines the core capabilities, interpretive considerations, and limitations of clinical exome and genome sequencing to support informed clinical decision-making.\n\n\n\n\n\n\n## What Exome and Genome Sequencing Are\n\n\nExome sequencing focuses on the protein-coding regions of the genome, where a substantial proportion of currently recognized disease-causing variants have been identified.\n\n\nWhole genome sequencing (WGS) captures both coding and non-coding regions, enabling evaluation of regulatory and other non-coding variation that may contribute to disease in select cases.\n\n\nSelection of testing modality should be guided by clinical context, prior testing history, and diagnostic goals."
+  },
+  {
+    "objectID": "samples/clinician-brief.html#what-exome-and-genome-sequencing-can-identify",
+    "href": "samples/clinician-brief.html#what-exome-and-genome-sequencing-can-identify",
+    "title": "Understanding Clinical Exome and Genome Testing",
+    "section": "",
+    "text": "Exome and genome sequencing can reliably detect certain classes of genetic variants, with detection scope determined by the testing modality. Exome sequencing identifies single nucleotide variants (SNVs) and small insertions and deletions (indels) within protein-coding regions, while genome sequencing enables detection of these variants across both coding and non-coding regions of the genome.\nWhen combined with robust variant annotation, curated reference databases, and phenotype-driven analysis, sequencing results may support the identification of variants associated with genetic disease in patients with suspected inherited conditions."
+  },
+  {
+    "objectID": "samples/clinician-brief.html#interpreting-variant-classifications",
+    "href": "samples/clinician-brief.html#interpreting-variant-classifications",
+    "title": "Understanding Clinical Exome and Genome Testing",
+    "section": "",
+    "text": "Clinical laboratories classify variants using established frameworks that consider multiple lines of evidence, including population frequency data, functional studies, segregation analysis, and prior clinical observations.\nCommon classifications include: - Pathogenic\n- Likely pathogenic\n- Variant of uncertain significance (VUS)\n- Likely benign\n- Benign\nPathogenic and likely pathogenic variants may be considered consistent with a genetic diagnosis when they align with the patient’s clinical presentation. Variants classified as benign or likely benign are not expected to contribute to disease. Variants of uncertain significance (VUS) reflect insufficient evidence to determine whether a variant is pathogenic or benign and should not be used as the sole basis for clinical decision-making.\nIt is important to recognize that variant classification reflects the current state of scientific evidence and may change as new data emerge. Clinical interpretation should integrate sequencing results with patient phenotype, family history, and additional diagnostic information."
+  },
+  {
+    "objectID": "samples/clinician-brief.html#the-role-of-phenotype-driven-analysis",
+    "href": "samples/clinician-brief.html#the-role-of-phenotype-driven-analysis",
+    "title": "Understanding Clinical Exome and Genome Testing",
+    "section": "",
+    "text": "Accurate and detailed phenotypic information substantially improves variant interpretation. Phenotype-driven analysis enables prioritization of variants that are most consistent with observed clinical features, reducing ambiguity and supporting more confident conclusions.\nIncomplete or nonspecific phenotype data can limit interpretive power and increase the likelihood of uncertain results."
+  },
+  {
+    "objectID": "samples/clinician-brief.html#key-limitations-and-considerations",
+    "href": "samples/clinician-brief.html#key-limitations-and-considerations",
+    "title": "Understanding Clinical Exome and Genome Testing",
+    "section": "",
+    "text": "While powerful, exome and genome sequencing have important limitations:\n\nNot all disease-causing variants are detectable with current sequencing technologies\n\nStructural variants, repeat expansions, and certain mosaic variants may be missed or incompletely characterized\n\nA negative result does not exclude a genetic etiology\n\nVariants of uncertain significance should not be used as the sole basis for clinical decision-making\n\nUnderstanding these limitations is essential for setting appropriate expectations and avoiding over-interpretation."
+  },
+  {
+    "objectID": "samples/clinician-brief.html#responsible-clinical-use",
+    "href": "samples/clinician-brief.html#responsible-clinical-use",
+    "title": "Understanding Clinical Exome and Genome Testing",
+    "section": "",
+    "text": "Clinical genomic testing is most effective when used as part of a comprehensive diagnostic strategy that includes clinical evaluation, family history, and ongoing re-assessment as scientific knowledge evolves. Clear communication with patients and families regarding uncertainty, limitations, and the potential need for reinterpretation over time is critical.\nExome sequencing is often appropriate as a first-line test for suspected single-gene conditions, while genome sequencing may be considered when prior testing is negative or when broader variant detection is clinically warranted."
+  },
+  {
+    "objectID": "samples/clinician-brief.html#conclusion",
+    "href": "samples/clinician-brief.html#conclusion",
+    "title": "Understanding Clinical Exome and Genome Testing",
+    "section": "",
+    "text": "Exome and genome sequencing offer transformative opportunities in the diagnosis of genetic disease, but their clinical value depends on careful interpretation, appropriate contextualization, and responsible use. By understanding both the capabilities and limitations of these technologies, healthcare providers can maximize their benefit while maintaining scientific rigor and patient trust."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jodie Wiggins",
+    "section": "",
+    "text": "A spectral karyotype paints each chromosome a different color so we can finally see what's there. The same principle applies to the rest of science.\n  scroll ↓\n\n\n\n  \n    Science is the language of our health, our food, our environment and everyone deserves access to that language.\n\n    I build content and learning systems for genuinely difficult things — and I measure whether they do what they're supposed to. PhD in biology, ten-plus years across university teaching, instructional design, scientific writing, and editorial leadership.\n\n    \n      Translate. Clinical and research science, rewritten for the people who actually use it — clinicians, patients, learners, advocates. Without flattening the uncertainty that's really there.\n      Design. Content systems, review frameworks, and editorial workflows that scale without losing rigor. I've built ones that work for two students and ones that work for two thousand.\n      Lead. Teams, courses, and high-stakes scientific communication, end to end. I'm the person you call when a sentence is wrong, and the person who can explain why.\n    \n  \n\n\n\n  \n    Featured work\n\n    \n      For patients & advocates · Plain-language explainer\n      Understanding Exome and Genome Sequencing\n      A plain-language explainer that gives people enough information to ask better questions of their care team — without flattening the uncertainty that's really there.\n    \n\n    \n      For clinicians & counselors · Technical brief\n      Clinical Exome and Genome Testing\n      The same science as the patient piece, rewritten for the people interpreting the results — with the calibration and limitations a clinician actually needs.\n    \n\n    \n      Editorial leadership · Anonymized review memo\n      A Scientific Review Memo\n      An anonymized example of how I think about accuracy, interpretive risk, and audience fit when overseeing other people's scientific content.\n    \n\n    See more work →\n  \n\n\n\n  jodiewiggins18@gmail.com ·\n  LinkedIn ·\n  About"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Jodie Wiggins, PhD\n\n\n\n\n\nNothing lights my brain up like an intellectual challenge which is probably why I’ve spent most of my career figuring out and explaining complex science.\n\nI build content and learning systems that work, and I measure whether they do.\nMy background is in genetics and evolutionary biology, specifically, a PhD plus over a decade of university teaching, but what I actually spend my time on is harder to categorize: designing the structures that help people understand genuinely difficult things. That might mean a flipped course that took a 39% failure rate to under 5%. Or a cross-disciplinary educator workshop that succeeded so thoroughly it surprised the people who commissioned it. Or a suite of original videos, active learning sessions, and assessment frameworks built from scratch because the existing materials weren’t good enough.\nI think carefully about where people get lost and I design backward from that. I’m most useful when the problem is we have complex information and the people who need it aren’t getting it. That could be a content problem, a structure problem, or sometimes a trust problem.\nI know how to work on all three.\n\n\nI hold a PhD in integrative biology, working in genetics and evolutionary biology, and have over a decade of university teaching at Oklahoma State where I’m currently a Teaching Associate Professor. I also taught K–12 science for three years before that. I read the discipline-based education research literature. It is difficult to narrow down who to mention but Eyler, Ambrose et al., Blum, Theobald et al., McGuire, and Lang tend to sit at the top of the stack. I’ve continued my training in instructional design for adult learners, learning measurement, culturally responsive pedagogy (Smithsonian), open educational resources, science communication summits, and program management.\nTechnically, I’m fluent in R and Python — particularly for data visualization and analysis — and across the modern Markdown / Quarto / GitHub Pages publishing stack. I’ve coordinated research teams, led multi-section instructional operations at scale, and built educational programs from scratch.\n\n\n\nI rebuilt our 8-section General Genetics course from the ground up: flipped, OER-based, evidence-driven. Three years later, the results are still holding. I’m now leveraging that to redesign our Introductory Biology course.\n\n  \n    \n      39%\n      →\n      &lt;5%\n    \n    Drop/fail/withdraw rate in General Genetics, before and after the redesign. Three consecutive years and counting.\n  \n  \n    \n      2,000+\n    \n    Students per year in Introductory Biology — the next course on my redesign list.\n  \n\nAdjacent to that: I co-founded our department’s Community of Practice, helped write Safe Evolution — the code of conduct for the Society for the Study of Evolution and partner societies — serve on our department’s AI Integration Team, and mentor K–8 students at Prairie Wood Forest School.\nBefore higher ed I was a certified K–12 science teacher. Before that I was a kid who couldn’t stop asking questions about how things worked.\n\n\n\nAfter a decade in academia, I want to do this work somewhere it lives closer to where scientific information actually meets people’s lives. Medical communications. Scientific content strategy. Patient education. Editorial leadership. Same skills, different impact.\n\n\n\nI’ve also navigated the medical system as a complex patient — hEDS, MCAS, dysautonomia.\nI understand, from the other side of the chart, what it costs when scientific information isn't accessible to the people who need it most.\nThat perspective shapes how I write for patients, why I’m advising the Rare Disease Advocacy Club, and the kind of work I want to do next.\n\n\n\nRoles where the work is substantive, the team is competent, and the mission is real.\nFull-time scientific content roles, content strategy and editorial leadership, freelance medical and patient communications — and conversations that don’t fit any of those boxes.\njodiewiggins18@gmail.com · LinkedIn"
+  },
+  {
+    "objectID": "about.html#the-short-version",
+    "href": "about.html#the-short-version",
+    "title": "About",
+    "section": "",
+    "text": "As a Teaching Assistant Professor I rebuilt our 8-section General Genetics course from the ground up: flipped, open educational resources based, evidence-driven. Drop/fail/withdraw rates went from nearly 40% to under 5%, and have stayed there for three consecutive years. I’m currently leveraging that success to build a similar structure in our 2000+ Introductory Biology course. I co-founded our department’s Community of Practice, helped write Safe Evolution the code of conduct for the Society for the Study of Evolution and partner societies, serve on our department’s AI Integration Team, and mentor K–8 students at Prairie Wood Forest School.\nBefore higher ed I was a certified K–12 science teacher. Before that I was a kid who couldn’t stop asking questions about how things worked."
+  },
+  {
+    "objectID": "about.html#why-now",
+    "href": "about.html#why-now",
+    "title": "About",
+    "section": "",
+    "text": "After a decade in academia, I want to do this work somewhere it lives closer to where scientific information actually meets people’s lives. Medical communications. Scientific content strategy. Patient education. Editorial leadership. Same skills, different impact."
+  },
+  {
+    "objectID": "about.html#what-i-bring",
+    "href": "about.html#what-i-bring",
+    "title": "About",
+    "section": "",
+    "text": "A practical fluency in turning rigorous research into clear content for the people who need it: clinicians, patients, learners, advocates, regulators. Measurable outcomes when I’m trusted to design something end to end. A reader-of-the-field disposition — I cite Susan Blum and Alfie Kohn and Ed Yong as readily as primary literature, and I keep up with the science of how people actually learn. A history of building structures that outlast my involvement: a course taught by other faculty after I leave, a code of conduct still shaping how a discipline gathers, a community of practice still meeting after I’ve moved on.\nI’m also someone who cares about who gets to participate in science — and who notices when the way information is presented quietly determines who gets to use it. That instinct shapes most of the work I do."
+  },
+  {
+    "objectID": "about.html#a-note-on-lived-experience",
+    "href": "about.html#a-note-on-lived-experience",
+    "title": "About",
+    "section": "",
+    "text": "I’ve also navigated the medical system as a complex patient — hEDS, MCAS, dysautonomia.\nI understand, from the other side of the chart, what it costs when scientific information isn't accessible to the people who need it most.\nThat perspective shapes how I write for patients, why I’m advising the Rare Disease Advocacy Club, and the kind of work I want to do next."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "",
+    "text": "I’m open to: full-time scientific content roles, content strategy and editorial leadership work, freelance medical and patient communications, and conversations that don’t fit any of those boxes. The fastest way to reach me is email.\njodiewiggins18@gmail.com · LinkedIn"
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html",
+    "href": "samples/patient-advocate-explainer.html",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "",
+    "text": "Audience: Patients, families, and advocates\nPurpose: To explain exome and genome sequencing in clear, accessible language\nContext: Scientific communication sample translating clinical genomics concepts for non-specialist audiences"
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#what-these-tests-can-and-cant-tell-you",
+    "href": "samples/patient-advocate-explainer.html#what-these-tests-can-and-cant-tell-you",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "",
+    "text": "Audience: Patients, families, and advocates\nPurpose: To explain exome and genome sequencing in clear, accessible language\nContext: Scientific communication sample translating clinical genomics concepts for non-specialist audiences"
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#what-are-exome-and-genome-sequencing",
+    "href": "samples/patient-advocate-explainer.html#what-are-exome-and-genome-sequencing",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "What Are Exome and Genome Sequencing?",
+    "text": "What Are Exome and Genome Sequencing?\nExome and genome sequencing are genetic tests used that evaluate a person’s DNA in order to identify possible genetic causes of health conditions.\nYour DNA contains instructions that tell your body how to grow and function. Much of what the body does is carried out by proteins, which perform essential tasks in cells and tissues. Some parts of DNA provide the instructions for making proteins, while other parts help regulate how cells function. Changes in these DNA instructions—called variants—can sometimes be associated with disease.\nExome sequencing focuses on the parts of DNA that directly code for proteins. Genome sequencing examines both these protein-coding regions and the rest of the DNA, including regions involved in regulating how cells function.\nBoth tests are used to help doctors better understand conditions that may have a genetic cause, especially when symptoms are unexplained or previous testing has not provided clear answers."
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#why-might-these-tests-be-recommended",
+    "href": "samples/patient-advocate-explainer.html#why-might-these-tests-be-recommended",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "Why Might These Tests Be Recommended?",
+    "text": "Why Might These Tests Be Recommended?\nExome and genome sequencing are often used when:\n\nA person has symptoms that suggest a genetic condition\n\nA diagnosis is unclear despite prior medical testing\n\nThere is concern about a condition with a possible inherited component\n\nUnderstanding whether genetics may play a role could guide care or future planning\n\nThese tests can sometimes identify a genetic explanation for symptoms and help doctors confirm or refine a diagnosis."
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#what-can-these-tests-identify",
+    "href": "samples/patient-advocate-explainer.html#what-can-these-tests-identify",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "What Can These Tests Identify?",
+    "text": "What Can These Tests Identify?\nExome and genome sequencing can detect certain types of changes in DNA, including small changes that affect individual genes.\nDepending on the type of test used:\n\nExome sequencing looks for changes in genes that directly code for proteins\n\nGenome sequencing looks for similar changes across the entire DNA sequence, including regions outside genes\n\nWhen combined with detailed medical information and family history, these results may help identify genetic changes that are relevant to a person’s health."
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#understanding-genetic-test-results",
+    "href": "samples/patient-advocate-explainer.html#understanding-genetic-test-results",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "Understanding Genetic Test Results",
+    "text": "Understanding Genetic Test Results\nGenetic test results are typically placed into categories based on the available scientific evidence.\nSome results may:\n\nSupport a genetic explanation for a person’s condition\n\nIndicate a change in DNA that is not expected to affect health\n\nIdentify a change where there is not enough information yet to know whether it is related to disease\n\nA result called a Variant of Uncertain Significance (VUS) means that scientists do not currently have enough evidence to determine whether a specific DNA change is related to a health condition. These findings are common and do not confirm or rule out a diagnosis on their own.\n\nImportant: A Variant of Uncertain Significance (VUS) does not confirm or rule out a diagnosis and should not be used on its own to make medical decisions.\n\nImportantly, genetic test results may be updated over time as new research becomes available."
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#why-results-dont-always-provide-clear-answers",
+    "href": "samples/patient-advocate-explainer.html#why-results-dont-always-provide-clear-answers",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "Why Results Don’t Always Provide Clear Answers",
+    "text": "Why Results Don’t Always Provide Clear Answers\n\nNote: A negative result does not mean symptoms are not real or important. It may mean the genetic cause is not yet identifiable with current knowledge.\n\nEven with advanced testing, genetic results do not always explain a person’s symptoms.\nThis can happen because:\n\nNot all genetic causes of disease are currently known\n\nSome types of genetic changes are difficult to detect\n\nA condition may not be genetic in origin\n\nThe genetic contribution may be complex or involve multiple factors\n\nA negative or uncertain result does not mean that symptoms are not real or important."
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#using-genetic-testing-responsibly",
+    "href": "samples/patient-advocate-explainer.html#using-genetic-testing-responsibly",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "Using Genetic Testing Responsibly",
+    "text": "Using Genetic Testing Responsibly\nGenetic testing is most helpful when used as part of a broader medical evaluation. Doctors consider genetic results alongside medical history, physical findings, family history, and other tests.\nClear communication between healthcare providers, patients, and families is essential—especially when results are uncertain or may change over time.\nGenetic testing is a powerful tool, but it is only one piece of the diagnostic process."
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#key-takeaways",
+    "href": "samples/patient-advocate-explainer.html#key-takeaways",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nExome and genome sequencing can help identify genetic causes of health conditions, but they do not always provide definitive answers\n\nResults may change as science advances\n\nUncertain results are common and should be interpreted carefully\n\nGenetic testing is most informative when interpreted in the context of a person’s overall medical care"
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#frequently-asked-questions-faq",
+    "href": "samples/patient-advocate-explainer.html#frequently-asked-questions-faq",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "Frequently Asked Questions (FAQ)",
+    "text": "Frequently Asked Questions (FAQ)\n\nWill exome or genome sequencing always provide a diagnosis?\nNo. While these tests can sometimes identify genetic factors related to a person’s symptoms, they do not always lead to a clear diagnosis. Some conditions may not have a known genetic cause, and in other cases, current science may not yet be able to fully explain the findings.\n\n\n\nWhat does it mean if my results are uncertain?\nAn uncertain result, often called a Variant of Uncertain Significance (VUS), means that there is not enough scientific evidence at this time to determine whether a specific genetic change is related to a health condition. These results are common and should not be used on their own to make medical decisions.\n\n\n\nCan genetic test results change over time?\nYes. As scientific knowledge advances and more data become available, genetic test results may be updated or reinterpreted. A result that is uncertain today may be better understood in the future.\n\n\n\nDoes a negative result mean there is no genetic explanation?\nNot necessarily. A negative result means that the test did not identify a genetic finding that clearly explains the condition at this time. It does not rule out a genetic contribution, and it does not mean that symptoms are not real or important.\n\n\n\nWhy might genome sequencing be recommended instead of exome sequencing?\nGenome sequencing examines a broader portion of DNA than exome sequencing. It may be considered when prior testing has not provided clear answers or when a broader evaluation of genetic variation is clinically appropriate. The choice of test depends on individual circumstances and clinical judgment.\n\n\n\nWho can help me understand my results?\nHealthcare providers and genetic counselors are trained to explain genetic test results and discuss what they may mean for you and your family. They can also help address questions, uncertainty, and next steps."
+  },
+  {
+    "objectID": "samples/patient-advocate-explainer.html#what-to-ask-your-healthcare-provider",
+    "href": "samples/patient-advocate-explainer.html#what-to-ask-your-healthcare-provider",
+    "title": "For Patients: Understanding Exome and Genome Sequencing",
+    "section": "What to Ask Your Healthcare Provider",
+    "text": "What to Ask Your Healthcare Provider\n\nTip: Genetic testing is most informative when interpreted in the context of medical history, symptoms, and family history.\n\nIf you are considering exome or genome sequencing, or if you have already received results, the following questions may help guide conversations with your healthcare provider or genetic counselor:\n\nWhat is the goal of this test for my specific situation?\nWhy is exome or genome sequencing being recommended instead of other tests?\nWhat types of results are most likely, and what would they mean for my care?\nWhat are the possible limitations of this test?\nHow should uncertain results be interpreted?\nCould my results change over time as new information becomes available?\nHow might these results affect my medical care, screening, or future planning?\nAre there implications for my family members?\nWhat follow-up or additional testing, if any, might be recommended?\nWho should I contact if I have questions about my results in the future?\n\nThese discussions can help ensure that genetic testing is used thoughtfully and that results are understood within the context of your overall medical care."
+  },
+  {
+    "objectID": "work/index.html",
+    "href": "work/index.html",
+    "title": "Work",
+    "section": "",
+    "text": "A small portfolio of writing, editorial, and content design samples. Each piece comes with a short note on who it was for and what was hard about it. More to be added as I migrate other work over from older formats.\n\n\n  For patients & advocates · Plain-language explainer\n  Understanding Exome and Genome Sequencing\n  A plain-language explainer that gives people enough information to ask better questions of their care team — without flattening the uncertainty that's really there.\n\n\n\n  For clinicians & counselors · Technical brief\n  Clinical Exome and Genome Testing\n  The same science as the patient piece, rewritten for the people interpreting the results — with the calibration and limitations a clinician actually needs.\n\n\n\n  Editorial leadership · Anonymized review memo\n  A Scientific Review Memo\n  An anonymized example of how I think about accuracy, interpretive risk, and audience fit when overseeing other people's scientific content.\n\n\nIn progress / coming soon\n\nA short case study on Safe Evolution — the code of conduct I helped build for the Society for the Study of Evolution and partner societies. An excerpt from a teaching-design memo on equity-driven course redesign. A piece from work with the Rare Disease Advocacy Club. Drop me a note if you'd like to see something specific in the meantime."
+  },
+  {
+    "objectID": "about.html#training-and-tools",
+    "href": "about.html#training-and-tools",
+    "title": "About",
+    "section": "",
+    "text": "I hold a PhD in integrative biology, working in genetics and evolutionary biology, and have over a decade of university teaching at Oklahoma State where I’m currently a Teaching Associate Professor. I also taught K–12 science for three years before that. I read the discipline-based education research literature. It is difficult to narrow down who to mention but Eyler, Ambrose et al., Blum, Theobald et al., McGuire, and Lang tend to sit at the top of the stack. I’ve continued my training in instructional design for adult learners, learning measurement, culturally responsive pedagogy (Smithsonian), open educational resources, science communication summits, and program management.\nTechnically, I’m fluent in R and Python — particularly for data visualization and analysis — and across the modern Markdown / Quarto / GitHub Pages publishing stack. I’ve coordinated research teams, led multi-section instructional operations at scale, and built educational programs from scratch."
+  },
+  {
+    "objectID": "about.html#right-now",
+    "href": "about.html#right-now",
+    "title": "About",
+    "section": "",
+    "text": "I rebuilt our 8-section General Genetics course from the ground up: flipped, OER-based, evidence-driven. Three years later, the results are still holding. I’m now leveraging that to redesign our Introductory Biology course.\n\n  \n    \n      39%\n      →\n      &lt;5%\n    \n    Drop/fail/withdraw rate in General Genetics, before and after the redesign. Three consecutive years and counting.\n  \n  \n    \n      2,000+\n    \n    Students per year in Introductory Biology — the next course on my redesign list.\n  \n\nAdjacent to that: I co-founded our department’s Community of Practice, helped write Safe Evolution — the code of conduct for the Society for the Study of Evolution and partner societies — serve on our department’s AI Integration Team, and mentor K–8 students at Prairie Wood Forest School.\nBefore higher ed I was a certified K–12 science teacher. Before that I was a kid who couldn’t stop asking questions about how things worked."
+  },
+  {
+    "objectID": "about.html#what-im-looking-for",
+    "href": "about.html#what-im-looking-for",
+    "title": "About",
+    "section": "",
+    "text": "Roles where the work is substantive, the team is competent, and the mission is real.\nFull-time scientific content roles, content strategy and editorial leadership, freelance medical and patient communications — and conversations that don’t fit any of those boxes.\njodiewiggins18@gmail.com · LinkedIn"
+  }
+]

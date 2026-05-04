@@ -1,0 +1,5 @@
+/.quarto/
+**/*.quarto_ipynb
+
+# notes to self/ AI notes
+NOTES.md

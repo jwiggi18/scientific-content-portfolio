@@ -1,0 +1,39 @@
+---
+title: "Work"
+pagetitle: "Work — Jodie Wiggins, PhD"
+description: "A small portfolio of writing, editorial, and content design samples."
+page-layout: article
+format:
+  html:
+    css: ../styles.scss
+---
+
+```{=html}
+<div style="max-width: 720px; margin: 0 auto; padding: 2rem 0;">
+
+<p style="font-size: 1.12rem; line-height: 1.55;">A small portfolio of writing, editorial, and content design samples. Each piece comes with a short note on who it was for and what was hard about it. More to be added as I migrate other work over from older formats.</p>
+
+<a href="../samples/patient-advocate-explainer.html" class="work-card">
+  <div class="work-card__meta">For patients &amp; advocates · Plain-language explainer</div>
+  <h3 class="work-card__title">Understanding Exome and Genome Sequencing</h3>
+  <p class="work-card__teaser">A plain-language explainer that gives people enough information to ask better questions of their care team — without flattening the uncertainty that's really there.</p>
+</a>
+
+<a href="../samples/clinician-brief.html" class="work-card">
+  <div class="work-card__meta">For clinicians &amp; counselors · Technical brief</div>
+  <h3 class="work-card__title">Clinical Exome and Genome Testing</h3>
+  <p class="work-card__teaser">The same science as the patient piece, rewritten for the people interpreting the results — with the calibration and limitations a clinician actually needs.</p>
+</a>
+
+<a href="../samples/scientific-content-review.html" class="work-card">
+  <div class="work-card__meta">Editorial leadership · Anonymized review memo</div>
+  <h3 class="work-card__title">A Scientific Review Memo</h3>
+  <p class="work-card__teaser">An anonymized example of how I think about accuracy, interpretive risk, and audience fit when overseeing other people's scientific content.</p>
+</a>
+
+<h2 style="font-size: 0.82rem; letter-spacing: 0.18em; text-transform: uppercase; color: #7E7567; margin: 4rem 0 2rem 0; font-weight: 500;">In progress / coming soon</h2>
+
+<p style="color: #7E7567; line-height: 1.55;">A short case study on <em>Safe Evolution</em> — the code of conduct I helped build for the Society for the Study of Evolution and partner societies. An excerpt from a teaching-design memo on equity-driven course redesign. A piece from work with the Rare Disease Advocacy Club. Drop me a note if you'd like to see something specific in the meantime.</p>
+
+</div>
+```
