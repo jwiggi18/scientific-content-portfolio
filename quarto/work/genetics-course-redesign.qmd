@@ -1,0 +1,93 @@
+---
+title: "Redesigning a failing course"
+pagetitle: "Redesigning a failing course — Jodie Wiggins, PhD"
+description: "How a flipped, OER-based rebuild of General Genetics took the DFW rate from 39% to under 5% — and held there."
+page-layout: article
+format:
+  html:
+    css: ../styles.scss
+---
+
+```{=html}
+<article class="case-study">
+
+  <header class="case-study__header">
+    <div class="case-study__kicker">Course redesign · Higher education</div>
+    <h1 class="case-study__title">Redesigning a failing course</h1>
+    <p class="case-study__dek">A flipped, OER-based rebuild of General Genetics that took the drop/fail/withdraw rate from 39% to under 5% — and held there for three consecutive years.</p>
+    <ul class="case-skills">
+      <li>Instructional systems design</li>
+      <li>Data-driven iteration</li>
+      <li>Equity-centered design</li>
+      <li>Open educational resources</li>
+      <li>Program management</li>
+    </ul>
+  </header>
+
+  <section class="case-study__section">
+    <h2>The problem</h2>
+    <p>General Genetics at Oklahoma State had a nearly 40% drop/fail/withdraw rate. Students were failing in large numbers, the course relied on an expensive commercial textbook, and assessment was high-stakes exam-dependent — a structure the discipline-based education research literature consistently shows disadvantages underrepresented students.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What I did</h2>
+    <p>I redesigned the course from the ground up using evidence from the learning sciences. I built a complete asynchronous content library — original short-form video lectures, embedded formative assessment questions, and open educational resources — that replaced the commercial textbook entirely. Weekly active-learning sessions targeted the specific conceptual bottlenecks where students consistently got lost: ploidy, meiosis, gene regulation.</p>
+    <p>Assessment moved from high-stakes exams to mastery-based: two-attempt quizzes, homework revision opportunities, and synthesis reflections. Across eight concurrent sections, structured TA mentorship kept delivery consistent.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>The outcome</h2>
+
+    <div class="big-stat-grid">
+      <div class="big-stat">
+        <div class="big-stat__numbers">
+          <span class="big-stat__before">39%</span>
+          <span class="big-stat__arrow">→</span>
+          <span class="big-stat__after">&lt;5%</span>
+        </div>
+        <div class="big-stat__caption">Drop/fail/withdraw rate before and after the redesign — sustained over three consecutive years.</div>
+      </div>
+      <div class="big-stat">
+        <div class="big-stat__numbers">
+          <span class="big-stat__after">200+</span>
+        </div>
+        <div class="big-stat__caption">Students per semester, across 8 concurrent sections, with a fully original content library.</div>
+      </div>
+    </div>
+
+    <p>The redesign was recognized with an Oklahoma Regents for Higher Education OER Grant, and students nominated the course for the Arts &amp; Sciences Distinguished Teacher Award in consecutive years.</p>
+
+    <div class="pull-quote">This was one of the most well thought out courses I have ever taken.</div>
+
+    <div class="pull-quote">I now have a new standard for which my future classes should be like.</div>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What I built</h2>
+
+    <a class="artifact-card" href="https://jwiggi18.github.io/gengen_syllabus/" target="_blank" rel="noopener">
+      <div class="artifact-card__media">
+        <img src="https://jwiggi18.github.io/gengen_syllabus/img/website_logo_narrow.png" alt="General Genetics syllabus website logo" loading="lazy">
+      </div>
+      <div class="artifact-card__body">
+        <div class="artifact-card__meta">Live website · Interactive syllabus</div>
+        <h3 class="artifact-card__title">Interactive General Genetics syllabus</h3>
+        <p class="artifact-card__teaser">A student-facing syllabus built so students can find what they actually need — what to do each week, where to do it, what gets graded — without parsing a 12-page PDF. Includes expectations, accommodations, assessment policy, and instructional team.</p>
+        <span class="artifact-card__url">jwiggi18.github.io/gengen_syllabus ↗</span>
+      </div>
+    </a>
+
+    <a class="artifact-card artifact-card--no-image" href="https://jwiggi18.github.io/course_materials/" target="_blank" rel="noopener">
+      <div class="artifact-card__body">
+        <div class="artifact-card__meta">Live website · Open educational resource · In progress</div>
+        <h3 class="artifact-card__title">Open-access General Genetics content</h3>
+        <p class="artifact-card__teaser">A growing open-access companion library that replaces the commercial textbook — units on genomes, chromosomes, ploidy, prions, and more, written from scratch and freely usable by other instructors. Built in Quarto with downloadable PDFs alongside the web version.</p>
+        <span class="artifact-card__url">jwiggi18.github.io/course_materials ↗</span>
+      </div>
+    </a>
+  </section>
+
+  <a class="case-study__back" href="./">← All work</a>
+
+</article>
+```

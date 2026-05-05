@@ -1,0 +1,104 @@
+---
+title: "Building an education program from nothing"
+pagetitle: "Building an education program from nothing — Jodie Wiggins, PhD"
+description: "Stood up an education and outreach division for a federally-funded phylogenetics initiative — including a researcher-educator workshop model that surprised the people who commissioned it."
+page-layout: article
+format:
+  html:
+    css: ../styles.scss
+---
+
+```{=html}
+<article class="case-study">
+
+  <header class="case-study__header">
+    <div class="case-study__kicker">Program design &amp; launch · Federally-funded research initiative</div>
+    <h1 class="case-study__title">Building an education program from nothing</h1>
+    <p class="case-study__dek">An education and outreach division for a federally-funded phylogenetics initiative — including a researcher-educator workshop model whose results surprised the people who commissioned it.</p>
+    <ul class="case-skills">
+      <li>Program design and launch</li>
+      <li>Cross-functional team leadership</li>
+      <li>Workshop facilitation</li>
+      <li>Instructional technology development</li>
+      <li>Stakeholder management</li>
+    </ul>
+  </header>
+
+  <section class="case-study__section">
+    <h2>The problem</h2>
+    <p>A federally-funded phylogenetics research initiative had no education or outreach component. The science was significant and publicly funded, but inaccessible to educators and the broader public. No one on the team had built this kind of program before.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What I did</h2>
+    <p>I created the vision, strategy, and structure for an education division from scratch. I built and coordinated a distributed cross-functional team — computer scientists, phylogenetics researchers, and educators across multiple institutions — and developed interactive web-based phylogenetic learning tools in R, JavaScript, HTML, and CSS.</p>
+    <p>The centerpiece was the inaugural subject-specialist/educator collaborative workshop: a model that brought researchers and teachers together to co-produce educational resources from large-scale biological datasets. Designing the workshop meant designing the structure that would let two professional cultures actually do work together — rather than presenting at one another.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>The outcome</h2>
+
+    <div class="big-stat-grid">
+      <div class="big-stat">
+        <div class="big-stat__numbers">
+          <span class="big-stat__after">100%</span>
+        </div>
+        <div class="big-stat__caption">Positive participant feedback from the inaugural researcher-educator workshop.</div>
+      </div>
+      <div class="big-stat">
+        <div class="big-stat__numbers">
+          <span class="big-stat__after">&lt; 1 yr</span>
+        </div>
+        <div class="big-stat__caption">From scoping to a launched program division, with a working workshop model and a published OER suite.</div>
+      </div>
+    </div>
+
+    <p>The workshop produced a suite of open educational resources that are still publicly available. Organizers described the outcome as unlike anything they had seen before — the model demonstrated that researchers and educators could productively co-create in a structured collaborative format, a result that surprised the broader team.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What I built</h2>
+
+    <a class="artifact-card" href="https://jwiggi18.github.io/phyloEd/" target="_blank" rel="noopener">
+      <div class="artifact-card__media">
+        <img src="https://jwiggi18.github.io/phyloEd/img/phyloEd_logo.png" alt="phyloEd logo: a circular phylogeny over a green tree with the words Phylotastic Ed and Scientific Data in Your Classroom" loading="lazy">
+      </div>
+      <div class="artifact-card__body">
+        <div class="artifact-card__meta">Live website · Workshop deliverable hub</div>
+        <h3 class="artifact-card__title">phyloEd</h3>
+        <p class="artifact-card__teaser">The site I built to host every educational resource produced by the workshop — interactive learning websites, full lesson plans aligned to NGSS, and teacher-facing quick-start guides. Co-developed with public-school teachers and phylogenetics researchers.</p>
+        <span class="artifact-card__url">jwiggi18.github.io/phyloEd ↗</span>
+      </div>
+    </a>
+
+    <a class="artifact-card" href="https://historyofearth.net" target="_blank" rel="noopener">
+      <div class="artifact-card__media">
+        <img src="https://jwiggi18.github.io/phyloEd/img/HoE_screenshot.png" alt="Screenshot of the History of Earth interactive learning website" loading="lazy">
+      </div>
+      <div class="artifact-card__body">
+        <div class="artifact-card__meta">Live website · Flagship interactive build</div>
+        <h3 class="artifact-card__title">History of Earth</h3>
+        <p class="artifact-card__teaser">An interactive learning module connecting geologic time, climate change, and biological evolution — co-developed with researchers Brian O'Meara, Dave Bapst, and Luna Sanchez Reyes alongside public-school teachers Nellie Johnson, Kellee Shuttleworth, and Cara Stephens. Maps to multiple NGSS standards across middle and high school.</p>
+        <span class="artifact-card__url">historyofearth.net ↗</span>
+      </div>
+    </a>
+
+    <a class="artifact-card" href="https://phylotastic.org/" target="_blank" rel="noopener">
+      <div class="artifact-card__media">
+        <img src="https://phylotastic.org/images/logo_huge.png" alt="Phylotastic logo" loading="lazy">
+      </div>
+      <div class="artifact-card__body">
+        <div class="artifact-card__meta">Parent project · NSF-funded research initiative</div>
+        <h3 class="artifact-card__title">Phylotastic</h3>
+        <p class="artifact-card__teaser">The parent research initiative — a multi-institution NSF-funded effort to make the Tree of Life computable, citable, and ready-to-use. I built the education and outreach division, contributed code and R packages to the broader infrastructure, and wired up API access for the educator-facing tools.</p>
+        <span class="artifact-card__url">phylotastic.org ↗</span>
+      </div>
+    </a>
+
+    <p style="font-size: 0.95rem; color: #7E7567; margin-top: 1.5rem;">Source code for the phyloEd hub lives at <a href="https://github.com/jwiggi18/phyloEd" target="_blank" rel="noopener">github.com/jwiggi18/phyloEd</a>. Phylotastic's open-source code, including R packages and API services, is at <a href="https://github.com/phylotastic" target="_blank" rel="noopener">github.com/phylotastic</a>.</p>
+  </section>
+
+  <a class="case-study__back" href="./">← All work</a>
+
+</article>
+```

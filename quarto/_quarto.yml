@@ -17,7 +17,7 @@ website:
     right:
       - text: "Work"
         href: work/index.qmd
-      - text: "About"
+      - text: "The Details"
         href: about.qmd
       - text: "Contact"
         href: "mailto:jodiewiggins18@gmail.com"

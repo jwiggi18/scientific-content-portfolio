@@ -1,6 +1,6 @@
 ---
-title: "About"
-pagetitle: "About — Jodie Wiggins, PhD"
+title: "The Details"
+pagetitle: "The Details — Jodie Wiggins, PhD"
 description: "How I got here, what I care about, and where I'm headed."
 page-layout: article
 format:
@@ -11,22 +11,24 @@ format:
 
 ::: {.about-page}
 
-![Jodie Wiggins, PhD](assets/headshot.jpg){.headshot fig-alt="Headshot of Jodie Wiggins"}
-
-# About
-
-::: {.lead}
-Nothing lights my brain up like an intellectual challenge which is probably why I've spent most of my career figuring out and explaining complex science.
-:::
-
-I build content and learning systems that work, and I measure whether they do.
-
-My background is in genetics and evolutionary biology, specifically, a PhD plus over a decade of university teaching, but what I actually spend my time on is harder to categorize: designing the structures that help people understand genuinely difficult things. That might mean a flipped course that took a 39% failure rate to under 5%. Or a cross-disciplinary educator workshop that succeeded so thoroughly it surprised the people who commissioned it. Or a suite of original videos, active learning sessions, and assessment frameworks built from scratch because the existing materials weren't good enough.
-
-I think carefully about where people get lost and I design backward from that. I'm most useful when the problem is *we have complex information and the people who need it aren't getting it.* That could be a content problem, a structure problem, or sometimes a trust problem.
+![Jodie Wiggins, PhD](assets/headshot.png){.headshot fig-alt="Headshot of Jodie Wiggins"}
 
 ```{=html}
-<div class="pull-quote">I know how to work on all three.</div>
+<div class="opening-quote">
+  There is no knowledge that is not power.
+  <div class="opening-quote__cite">— Ralph Waldo Emerson</div>
+</div>
+```
+
+```{=html}
+<div class="pull-quote">Making the power that is inherent in knowledge accessible is what I do.</div>
+```
+My background is in genetics and evolutionary biology, specifically, a PhD plus over a decade of university teaching, but what I actually spend my time on is harder to categorize: designing the structures that help people understand genuinely difficult things. That might mean a flipped course that took a 39% failure rate to under 5%. Or a cross-disciplinary educator workshop that succeeded so thoroughly it surprised the people who commissioned it. Or a suite of original videos, active learning sessions, and assessment frameworks built from scratch because the existing materials weren't good enough.
+
+I think carefully about where people get lost and I design backward from that. I'm most useful when the problem is *we have complex information and the people who need it aren't getting it.* That could be a content problem, a structure problem, or sometimes a trust problem. The core of addressing all three is curiosity. 
+
+```{=html}
+<div class="pull-quote">Curiosity is my superpower.</div>
 ```
 
 ## Training and tools
@@ -35,7 +37,7 @@ I hold a PhD in integrative biology, working in genetics and evolutionary biolog
 
 Technically, I'm fluent in R and Python — particularly for data visualization and analysis — and across the modern Markdown / Quarto / GitHub Pages publishing stack. I've coordinated research teams, led multi-section instructional operations at scale, and built educational programs from scratch.
 
-## Right now
+## A snap shot
 
 I rebuilt our 8-section General Genetics course from the ground up: flipped, OER-based, evidence-driven. Three years later, the results are still holding. I'm now leveraging that to redesign our Introductory Biology course.
 
@@ -64,22 +66,26 @@ Before higher ed I was a certified K–12 science teacher. Before that I was a k
 
 ## Why now
 
-After a decade in academia, I want to do this work somewhere it lives closer to where scientific information actually meets people's lives. Medical communications. Scientific content strategy. Patient education. Editorial leadership. Same skills, different impact.
+After a decade in academia, I want to do this work somewhere it lives closer to where scientific information actually meets people's lives. Medical communications. Scientific content strategy. Patient education. Editorial leadership.
+
+```{=html}
+<div class="pull-quote">Same skills, different impact.</div>
+```
 
 ## A note on lived experience
 
-I've also navigated the medical system as a complex patient — hEDS, MCAS, dysautonomia.
+I've also navigated the medical system as a complex patient — hEDS, MCAS, dysautonomia. The power of my knowledge saved my life. 
 
 ```{=html}
 <div class="pull-quote">I understand, from the other side of the chart, what it costs when scientific information isn't accessible to the people who need it most.</div>
 ```
 
-That perspective shapes how I write for patients, why I'm advising the Rare Disease Advocacy Club, and the kind of work I want to do next.
+That perspective shapes how I write for patients, providers, and caregivers and the kind of work I want to do next.
 
 ## What I'm looking for
 
 ```{=html}
-<div class="pull-quote">Roles where the work is substantive, the team is competent, and the mission is real.</div>
+<div class="pull-quote">Roles where the work is substantive, the team is collaborative, and the mission is real.</div>
 ```
 
 Full-time scientific content roles, content strategy and editorial leadership, freelance medical and patient communications — and conversations that don't fit any of those boxes.

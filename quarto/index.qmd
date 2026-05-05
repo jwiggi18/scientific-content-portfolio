@@ -36,31 +36,25 @@ format:
   <div class="work-section__inner">
     <h2>Featured work</h2>
 
-    <a href="samples/patient-advocate-explainer.html" class="work-card">
-      <div class="work-card__meta">For patients &amp; advocates · Plain-language explainer</div>
-      <h3 class="work-card__title">Understanding Exome and Genome Sequencing</h3>
-      <p class="work-card__teaser">A plain-language explainer that gives people enough information to ask better questions of their care team — without flattening the uncertainty that's really there.</p>
+    <a href="work/genetics-course-redesign.html" class="work-card">
+      <div class="work-card__meta">Course redesign · Higher education</div>
+      <h3 class="work-card__title">Redesigning a failing course</h3>
+      <p class="work-card__teaser">A flipped, OER-based rebuild of General Genetics that took the drop/fail/withdraw rate from 39% to under 5% — and held there for three consecutive years.</p>
     </a>
 
-    <a href="samples/clinician-brief.html" class="work-card">
-      <div class="work-card__meta">For clinicians &amp; counselors · Technical brief</div>
-      <h3 class="work-card__title">Clinical Exome and Genome Testing</h3>
-      <p class="work-card__teaser">The same science as the patient piece, rewritten for the people interpreting the results — with the calibration and limitations a clinician actually needs.</p>
+    <a href="work/phylogenetics-education-program.html" class="work-card">
+      <div class="work-card__meta">Program design &amp; launch · Federally-funded research initiative</div>
+      <h3 class="work-card__title">Building an education program from nothing</h3>
+      <p class="work-card__teaser">An education and outreach division for a federally-funded phylogenetics initiative — including a researcher-educator workshop model whose results surprised the people who commissioned it.</p>
     </a>
 
-    <a href="samples/scientific-content-review.html" class="work-card">
-      <div class="work-card__meta">Editorial leadership · Anonymized review memo</div>
-      <h3 class="work-card__title">A Scientific Review Memo</h3>
-      <p class="work-card__teaser">An anonymized example of how I think about accuracy, interpretive risk, and audience fit when overseeing other people's scientific content.</p>
-    </a>
-
-    <p style="margin-top: 2.5rem; font-size: 0.95rem;"><a href="work/index.qmd">See more work →</a></p>
+    <p style="margin-top: 2.5rem; font-size: 0.95rem;"><a href="work/index.html">See all work →</a></p>
   </div>
 </section>
 
 <footer class="site-footer">
   <a href="mailto:jodiewiggins18@gmail.com">jodiewiggins18@gmail.com</a> ·
   <a href="https://www.linkedin.com/in/jodie-wiggins/" target="_blank" rel="noopener">LinkedIn</a> ·
-  <a href="about.qmd">About</a>
+  <a href="about.html">The Details</a>
 </footer>
 ```
