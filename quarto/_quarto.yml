@@ -5,6 +5,7 @@ project:
 website:
   title: "Jodie Wiggins"
   description: "Scientific content, strategy, and bridges between research and the people it serves."
+  site-url: https://jwiggi18.github.io/scientific-content-portfolio/
   page-navigation: false
   reader-mode: false
   navbar:
