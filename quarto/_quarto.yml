@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Jodie Wiggins"
+  title: "Jodie Wiggins PhD"
   description: "Scientific content, strategy, and bridges between research and the people it serves."
   site-url: https://jwiggi18.github.io/scientific-content-portfolio/
   page-navigation: false
@@ -13,15 +13,15 @@ website:
     pinned: false
     collapse-below: lg
     left:
-      - text: "Jodie Wiggins, PhD"
+      - text: "home"
         href: index.qmd
     right:
       - text: "Work"
         href: work/index.qmd
-      - text: "The Details"
+      - text: "My Details"
         href: about.qmd
       - text: "Contact"
-        href: "mailto:jodiewiggins18@gmail.com"
+        href: contact.qmd
 
 format:
   html:

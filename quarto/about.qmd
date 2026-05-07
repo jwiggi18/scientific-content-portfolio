@@ -1,6 +1,6 @@
 ---
-title: "The Details"
-pagetitle: "The Details — Jodie Wiggins, PhD"
+title: "My Details"
+pagetitle: "My Details — Jodie Wiggins, PhD"
 description: "How I got here, what I care about, and where I'm headed."
 page-layout: article
 format:

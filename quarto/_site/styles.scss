@@ -558,3 +558,54 @@ hr {
 main.content { padding: 0; max-width: none; }
 #title-block-header { display: none; }   // kill default page title block on home
 
+
+// ---- Contact page ---------------------------------------------------------
+
+.contact-info {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+.contact-info p { margin: 0.25rem 0; }
+
+.contact-button {
+  display: inline-block;
+  padding: 0.7rem 1.6rem;
+  background: $accent;
+  color: $cream;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-radius: 2px;
+  transition: background 0.15s ease;
+}
+.contact-button:hover {
+  background: darken($accent, 8%);
+  color: $cream;
+  text-decoration: none;
+}
+
+.contact-intro {
+  margin: 1.5rem 0 2rem;
+}
+.contact-intro__lead {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: $ink;
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.01em;
+}
+.contact-intro__sub {
+  font-size: 1.1rem;
+  line-height: 1.55;
+  color: $muted;
+  margin: 0.15rem 0;
+}
+.contact-intro__close {
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: $ink;
+  margin: 0.5rem 0 0;
+}

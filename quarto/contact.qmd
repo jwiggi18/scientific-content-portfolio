@@ -1,0 +1,26 @@
+---
+title: "Contact"
+pagetitle: "Contact — Jodie Wiggins, PhD"
+description: "Get in touch with Jodie Wiggins, PhD."
+page-layout: article
+format:
+  html:
+    css: styles.scss
+---
+
+```{=html}
+<div class="contact-intro">
+  <p class="contact-intro__lead">I'd love to hear from you</p>
+  <p class="contact-intro__sub">— whether you're working on curriculum design, a science communication challenge, data visualization —</p>
+  <p class="contact-intro__close">or you just want to talk shop.</p>
+</div>
+
+<div class="contact-info">
+  <p><strong>Email:</strong> <a href="mailto:jodiewiggins18@gmail.com">jodiewiggins18@gmail.com</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jodie-wiggins/" target="_blank" rel="noopener">linkedin.com/in/jodie-wiggins</a></p>
+</div>
+
+<p style="margin-top: 2rem;">
+  <a href="mailto:jodiewiggins18@gmail.com" class="contact-button">Contact</a>
+</p>
+```
