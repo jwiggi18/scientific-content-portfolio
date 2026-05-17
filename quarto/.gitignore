@@ -3,3 +3,7 @@
 
 # notes to self/ AI notes
 NOTES.md
+
+# data files — too large for GitHub (423 MB IPEDS data)
+**/data/
+.DS_Store

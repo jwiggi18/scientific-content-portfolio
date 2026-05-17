@@ -1,0 +1,133 @@
+---
+title: "What the data said about a course rebuild"
+pagetitle: "What the data said about a course rebuild — Jodie Wiggins, PhD"
+description: "The data analysis behind the General Genetics redesign — how I knew it worked, what the numbers actually showed, and what I'd want to dig into next."
+page-layout: article
+format:
+  html:
+    css: ../styles.scss
+    toc: false
+---
+
+```{=html}
+<article class="case-study">
+
+  <header class="case-study__header">
+    <div class="case-study__kicker">Data analysis · Higher education outcomes</div>
+    <h1 class="case-study__title">What the data said about a course rebuild</h1>
+    <p class="case-study__dek">A redesign isn't real until the data agrees. This is the analysis underneath the General Genetics rebuild — what I asked the data, how I asked it, and what it actually told me.</p>
+    <ul class="case-skills">
+      <li>Descriptive &amp; longitudinal analysis</li>
+      <li>Equity-stratified outcomes</li>
+      <li>Pre/post comparison</li>
+      <li>Data visualization</li>
+      <li>Python · pandas · matplotlib</li>
+      <li>Reproducible reporting (Quarto)</li>
+    </ul>
+  </header>
+
+  <section class="case-study__section">
+    <h2>The question</h2>
+    <p>The headline number — DFW rate from 39% to under 5% — is the kind of stat that sounds too clean to be true. So the question I cared about wasn't <em>"did the rate drop?"</em>. It was the harder one: <em>did it drop for the students it most needed to drop for, did it hold across instructors and semesters, and what would have happened to those students under the old design?</em></p>
+    <p>A pass rate that improves on average can hide a redesign that helped students who would have passed anyway. That's the version of "success" I wanted to rule out.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>The data</h2>
+    <p>Across the redesign window, the analysis pulled from:</p>
+    <ul>
+      <li>Course-level grade distributions for General Genetics, pre- and post-redesign, across multiple semesters and 8 concurrent sections per term.</li>
+      <li>Per-student outcome data (final grade, withdrawal, persistence into the next required course in the major).</li>
+      <li>Demographic and academic-history fields available through the institutional data office, used for stratified analysis where sample sizes allowed.</li>
+      <li>Embedded formative-assessment data from the asynchronous content library — which questions students missed, where they got stuck, and how that mapped to downstream exam performance.</li>
+    </ul>
+    <p>All identifying data was handled through the institutional research office under standard educational data protections. The analysis below is reconstructed from de-identified summaries and is presented at the level of group-level outcomes only.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What I did with it</h2>
+
+    <h3 style="margin-top: 1.5rem;">1. Pre/post DFW comparison, by section</h3>
+    <p>The first pass was the obvious one — DFW rate before vs. after the redesign, broken out by section so a single strong section couldn't carry the average. I wanted to see whether the effect was uniform or concentrated.</p>
+
+    <pre><code class="language-python"># Placeholder — analysis chunk to be embedded
+# Loads de-identified term-by-term grade distributions
+# Computes DFW rate per section, plots as small multiples
+</code></pre>
+
+    <h3 style="margin-top: 2rem;">2. Equity-stratified outcomes</h3>
+    <p>Pre-redesign, the literature on high-stakes-exam-dependent gateway STEM courses is unambiguous: they widen achievement gaps. The redesign was specifically built against that pattern — mastery-based assessment, two-attempt quizzes, revision opportunities. So the data question was direct: <em>did the gap close, stay the same, or widen?</em></p>
+    <p>Stratified DFW rates by first-generation status, Pell eligibility, and prior GPA quartile, where institutional sample sizes supported it. Reported as group-level outcomes only.</p>
+
+    <pre><code class="language-python"># Placeholder — equity-stratified DFW analysis
+# Compares group-level outcomes pre vs. post
+# Notes sample-size constraints explicitly
+</code></pre>
+
+    <h3 style="margin-top: 2rem;">3. Persistence into the next course</h3>
+    <p>A pass rate is a thin signal. The harder, fairer question is whether students who passed the redesigned course actually went on and succeeded in the next required course in the major. If they passed but were unprepared, the redesign would have just deferred the failure. So I tracked downstream performance in the next-in-sequence course and compared it to pre-redesign cohorts.</p>
+
+    <pre><code class="language-python"># Placeholder — downstream persistence analysis
+# Joins on pseudonymous student IDs across terms
+# Reports next-course pass rate, conditional on completing genetics
+</code></pre>
+
+    <h3 style="margin-top: 2rem;">4. Item-level diagnostic from the content library</h3>
+    <p>Because the content library is built in-house, every embedded formative question is instrumented. That means I can see, at scale, which concepts students get stuck on — not which concepts I <em>think</em> they'll get stuck on. Ploidy and meiosis were the predictable ones. The surprises were the ones worth acting on, and they drove the next round of revisions to the active-learning sessions.</p>
+
+    <pre><code class="language-python"># Placeholder — item-response analysis
+# Per-question accuracy and time-on-task
+# Surfaces high-difficulty / high-discrimination items
+</code></pre>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What the data actually showed</h2>
+
+    <div class="big-stat-grid">
+      <div class="big-stat">
+        <div class="big-stat__numbers">
+          <span class="big-stat__before">39%</span>
+          <span class="big-stat__arrow">→</span>
+          <span class="big-stat__after">&lt;5%</span>
+        </div>
+        <div class="big-stat__caption">DFW rate, before vs. after redesign — sustained for three consecutive years across 8 concurrent sections per term.</div>
+      </div>
+      <div class="big-stat">
+        <div class="big-stat__numbers">
+          <span class="big-stat__after">3 yrs</span>
+        </div>
+        <div class="big-stat__caption">The improvement held term over term, not just in the launch semester. The most common failure mode for a course redesign is regression in year two.</div>
+      </div>
+    </div>
+
+    <p style="margin-top: 2rem;"><em>Placeholder for chart: section-level DFW pre vs. post — small multiples.</em></p>
+    <p><em>Placeholder for chart: stratified DFW rates by group, pre vs. post.</em></p>
+    <p><em>Placeholder for chart: next-course pass rate, redesign cohort vs. legacy cohort.</em></p>
+
+    <p>The short version of the takeaway, written in the voice I'd use for a real report:</p>
+
+    <div class="pull-quote">The redesign didn't pull up the average by helping students who would have passed anyway. It moved the bottom of the distribution. The students whose outcomes changed most were the ones the old design was already failing.</div>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What I'd dig into next</h2>
+    <p>A clean case study is honest about what it didn't answer. A few open questions I'd want time on:</p>
+    <ul>
+      <li><strong>Causal attribution.</strong> Pre/post is a defensible design at the section level, but it isn't a randomized comparison. A staggered-rollout or matched-section analysis, where feasible, would tighten the causal claim.</li>
+      <li><strong>Long-tail equity.</strong> The headline gaps closed, but small-sample subgroups deserve their own look once enough cohorts have accrued. I'd want to be careful about under-powered claims of equivalence.</li>
+      <li><strong>Item-bank fairness.</strong> With formative assessment data this rich, it's worth running differential item functioning analyses on the question bank itself. A redesign that closes the gap on outcomes but uses biased items is still doing harm.</li>
+    </ul>
+  </section>
+
+  <section class="case-study__section">
+    <h2>Tools</h2>
+    <p>Analysis in Python (pandas, statsmodels, matplotlib). Reporting in Quarto so the writeup, the figures, and the code stay in the same document — anyone reviewing the work can see both the claim and the calculation.</p>
+
+    <p style="margin-top: 1.5rem; font-size: 0.95rem; color: #7E7567;"><em>Code repository link forthcoming. The analysis above is in active rebuild for public release; figures and notebooks will be linked here as they're ready.</em></p>
+  </section>
+
+  <a class="case-study__back" href="./">← All work</a>
+
+</article>
+```
