@@ -43,7 +43,7 @@ Exome and genome sequencing can detect certain types of changes in DNA, includin
 Depending on the type of test used:
 
 - **Exome sequencing** looks for changes in genes that directly code for proteins  
-- **Genome sequencing** looks for similar changes across the entire DNA sequence, including regions outside genes  
+- **Genome sequencing** looks for similar changes across the entire DNA sequence, including regions that are not inside protein-coding genes  
 
 When combined with detailed medical information and family history, these results may help identify genetic changes that are relevant to a person’s health.
 

@@ -1,161 +1,111 @@
 ---
-title: "Scientific Content Review & Strategic Recommendations"
-description: "An example of scientific oversight, risk-aware review, and strategic guidance for medical and scientific content"
+title: "Scientific Content Review: BRCA1/2 and Hereditary Cancer Risk"
+description: "Internal review of an educational slide deck for oncology teams — accuracy, interpretive risk, and specific recommendations"
 ---
 
-**Internal Review Memo (Anonymized Example)**
+**Internal Review Memo (Anonymized)**
 
-**Author:** Jodie Wiggins, Ph.D.  
-**Role Context:** Scientific Director / Scientific Content Lead  
-**Purpose:** Demonstrate scientific review, risk assessment, and strategic guidance for scientific and medical communications  
-
----
-
-## Context
-
-This memo illustrates my approach to reviewing and guiding scientific content at a leadership level. The example below reflects a **representative internal scientific review**, conducted to assess accuracy, interpretive risk, clarity, and alignment with audience and strategic objectives.
-
-The focus of this review is **scientific oversight rather than line editing**, with emphasis on judgment, risk-aware framing, and support for high-quality, fit-for-purpose communication.
+**Reviewer:** Jodie Wiggins, Ph.D.
+**Role:** Scientific Content Lead
+**Content reviewed:** Educational slide deck — *BRCA1/2 and Hereditary Cancer: Clinical Decision-Making for the Oncology Team*
+**Audience:** Oncologists, oncology nurses, genetic counselors
+**Slide count:** 10
 
 ---
 
-## Reviewed Content (Anonymized)
+## What was reviewed and why
 
-- **Format:** 12-slide educational slide deck  
-- **Audience:** Healthcare professionals and scientific stakeholders  
-- **Purpose:**  
-  To summarize current scientific understanding of a disease area, including biological mechanisms, emerging research findings, and areas of active investigation  
-- **Source Material:**  
-  Peer-reviewed literature, mechanistic studies, and clinical research  
-- **Development Context:**  
-  Content developed by a multidisciplinary team for educational use  
+This deck was developed to support oncology teams in understanding BRCA1/2 testing indications, result interpretation, and patient management. It's intended for educational use at tumor board and CME settings.
+
+The science in this deck is largely sound. The problems are interpretive — places where the language slightly outruns what the evidence supports, or where a technically accurate statement will be read by a clinician as something it doesn't quite mean. Those are the issues most likely to cause harm in practice, and the ones this review focuses on.
 
 ---
 
-## Summary Assessment
+## Reviewed content (anonymized)
 
-Overall, the content demonstrates a high level of scientific rigor, thoughtful evidence selection, and clear educational intent, reflecting strong foundational work by the team. With small, targeted refinements, the material can further reduce interpretive risk, enhance clarity for the intended audience, and strengthen alignment between the evidence presented and the resulting conclusions. These adjustments build on an already solid framework and will help ensure the content is as clear, credible, and impactful as possible.
+Representative slides and claims assessed in this review:
 
----
-
-## Strengths Identified
-
-### Scientific Accuracy and Evidence Base
-The content demonstrates strong scientific rigor and careful use of evidence throughout. Key mechanistic claims are supported by appropriate primary literature, and citations are used consistently to anchor interpretations in data rather than speculation.
-
-**Representative strengths include:**
-- Clear and accurate depiction of the biological pathway of interest, with mechanistic steps aligned with current peer-reviewed understanding.  
-- Effective integration of findings from multiple study types (e.g., mechanistic studies and clinical research) to provide a balanced scientific picture rather than relying on a single line of evidence.
-
-These choices establish a solid and credible scientific foundation for the material.
+- **Slides 1–2:** Overview of germline BRCA1/2 testing indications and population prevalence
+- **Slide 4:** Penetrance estimates — "Women with pathogenic BRCA1 variants have a 72% lifetime risk of breast cancer and a 44% lifetime risk of ovarian cancer"
+- **Slide 6:** VUS management — "Variants of uncertain significance should be disclosed to patients, and at-risk family members may consider predictive testing based on this finding"
+- **Slide 7:** Somatic and germline testing — "Tumor BRCA testing identifies patients who may benefit from PARP inhibitor therapy and can reveal hereditary risk"
+- **Slide 9:** Mechanism — homologous recombination deficiency (HRD) and synthetic lethality with PARP inhibition
+- **Slide 10:** Patient communication and referral to genetic counseling
 
 ---
 
-### Logical Organization and Narrative Flow
-The content is well structured, with a logical progression from foundational concepts to more detailed scientific discussion. This sequencing supports comprehension and allows readers to build understanding as the narrative advances.
+## What's working
 
-**Representative strengths include:**
-- Early introduction of core biological concepts and terminology, which are then consistently referenced and built upon in later sections.  
-- Use of intermediate summary slides or transitions that reinforce key takeaways before introducing additional complexity.
+**Slide 9 (HRD mechanism) is the strongest slide in the deck.** The explanation of homologous recombination deficiency and the mechanistic basis for PARP inhibitor synthetic lethality is accurate, appropriately detailed for the audience, and well structured. The figure does real explanatory work — it's not decorative. Keep it as-is.
 
-This organization supports clarity and reduces cognitive load for the audience.
+The referral recommendation on Slide 10 is correct and clearly stated: all patients with pathogenic or likely pathogenic BRCA1/2 findings should be referred to genetic counseling. No changes needed there.
 
 ---
 
-### Appropriate Educational Tone
-The material maintains a clear educational focus and avoids promotional framing. Language choices consistently signal that the science is being presented to inform understanding rather than to direct conclusions or actions.
+## Issues requiring revision
 
-**Representative strengths include:**
-- Careful framing of emerging data as part of an evolving evidence base, rather than presenting preliminary findings as definitive.  
-- Explicit use of neutral, explanatory language when discussing mechanisms and research outcomes, reinforcing the educational intent of the content.
+### 1. Penetrance figure is presented without the context that makes it usable
 
-This tone supports responsible interpretation and aligns well with expectations for scientific and medical education materials.
+**Slide 4** states: *"Women with pathogenic BRCA1 variants have a 72% lifetime risk of breast cancer and a 44% lifetime risk of ovarian cancer."*
 
----
+The 72% figure comes from a specific study — likely Kuchenbaecker et al. (2017, JAMA) or similar large consortium data — and it's defensible as a point estimate. The problem is how it will be read. Presented without a confidence interval or reference population, a clinician will treat 72% as a fixed fact rather than a range with meaningful uncertainty. The actual literature spans roughly 50–85% for BRCA1 breast cancer risk depending on ascertainment method and cohort. Studies using clinical cohorts (families identified through affected probands) historically overestimate penetrance relative to population-based cohorts.
 
-## Strategic Recommendations
+This matters clinically: a patient who hears "72%" may interpret that as precision the number doesn't have. A patient who hears "50–85% over a lifetime, depending on other factors" has a more accurate picture of the uncertainty — which is actually what she needs to make decisions.
 
-The following recommendations are intended to **build on the content’s existing strengths** by enhancing clarity, appropriately calibrating interpretation, and reinforcing alignment between evidence and conclusions. These are **small, targeted refinements** that support scientific rigor while improving usability and confidence for the intended audience.
+**Recommended revision:**
 
----
+> *BRCA1 pathogenic variants are associated with substantially elevated lifetime risks of breast and ovarian cancer. Risk estimates vary by study methodology and cohort; current data suggest lifetime breast cancer risks of approximately 50–85% and ovarian cancer risks of approximately 40–60% for BRCA1. Patients should discuss individual risk in the context of personal and family history with a genetic counselor.*
 
-### 1. Calibrate Interpretive Language to Match Evidence Strength
-
-> **Why this matters**  
-> Precise calibration of interpretive language helps maintain scientific credibility and supports responsible audience understanding, particularly when presenting emerging or evolving data.
-
-Several statements would benefit from minor wording adjustments to more explicitly reflect the current strength of evidence. This does not change the scientific message, but ensures that interpretations are consistently aligned with what the data can support.
-
-**Recommended approach:**
-- Use language that distinguishes association from causation where appropriate  
-- Clearly signal when findings are hypothesis-generating or under active investigation  
-
-**Example language strategies:**
-- “Current evidence suggests…”  
-- “Has been associated with…”  
-- “Is an area of ongoing research…”
+Cite the source for whatever figures you use. If the deck is going into a CME context, the citation belongs on the slide, not just in an appendix.
 
 ---
 
-### 2. Surface Key Limitations and Uncertainty at Decision Points
+### 2. VUS management recommendation is incorrect
 
-> **Why this matters**  
-> Explicit acknowledgment of uncertainty reinforces trust and prevents overextension of conclusions, especially in educational scientific content.
+**Slide 6** states: *"Variants of uncertain significance should be disclosed to patients, and at-risk family members may consider predictive testing based on this finding."*
 
-While limitations are present in the underlying literature, they are not always surfaced at the points where conclusions are drawn. Briefly highlighting these considerations strengthens credibility without adding unnecessary complexity.
+The first part is right. The second part is not — and it's the kind of error that has real consequences.
 
-**Recommended approach:**
-- Incorporate concise statements addressing study design, population scope, or variability in findings  
-- Reinforce where evidence is converging versus where it remains incomplete  
+A VUS, by definition, has insufficient evidence to determine pathogenicity. Recommending that family members pursue predictive testing based on a VUS treats an unresolved finding as if it carries clinical weight it doesn't yet have. Current ACMG/AMP guidelines and standard clinical practice are explicit: VUS findings should not be used to inform cascade testing or clinical management decisions. Genetic counselors know this, but an oncologist reading this slide may not.
 
-**Outcome:**  
-Improved transparency and a clearer signal to the audience about how confidently findings should be interpreted.
+The disclosure obligation is real. The cascade testing recommendation based solely on VUS status is not supported.
 
----
+**Recommended revision:**
 
-### 3. Strengthen Narrative Signposting and Message Hierarchy
-
-> **Why this matters**  
-> Clear signposting helps audiences orient themselves within complex scientific material and retain key takeaways.
-
-The overall structure is strong; however, elevating key messages earlier and reinforcing them throughout the narrative will further enhance clarity and impact.
-
-**Recommended approach:**
-- Introduce high-level scientific takeaways early in the content  
-- Use brief transition statements to connect detailed sections back to overarching objectives  
-
-**Outcome:**  
-A more cohesive narrative that reinforces strategic intent while preserving scientific depth.
+> *Variants of uncertain significance (VUS) should be disclosed to patients and documented in the medical record. VUS findings should not be used as the basis for predictive testing in at-risk family members or to guide clinical management. Patients should be informed that VUS classifications may be updated as scientific evidence evolves, and that recontact with the ordering provider or a genetic counselor is appropriate if classification changes.*
 
 ---
 
-### 4. Support Accessibility Through Layered Detail
+### 3. Somatic BRCA testing does not establish germline status
 
-> **Why this matters**  
-> Layered presentation allows diverse audiences to engage with content at an appropriate depth without diluting rigor.
+**Slide 7** states: *"Tumor BRCA testing identifies patients who may benefit from PARP inhibitor therapy and can reveal hereditary risk."*
 
-Some highly technical sections could benefit from brief contextual framing to support readers with varying levels of background knowledge.
+The first clause is correct. The second is not — or more precisely, it's accurate in a narrow technical sense but will almost certainly be misread.
 
-**Recommended approach:**
-- Add short framing statements or summaries before dense technical sections  
-- Maintain detailed explanations for readers seeking deeper engagement  
+Somatic (tumor-based) BRCA testing identifies variants present in the tumor. A BRCA variant detected in tumor tissue *may* reflect an underlying germline mutation, but it may also be a somatic mutation acquired during tumor development. Tumor testing cannot reliably distinguish between these. The slide as written will lead some clinicians to treat a positive tumor BRCA result as evidence of hereditary risk — which is only sometimes true, and is never confirmed without germline testing.
 
-**Outcome:**  
-Improved usability across the intended audience while maintaining scientific precision.
+This is a meaningful clinical gap. Patients whose germline status is not confirmed following a positive tumor BRCA result may not receive appropriate genetic counseling or cascade testing referrals for family members.
+
+**Recommended revision:**
+
+> *Tumor-based BRCA testing identifies somatic variants that may predict response to PARP inhibitor therapy. A BRCA variant detected in tumor tissue is not sufficient to confirm germline (hereditary) status. Germline genetic testing is required to establish hereditary risk and inform management for the patient and at-risk family members. Patients with positive or uncertain tumor BRCA results should be referred to genetic counseling to discuss germline testing.*
+
+---
+
+### 4. Minor: limitations are buried
+
+The deck addresses testing limitations — sensitivity, VUS prevalence, the fact that a negative result doesn't exclude a genetic etiology — but these points appear on Slide 8, after the patient management recommendations on Slides 6–7. Clinicians reading a slide deck in a clinical setting often don't make it to Slide 8.
+
+The limitations that most directly affect how clinicians will act — particularly the VUS caveat and the somatic/germline distinction — should be surfaced at the point of use, not consolidated at the end. This is a structural recommendation, not a content one: the information is in the deck, it's just not where it will be seen.
 
 ---
 
 ## Summary
 
-These recommendations are designed to **enhance an already strong piece of scientific content**. By making small, targeted refinements to language, structure, and framing, the material can further strengthen its clarity, credibility, and educational impact while remaining firmly grounded in the underlying science.
+Three of the four issues above involve claims that are technically defensible but will predictably be read as something more certain or more actionable than the evidence supports. That's the category of error most worth catching in scientific review — not outright inaccuracies, but statements that will function incorrectly in the hands of the intended audience.
 
-
-## Conclusion
-
-This review reflects my approach to scientific content leadership: balancing accuracy, clarity, and strategic intent while proactively identifying risks related to overinterpretation, ambiguity, or audience mismatch. My goal in this role is to elevate content through thoughtful guidance, support contributors in producing their strongest work, and ensure that scientific communications are credible, responsible, and fit for purpose.
+The fixes are targeted. The deck doesn't need to be rebuilt; it needs the penetrance slide to carry its uncertainty honestly, the VUS slide to clearly say what the standard of care actually is, and the somatic/germline distinction to be explicit rather than implied.
 
 ---
 
-### Notes for Reviewers
-
-This memo is an anonymized, representative example intended to demonstrate scientific oversight, mentorship, and strategic review at a leadership level. It is not tied to a specific product, therapeutic area, or client.
+*This memo is an anonymized example of scientific content oversight for educational and portfolio purposes. The slide content described is representative, not drawn from an actual product or client.*

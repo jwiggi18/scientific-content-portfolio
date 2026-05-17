@@ -1,160 +1,110 @@
 ---
-title: "For Patients: Understanding Exome and Genome Sequencing"
-description: "What these tests can (and can’t) tell you"
---- 
-## What These Tests Can (and Can’t) Tell You
+title: "Exome and Genome Sequencing: A Guide for Patients and Families"
+description: "What genetic sequencing can tell you, what it can't, and what to do with your results"
+---
 
-**Audience:** Patients, families, and advocates  
-**Purpose:** To explain exome and genome sequencing in clear, accessible language  
-**Context:** Scientific communication sample translating clinical genomics concepts for non-specialist audiences  
+**Audience:** Patients, families, and patient advocates
+**Purpose:** Translate clinical genomics concepts into clear, actionable language for non-specialist readers
+**Context:** Scientific communication sample
 
 ---
 
-## What Are Exome and Genome Sequencing?
+## What these tests are
 
-Exome and genome sequencing are genetic tests used that evaluate a person’s DNA in order to identify possible genetic causes of health conditions.
+Exome and genome sequencing are genetic tests that read your DNA to look for changes that might explain a health condition.
 
-Your DNA contains instructions that tell your body how to grow and function. Much of what the body does is carried out by proteins, which perform essential tasks in cells and tissues. Some parts of DNA provide the instructions for making proteins, while other parts help regulate how cells function. Changes in these DNA instructions—called *variants*—can sometimes be associated with disease.
+Your DNA contains instructions your body uses to build proteins and regulate how cells work. Changes in those instructions — called *variants* — can sometimes cause disease. Most disease-causing variants identified to date sit in protein-coding regions of the genome: these are what exome sequencing looks at. Whole genome sequencing extends coverage to non-coding regions — areas that regulate gene activity — which matters in a subset of cases where the disease-causing change is in those regulatory regions rather than in a coding gene.
 
-Exome sequencing focuses on the parts of DNA that directly code for proteins. Genome sequencing examines both these protein-coding regions and the rest of the DNA, including regions involved in regulating how cells function.
-
-Both tests are used to help doctors better understand conditions that may have a genetic cause, especially when symptoms are unexplained or previous testing has not provided clear answers.
+Both tests are typically ordered when a condition is suspected to have a genetic cause, especially after more targeted testing hasn't provided an answer.
 
 ---
 
-## Why Might These Tests Be Recommended?
+## What sequencing can detect — and what it misses
 
-Exome and genome sequencing are often used when:
+These tests reliably find small DNA changes: single-letter typos in the genetic code, and small insertions or deletions. What they consistently miss:
 
-- A person has symptoms that suggest a genetic condition  
-- A diagnosis is unclear despite prior medical testing  
-- There is concern about a condition with a possible inherited component    
-- Understanding whether genetics may play a role could guide care or future planning 
+- **Large structural rearrangements** and copy number changes — unless the lab has added specific analysis for these
+- **Repeat expansions**, the type of mutation behind conditions like Fragile X, Huntington's disease, and myotonic dystrophy
+- **Mosaic changes** — variants present in only some cells, not all, which can occur at low enough levels to be invisible
+- **Regions of the genome** that are difficult to sequence accurately due to repetitive structure
 
-These tests can sometimes identify a genetic explanation for symptoms and help doctors confirm or refine a diagnosis.
-
----
-
-## What Can These Tests Identify?
-
-Exome and genome sequencing can detect certain types of changes in DNA, including small changes that affect individual genes.
-
-Depending on the type of test used:
-
-- **Exome sequencing** looks for changes in genes that directly code for proteins  
-- **Genome sequencing** looks for similar changes across the entire DNA sequence, including regions outside genes  
-
-When combined with detailed medical information and family history, these results may help identify genetic changes that are relevant to a person’s health.
+A negative result means the test didn't find a variant it was designed to find. It doesn't mean your symptoms aren't real or don't have a genetic basis. It means the answer, if there is one, is somewhere the test didn't look — or isn't findable with current technology.
 
 ---
 
-## Understanding Genetic Test Results
+## Understanding your results
 
-Genetic test results are typically placed into categories based on the available scientific evidence.
+Clinical labs classify genetic variants into five categories based on how much evidence exists linking them to disease:
 
-Some results may:
+**Pathogenic / Likely pathogenic** — a variant with strong evidence of causing disease, consistent with your specific medical situation. This is the result that leads to a diagnosis.
 
-- Support a genetic explanation for a person’s condition  
-- Indicate a change in DNA that is not expected to affect health  
-- Identify a change where there is not enough information yet to know whether it is related to disease  
+**Variant of Uncertain Significance (VUS)** — a change where the current evidence isn't sufficient to say whether it causes disease. This is not a diagnosis. It is an open question.
 
-A result called a **Variant of Uncertain Significance (VUS)** means that scientists do not currently have enough evidence to determine whether a specific DNA change is related to a health condition. These findings are common and do **not** confirm or rule out a diagnosis on their own.
+**Likely benign / Benign** — a variant not expected to contribute to disease.
 
-> **Important:** A **Variant of Uncertain Significance (VUS)** does not confirm or rule out a diagnosis and should not be used on its own to make medical decisions.
+The category that confuses people most is VUS. Getting a VUS result is common — particularly in exome and genome sequencing, which cast a wide net and pick up many variants with unknown significance. A few things to know:
 
-Importantly, genetic test results may be updated over time as new research becomes available.
-
----
-
-## Why Results Don’t Always Provide Clear Answers
-
-> **Note:** A negative result does **not** mean symptoms are not real or important. It may mean the genetic cause is not yet identifiable with current knowledge.
-
-Even with advanced testing, genetic results do not always explain a person’s symptoms.
-
-This can happen because:
-
-- Not all genetic causes of disease are currently known  
-- Some types of genetic changes are difficult to detect  
-- A condition may not be genetic in origin  
-- The genetic contribution may be complex or involve multiple factors  
-
-A negative or uncertain result does **not** mean that symptoms are not real or important.
+- A VUS should not drive clinical decisions on its own. That includes decisions about surgery, screening, or whether family members should be tested.
+- VUS classifications change. A variant that's uncertain today may be reclassified — as pathogenic or as benign — as more data accumulate. Labs sometimes recontact patients when this happens, but not always. If you received a VUS result more than a year or two ago, it's worth asking your provider or genetic counselor to check whether the classification has been updated.
+- Family members don't need to be tested for a VUS just because you have one. That changes if and when the VUS is reclassified as pathogenic.
 
 ---
 
-## Using Genetic Testing Responsibly
+## When results don't explain your symptoms
 
-Genetic testing is most helpful when used as part of a broader medical evaluation. Doctors consider genetic results alongside medical history, physical findings, family history, and other tests.
+A negative result — where the lab doesn't identify a pathogenic variant or likely pathogenic variant — is the most common outcome of diagnostic sequencing. It doesn't mean your workup is over.
 
-Clear communication between healthcare providers, patients, and families is essential—especially when results are uncertain or may change over time.
+Some paths forward after an inconclusive result:
 
-Genetic testing is a powerful tool, but it is only one piece of the diagnostic process.
-
----
-
-## Key Takeaways
-
-- Exome and genome sequencing can help identify genetic causes of health conditions, but they do not always provide definitive answers  
-- Results may change as science advances  
-- Uncertain results are common and should be interpreted carefully  
-- Genetic testing is most informative when interpreted in the context of a person’s overall medical care
+- **Re-analysis** — as databases grow and more variants are characterized, labs can reanalyze existing sequencing data with updated information. Many results that were initially inconclusive become informative with reanalysis. Your provider can request this.
+- **Additional testing** — sequencing misses certain variant types. Depending on your clinical picture, your provider might recommend additional genetic tests that target what sequencing doesn't capture.
+- **Specialist referral** — if you haven't already seen a clinical geneticist or genetic counselor, this is the right time.
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## What genetic results mean for family members
 
-### Will exome or genome sequencing always provide a diagnosis?
+Many genetic variants are inherited. A pathogenic or likely pathogenic result in you may be relevant for biological relatives — parents, siblings, children — who could be at increased risk. This is called *cascade testing*.
 
-No. While these tests can sometimes identify genetic factors related to a person’s symptoms, they do not always lead to a clear diagnosis. Some conditions may not have a known genetic cause, and in other cases, current science may not yet be able to fully explain the findings.
+A genetic counselor can help you understand which family members might benefit from testing, how to approach those conversations, and what testing options exist for relatives.
 
----
-
-### What does it mean if my results are uncertain?
-
-An uncertain result, often called a **Variant of Uncertain Significance (VUS)**, means that there is not enough scientific evidence at this time to determine whether a specific genetic change is related to a health condition. These results are common and should not be used on their own to make medical decisions.
+VUS findings, as noted above, should not trigger cascade testing unless and until they are reclassified.
 
 ---
 
-### Can genetic test results change over time?
+## Questions to ask your provider
 
-Yes. As scientific knowledge advances and more data become available, genetic test results may be updated or reinterpreted. A result that is uncertain today may be better understood in the future.
+Before testing:
 
----
+- Why is exome or genome sequencing being recommended for my situation rather than a more targeted test?
+- What kinds of results are most likely, and what would each mean for my care?
+- What won't this test be able to tell me?
+- Are there implications for my family members regardless of the result?
 
-### Does a negative result mean there is no genetic explanation?
+After receiving results:
 
-Not necessarily. A negative result means that the test did not identify a genetic finding that clearly explains the condition at this time. It does not rule out a genetic contribution, and it does not mean that symptoms are not real or important.
-
----
-
-### Why might genome sequencing be recommended instead of exome sequencing?
-
-Genome sequencing examines a broader portion of DNA than exome sequencing. It may be considered when prior testing has not provided clear answers or when a broader evaluation of genetic variation is clinically appropriate. The choice of test depends on individual circumstances and clinical judgment.
-
----
-
-### Who can help me understand my results?
-
-Healthcare providers and genetic counselors are trained to explain genetic test results and discuss what they may mean for you and your family. They can also help address questions, uncertainty, and next steps.
+- What does this result mean specifically for my diagnosis and care plan?
+- If the result is a VUS: what's the process for following up as the evidence evolves?
+- If the result is negative: what are the next steps? Is reanalysis or additional testing worth pursuing?
+- Should any family members be tested based on this finding?
+- Who should I contact if I have questions about my results later?
 
 ---
 
-## What to Ask Your Healthcare Provider
+## FAQ
 
-> **Tip:** Genetic testing is most informative when interpreted in the context of medical history, symptoms, and family history.
+### Will these tests always give me a diagnosis?
 
-If you are considering exome or genome sequencing, or if you have already received results, the following questions may help guide conversations with your healthcare provider or genetic counselor:
+No. Diagnostic rates vary by condition, but even in the best circumstances, exome and genome sequencing identifies a definitive genetic cause in roughly 25-35% of cases where a genetic condition is suspected. Many results are inconclusive or negative, especially on first analysis. That number improves with reanalysis over time.
 
-- What is the goal of this test for my specific situation?
-- Why is exome or genome sequencing being recommended instead of other tests?
-- What types of results are most likely, and what would they mean for my care?
-- What are the possible limitations of this test?
-- How should uncertain results be interpreted?
-- Could my results change over time as new information becomes available?
-- How might these results affect my medical care, screening, or future planning?
-- Are there implications for my family members?
-- What follow-up or additional testing, if any, might be recommended?
-- Who should I contact if I have questions about my results in the future?
+### Why might my doctor recommend genome sequencing instead of exome sequencing?
 
-These discussions can help ensure that genetic testing is used thoughtfully and that results are understood within the context of your overall medical care.
+Usually because prior testing — including exome sequencing — didn't find an answer, or because the clinical picture suggests a non-coding variant might be involved. Genome sequencing is more expensive and generates more data, so it's typically reserved for situations where the broader coverage is warranted.
+
+### How will I know if my VUS result gets reclassified?
+
+You may not be notified automatically — it depends on the lab and your provider's practices. The safest approach is to ask your provider or genetic counselor to check on any VUS result that's more than one to two years old.
+
+### Who is the right person to explain my results to me?
+
+A genetic counselor. Genetic counselors are specifically trained to translate sequencing results into plain language, explain what findings mean for your health and your family, and help you decide on next steps. If you don't have one, ask your ordering provider for a referral.
