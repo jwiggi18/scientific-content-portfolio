@@ -1,110 +1,138 @@
 ---
 title: "Exome and Genome Sequencing: A Guide for Patients and Families"
+pagetitle: "Exome and Genome Sequencing: Patient Guide — Jodie Wiggins, PhD"
 description: "What genetic sequencing can tell you, what it can't, and what to do with your results"
+page-layout: article
+format:
+  html:
+    css: ../styles.scss
 ---
 
-**Audience:** Patients, families, and patient advocates
-**Purpose:** Translate clinical genomics concepts into clear, actionable language for non-specialist readers
-**Context:** Scientific communication sample
+```{=html}
+<article class="case-study">
 
----
+  <header class="case-study__header">
+    <div class="case-study__kicker">Patient &amp; advocate education · Plain language translation · Clinical genomics</div>
+    <h1 class="case-study__title">Exome and Genome Sequencing: A Guide for Patients and Families</h1>
+    <p class="case-study__dek">What these tests look for, what they reliably find, where they fall short, and what to do when results are uncertain — written for patients, families, and advocates navigating the genetic testing process.</p>
+    <ul class="case-skills">
+      <li>Plain language translation</li>
+      <li>Patient education</li>
+      <li>Clinical genomics</li>
+      <li>VUS communication</li>
+      <li>Accessible science writing</li>
+    </ul>
+    <p style="font-size: 0.82rem; color: #7E7567; margin-top: 1.25rem; font-style: italic;">Audience: Patients, families, and patient advocates</p>
+  </header>
 
-## What these tests are
+  <section class="case-study__section">
+    <h2>What these tests are</h2>
+    <p>Exome and genome sequencing are genetic tests that read your DNA to look for changes that might explain a health condition.</p>
+    <p>Your DNA contains instructions your body uses to build proteins and regulate how cells work. Changes in those instructions — called <em>variants</em> — can sometimes cause disease. Most disease-causing variants identified to date sit in protein-coding regions of the genome: these are what exome sequencing looks at. Whole genome sequencing extends coverage to non-coding regions — areas that regulate gene activity — which matters in a subset of cases where the disease-causing change is in those regulatory regions rather than in a coding gene.</p>
+    <p>Both tests are typically ordered when a condition is suspected to have a genetic cause, especially after more targeted testing hasn't provided an answer.</p>
+  </section>
 
-Exome and genome sequencing are genetic tests that read your DNA to look for changes that might explain a health condition.
+  <section class="case-study__section">
+    <h2>What sequencing can detect — and what it misses</h2>
+    <p>These tests reliably find small DNA changes: single-letter typos in the genetic code, and small insertions or deletions. What they consistently miss:</p>
 
-Your DNA contains instructions your body uses to build proteins and regulate how cells work. Changes in those instructions — called *variants* — can sometimes cause disease. Most disease-causing variants identified to date sit in protein-coding regions of the genome: these are what exome sequencing looks at. Whole genome sequencing extends coverage to non-coding regions — areas that regulate gene activity — which matters in a subset of cases where the disease-causing change is in those regulatory regions rather than in a coding gene.
+    <div style="background: #F2EBDA; border-left: 4px solid #4a56c4; border-radius: 0 6px 6px 0; padding: 1.5rem 1.75rem; margin: 1.5rem 0;">
+      <ul style="margin: 0; padding-left: 1.25rem; line-height: 1.8;">
+        <li><strong>Large structural rearrangements</strong> and copy number changes — unless the lab has added specific analysis for these</li>
+        <li><strong>Repeat expansions</strong> — the type of mutation behind conditions like Fragile X, Huntington's disease, and myotonic dystrophy</li>
+        <li><strong>Mosaic changes</strong> — variants present in only some cells, not all, which can occur at low enough levels to be invisible</li>
+        <li><strong>Regions of the genome</strong> that are difficult to sequence accurately due to repetitive structure</li>
+      </ul>
+    </div>
+  </section>
 
-Both tests are typically ordered when a condition is suspected to have a genetic cause, especially after more targeted testing hasn't provided an answer.
+  <div class="pull-quote">A negative result means the test didn't find a variant it was designed to find. It doesn't mean your symptoms aren't real or don't have a genetic basis. It means the answer, if there is one, is somewhere the test didn't look — or isn't findable with current technology.</div>
 
----
+  <section class="case-study__section">
+    <h2>Understanding your results</h2>
+    <p>Clinical labs classify genetic variants into five categories based on how much evidence exists linking them to disease:</p>
 
-## What sequencing can detect — and what it misses
+    <div style="background: #F2EBDA; border-left: 4px solid #4a56c4; border-radius: 0 6px 6px 0; padding: 1.5rem 1.75rem; margin: 1.5rem 0;">
+      <p style="margin: 0 0 0.6rem;"><strong>Pathogenic / Likely pathogenic</strong> — a variant with strong evidence of causing disease, consistent with your specific medical situation. This is the result that leads to a diagnosis.</p>
+      <p style="margin: 0 0 0.6rem;"><strong>Variant of Uncertain Significance (VUS)</strong> — a change where the current evidence isn't sufficient to say whether it causes disease. This is not a diagnosis. It is an open question.</p>
+      <p style="margin: 0;"><strong>Likely benign / Benign</strong> — a variant not expected to contribute to disease.</p>
+    </div>
 
-These tests reliably find small DNA changes: single-letter typos in the genetic code, and small insertions or deletions. What they consistently miss:
+    <p>The category that confuses people most is VUS. Getting a VUS result is common — particularly in exome and genome sequencing, which cast a wide net and pick up many variants with unknown significance.</p>
+  </section>
 
-- **Large structural rearrangements** and copy number changes — unless the lab has added specific analysis for these
-- **Repeat expansions**, the type of mutation behind conditions like Fragile X, Huntington's disease, and myotonic dystrophy
-- **Mosaic changes** — variants present in only some cells, not all, which can occur at low enough levels to be invisible
-- **Regions of the genome** that are difficult to sequence accurately due to repetitive structure
+  <div class="pull-quote">A VUS should not drive clinical decisions on its own. That includes decisions about surgery, screening, or whether family members should be tested.</div>
 
-A negative result means the test didn't find a variant it was designed to find. It doesn't mean your symptoms aren't real or don't have a genetic basis. It means the answer, if there is one, is somewhere the test didn't look — or isn't findable with current technology.
+  <section class="case-study__section">
+    <p>A few other things to know about VUS results:</p>
+    <ul>
+      <li>VUS classifications change. A variant that's uncertain today may be reclassified — as pathogenic or as benign — as more data accumulate. Labs sometimes recontact patients when this happens, but not always. If you received a VUS result more than a year or two ago, it's worth asking your provider or genetic counselor to check whether the classification has been updated.</li>
+      <li>Family members don't need to be tested for a VUS just because you have one. That changes if and when the VUS is reclassified as pathogenic.</li>
+    </ul>
+  </section>
 
----
+  <section class="case-study__section">
+    <h2>When results don't explain your symptoms</h2>
+    <p>A negative result — where the lab doesn't identify a pathogenic or likely pathogenic variant — is the most common outcome of diagnostic sequencing. It doesn't mean your workup is over.</p>
+    <p>Some paths forward after an inconclusive result:</p>
+    <ul>
+      <li><strong>Re-analysis</strong> — as databases grow and more variants are characterized, labs can reanalyze existing sequencing data with updated information. Many results that were initially inconclusive become informative with reanalysis. Your provider can request this.</li>
+      <li><strong>Additional testing</strong> — sequencing misses certain variant types. Depending on your clinical picture, your provider might recommend tests that target what sequencing doesn't capture.</li>
+      <li><strong>Specialist referral</strong> — if you haven't already seen a clinical geneticist or genetic counselor, this is the right time.</li>
+    </ul>
+  </section>
 
-## Understanding your results
+  <section class="case-study__section">
+    <h2>What genetic results mean for family members</h2>
+    <p>Many genetic variants are inherited. A pathogenic or likely pathogenic result in you may be relevant for biological relatives — parents, siblings, children — who could be at increased risk. This is called <em>cascade testing</em>.</p>
+    <p>A genetic counselor can help you understand which family members might benefit from testing, how to approach those conversations, and what testing options exist for relatives. VUS findings, as noted above, should not trigger cascade testing unless and until they are reclassified.</p>
+  </section>
 
-Clinical labs classify genetic variants into five categories based on how much evidence exists linking them to disease:
+  <section class="case-study__section">
+    <h2>Questions to ask your provider</h2>
 
-**Pathogenic / Likely pathogenic** — a variant with strong evidence of causing disease, consistent with your specific medical situation. This is the result that leads to a diagnosis.
+    <p style="font-weight: 500; margin-bottom: 0.5rem;">Before testing:</p>
+    <ul>
+      <li>Why is exome or genome sequencing being recommended for my situation rather than a more targeted test?</li>
+      <li>What kinds of results are most likely, and what would each mean for my care?</li>
+      <li>What won't this test be able to tell me?</li>
+      <li>Are there implications for my family members regardless of the result?</li>
+    </ul>
 
-**Variant of Uncertain Significance (VUS)** — a change where the current evidence isn't sufficient to say whether it causes disease. This is not a diagnosis. It is an open question.
+    <p style="font-weight: 500; margin-bottom: 0.5rem; margin-top: 1.5rem;">After receiving results:</p>
+    <ul>
+      <li>What does this result mean specifically for my diagnosis and care plan?</li>
+      <li>If the result is a VUS: what's the process for following up as the evidence evolves?</li>
+      <li>If the result is negative: what are the next steps? Is reanalysis or additional testing worth pursuing?</li>
+      <li>Should any family members be tested based on this finding?</li>
+    </ul>
+  </section>
 
-**Likely benign / Benign** — a variant not expected to contribute to disease.
+  <section class="case-study__section">
+    <h2>FAQ</h2>
 
-The category that confuses people most is VUS. Getting a VUS result is common — particularly in exome and genome sequencing, which cast a wide net and pick up many variants with unknown significance. A few things to know:
+    <hr>
 
-- A VUS should not drive clinical decisions on its own. That includes decisions about surgery, screening, or whether family members should be tested.
-- VUS classifications change. A variant that's uncertain today may be reclassified — as pathogenic or as benign — as more data accumulate. Labs sometimes recontact patients when this happens, but not always. If you received a VUS result more than a year or two ago, it's worth asking your provider or genetic counselor to check whether the classification has been updated.
-- Family members don't need to be tested for a VUS just because you have one. That changes if and when the VUS is reclassified as pathogenic.
+    <h3 style="font-size: 1.05rem; margin-top: 1.75rem;">Will these tests always give me a diagnosis?</h3>
+    <p>No. Diagnostic rates vary by condition, but even in the best circumstances, exome and genome sequencing identifies a definitive genetic cause in roughly 25–35% of cases where a genetic condition is suspected. Many results are inconclusive or negative, especially on first analysis. That number improves with reanalysis over time.</p>
 
----
+    <hr>
 
-## When results don't explain your symptoms
+    <h3 style="font-size: 1.05rem; margin-top: 1.75rem;">Why might my doctor recommend genome sequencing instead of exome sequencing?</h3>
+    <p>Usually because prior testing — including exome sequencing — didn't find an answer, or because the clinical picture suggests a non-coding variant might be involved. Genome sequencing is more expensive and generates more data, so it's typically reserved for situations where the broader coverage is warranted.</p>
 
-A negative result — where the lab doesn't identify a pathogenic variant or likely pathogenic variant — is the most common outcome of diagnostic sequencing. It doesn't mean your workup is over.
+    <hr>
 
-Some paths forward after an inconclusive result:
+    <h3 style="font-size: 1.05rem; margin-top: 1.75rem;">How will I know if my VUS result gets reclassified?</h3>
+    <p>You may not be notified automatically — it depends on the lab and your provider's practices. The safest approach is to ask your provider or genetic counselor to check on any VUS result that's more than one to two years old.</p>
 
-- **Re-analysis** — as databases grow and more variants are characterized, labs can reanalyze existing sequencing data with updated information. Many results that were initially inconclusive become informative with reanalysis. Your provider can request this.
-- **Additional testing** — sequencing misses certain variant types. Depending on your clinical picture, your provider might recommend additional genetic tests that target what sequencing doesn't capture.
-- **Specialist referral** — if you haven't already seen a clinical geneticist or genetic counselor, this is the right time.
+    <hr>
 
----
+    <h3 style="font-size: 1.05rem; margin-top: 1.75rem;">Who is the right person to explain my results to me?</h3>
+    <p>A genetic counselor. Genetic counselors are specifically trained to translate sequencing results into plain language, explain what findings mean for your health and your family, and help you decide on next steps. If you don't have one, ask your ordering provider for a referral.</p>
+  </section>
 
-## What genetic results mean for family members
+  <a href="index.html" class="case-study__back">&#8592; Writing samples</a>
 
-Many genetic variants are inherited. A pathogenic or likely pathogenic result in you may be relevant for biological relatives — parents, siblings, children — who could be at increased risk. This is called *cascade testing*.
-
-A genetic counselor can help you understand which family members might benefit from testing, how to approach those conversations, and what testing options exist for relatives.
-
-VUS findings, as noted above, should not trigger cascade testing unless and until they are reclassified.
-
----
-
-## Questions to ask your provider
-
-Before testing:
-
-- Why is exome or genome sequencing being recommended for my situation rather than a more targeted test?
-- What kinds of results are most likely, and what would each mean for my care?
-- What won't this test be able to tell me?
-- Are there implications for my family members regardless of the result?
-
-After receiving results:
-
-- What does this result mean specifically for my diagnosis and care plan?
-- If the result is a VUS: what's the process for following up as the evidence evolves?
-- If the result is negative: what are the next steps? Is reanalysis or additional testing worth pursuing?
-- Should any family members be tested based on this finding?
-- Who should I contact if I have questions about my results later?
-
----
-
-## FAQ
-
-### Will these tests always give me a diagnosis?
-
-No. Diagnostic rates vary by condition, but even in the best circumstances, exome and genome sequencing identifies a definitive genetic cause in roughly 25-35% of cases where a genetic condition is suspected. Many results are inconclusive or negative, especially on first analysis. That number improves with reanalysis over time.
-
-### Why might my doctor recommend genome sequencing instead of exome sequencing?
-
-Usually because prior testing — including exome sequencing — didn't find an answer, or because the clinical picture suggests a non-coding variant might be involved. Genome sequencing is more expensive and generates more data, so it's typically reserved for situations where the broader coverage is warranted.
-
-### How will I know if my VUS result gets reclassified?
-
-You may not be notified automatically — it depends on the lab and your provider's practices. The safest approach is to ask your provider or genetic counselor to check on any VUS result that's more than one to two years old.
-
-### Who is the right person to explain my results to me?
-
-A genetic counselor. Genetic counselors are specifically trained to translate sequencing results into plain language, explain what findings mean for your health and your family, and help you decide on next steps. If you don't have one, ask your ordering provider for a referral.
+</article>
+```

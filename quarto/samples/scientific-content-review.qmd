@@ -1,111 +1,366 @@
 ---
 title: "Scientific Content Review: BRCA1/2 and Hereditary Cancer Risk"
+pagetitle: "Scientific Content Review: BRCA1/2 — Jodie Wiggins, PhD"
 description: "Internal review of an educational slide deck for oncology teams — accuracy, interpretive risk, and specific recommendations"
+page-layout: article
+format:
+  html:
+    css: ../styles.scss
 ---
 
-**Internal Review Memo (Anonymized)**
+```{=html}
+<article class="case-study">
 
-**Reviewer:** Jodie Wiggins, Ph.D.
-**Role:** Scientific Content Lead
-**Content reviewed:** Educational slide deck — *BRCA1/2 and Hereditary Cancer: Clinical Decision-Making for the Oncology Team*
-**Audience:** Oncologists, oncology nurses, genetic counselors
-**Slide count:** 10
+  <header class="case-study__header">
+    <div class="case-study__kicker">Scientific content leadership · Medical communications · Oncology</div>
+    <h1 class="case-study__title">Scientific Content Review: BRCA1/2 and Hereditary Cancer Risk</h1>
+    <p class="case-study__dek">An internal scientific review of an educational slide deck for oncology teams — assessing accuracy, interpretive risk, and alignment between evidence and clinical claims. Five issues identified. Four required revision; one addition recommended.</p>
+    <ul class="case-skills">
+      <li>Scientific oversight</li>
+      <li>Interpretive risk assessment</li>
+      <li>BRCA1/2 · Hereditary cancer</li>
+      <li>Variant classification (ACMG/AMP)</li>
+      <li>Somatic vs. germline testing</li>
+      <li>Medical communications</li>
+    </ul>
+  </header>
 
----
+  <section class="case-study__section">
+    <p style="font-size: 0.88rem; color: #7E7567; margin-bottom: 2rem; font-style: italic;">Internal Review Memo (Anonymized) · Reviewer: Jodie Wiggins, Ph.D. · Role: Scientific Content Lead</p>
 
-## What was reviewed and why
+    <p style="font-size: 0.88rem; color: #7E7567; margin-bottom: 2rem;">Note: This report would follow only after a collaborative and collegeal conversation with the relevant team members</p>
 
-This deck was developed to support oncology teams in understanding BRCA1/2 testing indications, result interpretation, and patient management. It's intended for educational use at tumor board and CME settings.
+    <h2>What was reviewed and why</h2>
+    <p>This deck was developed to support oncology teams in understanding BRCA1/2 testing indications, result interpretation, and patient management. It's intended for educational use at tumor board and CME settings.</p>
+    <p>The science in this deck is largely sound. The problems are interpretive — places where the language slightly outruns what the evidence supports, or where a technically accurate statement will be read by a clinician as something it doesn't quite mean.</p>
+  </section>
 
-The science in this deck is largely sound. The problems are interpretive — places where the language slightly outruns what the evidence supports, or where a technically accurate statement will be read by a clinician as something it doesn't quite mean. Those are the issues most likely to cause harm in practice, and the ones this review focuses on.
+  <div class="pull-quote">Those are the issues most likely to cause harm in practice, and the ones this review focuses on.</div>
 
----
+  <section class="case-study__section">
+    <h2>Reviewed content (anonymized)</h2>
+    <p>Representative slides and claims assessed in this review:</p>
+    <ul>
+      <li><strong>Slides 1–2:</strong> Overview of germline BRCA1/2 testing indications and population prevalence</li>
+      <li><strong>Slide 4:</strong> Penetrance estimates — <em>"Women with pathogenic BRCA1 variants have a 72% lifetime risk of breast cancer and a 44% lifetime risk of ovarian cancer"</em></li>
+      <li><strong>Slide 6:</strong> VUS management — <em>"Variants of uncertain significance should be disclosed to patients, and at-risk family members may consider predictive testing based on this finding"</em></li>
+      <li><strong>Slide 7:</strong> Somatic and germline testing — <em>"Tumor BRCA testing identifies patients who may benefit from PARP inhibitor therapy and can reveal hereditary risk"</em></li>
+      <li><strong>Slide 9:</strong> Mechanism — homologous recombination deficiency (HRD) and synthetic lethality with PARP inhibition</li>
+      <li><strong>Slide 10:</strong> Patient communication and referral to genetic counseling</li>
+    </ul>
+  </section>
 
-## Reviewed content (anonymized)
+  <section class="case-study__section">
+    <h2>What's working</h2>
+    <p><strong>Outline, Visuals, and Structure. </strong> The outline of the slide deck clearly guides participants through relevant background information without over-explaining, uses white space and visuals well. Overall structure is excellent. 
+    <p><strong>Slide 9 (HRD mechanism) is the strongest slide in the deck.</strong> The explanation of homologous recombination deficiency and the mechanistic basis for PARP inhibitor synthetic lethality is accurate, appropriately detailed for the audience, and well structured. The figure does real explanatory work — it's not decorative. Keep it as-is, fantastic.</p>
+    <p>The referral recommendation on Slide 10 is correct, clearly stated, and the perfect closing: all patients with pathogenic or likely pathogenic BRCA1/2 findings should be referred to genetic counseling. No changes needed there.</p>
+  </section>
 
-Representative slides and claims assessed in this review:
+  <section class="case-study__section">
+    <h2>Issues requiring revision</h2>
 
-- **Slides 1–2:** Overview of germline BRCA1/2 testing indications and population prevalence
-- **Slide 4:** Penetrance estimates — "Women with pathogenic BRCA1 variants have a 72% lifetime risk of breast cancer and a 44% lifetime risk of ovarian cancer"
-- **Slide 6:** VUS management — "Variants of uncertain significance should be disclosed to patients, and at-risk family members may consider predictive testing based on this finding"
-- **Slide 7:** Somatic and germline testing — "Tumor BRCA testing identifies patients who may benefit from PARP inhibitor therapy and can reveal hereditary risk"
-- **Slide 9:** Mechanism — homologous recombination deficiency (HRD) and synthetic lethality with PARP inhibition
-- **Slide 10:** Patient communication and referral to genetic counseling
+    <hr>
 
----
+    <h3 style="font-size: 1.1rem; margin-top: 2rem;">1. Recommended addition: an orientation slide on variant classification</h3>
+    <p>The deck makes regular reference to pathogenic variants, VUS findings, and clinical decision thresholds — but never establishes what those terms mean for the audience. Oncologists who don't routinely interpret genomic results may know the vocabulary without understanding the clinical weight attached to each category. A clinician who doesn't know that a VUS should not drive clinical decisions may not catch the significance of that guidance when it appears later on Slide 6.</p>
+    <p>The American College of Medical Genetics and Genomics and the Association for Molecular Pathology established the standard five-tier classification framework for sequence variants in Richards et al. (2015, <em>Genetics in Medicine</em> 17:405–424). An orientation slide early in the deck — before the VUS and penetrance material — would give the clinical audience the interpretive frame they need to use the rest of the content correctly.</p>
 
-## What's working
+    <div style="margin: 1.5rem 0 0.5rem; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: #7E7567; font-weight: 500;">Recommended addition</div>
 
-**Slide 9 (HRD mechanism) is the strongest slide in the deck.** The explanation of homologous recombination deficiency and the mechanistic basis for PARP inhibitor synthetic lethality is accurate, appropriately detailed for the audience, and well structured. The figure does real explanatory work — it's not decorative. Keep it as-is.
+    <div style="background: #1A1815; border-radius: 12px; padding: 1.5rem 1.5rem 1.25rem; margin: 1rem 0;">
 
-The referral recommendation on Slide 10 is correct and clearly stated: all patients with pathogenic or likely pathogenic BRCA1/2 findings should be referred to genetic counseling. No changes needed there.
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <span style="font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.16em; color: #5A5550; font-weight: 500;">ACMG/AMP 2015 Framework</span>
+        <div style="color: #FAF6EE; font-size: 0.98rem; font-weight: 600; margin-top: 0.3rem; letter-spacing: -0.01em;">Variant Classification: What Each Result Means for Clinical Care</div>
+      </div>
 
----
+      <!-- Row 1: Pathogenic — animate in first -->
+      <div data-tier="pathogenic" style="display: flex; align-items: center; background: #2A2720; border-radius: 50px; padding: 0.7rem 1.4rem 0.7rem 0.7rem; margin-bottom: 0.55rem; border: 1px solid #3A3630;">
+        <div style="width: 42px; height: 42px; min-width: 42px; border-radius: 50%; background: #B85450; display: flex; align-items: center; justify-content: center; margin-right: 1rem; color: #FAF6EE; font-size: 1.1rem; font-weight: 700; flex-shrink: 0;">✕</div>
+        <div style="flex: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 0.65rem; flex-wrap: wrap;">
+            <span style="color: #FAF6EE; font-weight: 700; font-size: 0.9rem; white-space: nowrap;">Pathogenic</span>
+            <span style="font-size: 0.79rem; color: #9A918A; line-height: 1.45;">Meets established criteria for disease causation.</span>
+          </div>
+          <div style="font-size: 0.74rem; color: #B85450; font-weight: 600; margin-top: 0.15rem; letter-spacing: 0.01em;">Can be used in clinical decision making</div>
+        </div>
+      </div>
 
-## Issues requiring revision
+      <!-- Row 2: Likely pathogenic — animate in second -->
+      <div data-tier="likely-pathogenic" style="display: flex; align-items: center; background: #2A2720; border-radius: 50px; padding: 0.7rem 1.4rem 0.7rem 0.7rem; margin-bottom: 0.55rem; border: 1px solid #3A3630;">
+        <div style="width: 42px; height: 42px; min-width: 42px; border-radius: 50%; background: #C07840; display: flex; align-items: center; justify-content: center; margin-right: 1rem; color: #FAF6EE; font-size: 1rem; font-weight: 700; flex-shrink: 0;">△</div>
+        <div style="flex: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 0.65rem; flex-wrap: wrap;">
+            <span style="color: #FAF6EE; font-weight: 700; font-size: 0.9rem; white-space: nowrap;">Likely Pathogenic</span>
+            <span style="font-size: 0.79rem; color: #9A918A; line-height: 1.45;">&gt;90% certainty of pathogenicity. Sufficient to inform decisions with supporting clinical evidence.</span>
+          </div>
+          <div style="font-size: 0.74rem; color: #C07840; font-weight: 600; margin-top: 0.15rem; letter-spacing: 0.01em;">Can inform clinical decision making</div>
+        </div>
+      </div>
 
-### 1. Penetrance figure is presented without the context that makes it usable
+      <!-- Row 3: VUS — highlight; animate in third and hold attention -->
+      <div data-tier="vus" style="display: flex; align-items: center; background: #1E2238; border-radius: 50px; padding: 0.9rem 1.4rem 0.9rem 0.75rem; margin-bottom: 0.55rem; border: 2px solid #4a56c4;">
+        <div style="width: 46px; height: 46px; min-width: 46px; border-radius: 50%; background: #4a56c4; display: flex; align-items: center; justify-content: center; margin-right: 1rem; color: #FAF6EE; font-size: 1.3rem; font-weight: 700; flex-shrink: 0;">?</div>
+        <div style="flex: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 0.65rem; flex-wrap: wrap;">
+            <span style="color: #FAF6EE; font-weight: 700; font-size: 0.95rem; white-space: nowrap;">Variant of Uncertain Significance (VUS)</span>
+          </div>
+          <div style="font-size: 0.8rem; color: #9BA5E0; line-height: 1.45; margin-top: 0.2rem;">Insufficient or conflicting evidence to classify as pathogenic or benign.</div>
+          <div style="font-size: 0.76rem; color: #6B7FE0; font-weight: 700; margin-top: 0.2rem; letter-spacing: 0.02em;">⚠ Should NOT be used in clinical decision making</div>
+        </div>
+      </div>
 
-**Slide 4** states: *"Women with pathogenic BRCA1 variants have a 72% lifetime risk of breast cancer and a 44% lifetime risk of ovarian cancer."*
+      <!-- Row 4: Likely benign — animate in fourth -->
+      <div data-tier="likely-benign" style="display: flex; align-items: center; background: #2A2720; border-radius: 50px; padding: 0.7rem 1.4rem 0.7rem 0.7rem; margin-bottom: 0.55rem; border: 1px solid #3A3630;">
+        <div style="width: 42px; height: 42px; min-width: 42px; border-radius: 50%; background: #5C8870; display: flex; align-items: center; justify-content: center; margin-right: 1rem; color: #FAF6EE; font-size: 1rem; font-weight: 700; flex-shrink: 0;">◎</div>
+        <div style="flex: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 0.65rem; flex-wrap: wrap;">
+            <span style="color: #FAF6EE; font-weight: 700; font-size: 0.9rem; white-space: nowrap;">Likely Benign</span>
+            <span style="font-size: 0.79rem; color: #9A918A; line-height: 1.45;">&gt;90% certainty of benign effect. Not expected to be the cause of the patient's condition.</span>
+          </div>
+          <div style="font-size: 0.74rem; color: #5C8870; font-weight: 600; margin-top: 0.15rem; letter-spacing: 0.01em;">Not expected to contribute to disease</div>
+        </div>
+      </div>
 
-The 72% figure comes from a specific study — likely Kuchenbaecker et al. (2017, JAMA) or similar large consortium data — and it's defensible as a point estimate. The problem is how it will be read. Presented without a confidence interval or reference population, a clinician will treat 72% as a fixed fact rather than a range with meaningful uncertainty. The actual literature spans roughly 50–85% for BRCA1 breast cancer risk depending on ascertainment method and cohort. Studies using clinical cohorts (families identified through affected probands) historically overestimate penetrance relative to population-based cohorts.
+      <!-- Row 5: Benign — animate in last -->
+      <div data-tier="benign" style="display: flex; align-items: center; background: #2A2720; border-radius: 50px; padding: 0.7rem 1.4rem 0.7rem 0.7rem; margin-bottom: 0; border: 1px solid #3A3630;">
+        <div style="width: 42px; height: 42px; min-width: 42px; border-radius: 50%; background: #3E7A58; display: flex; align-items: center; justify-content: center; margin-right: 1rem; color: #FAF6EE; font-size: 1.1rem; font-weight: 700; flex-shrink: 0;">✓</div>
+        <div style="flex: 1; min-width: 0;">
+          <div style="display: flex; align-items: baseline; gap: 0.65rem; flex-wrap: wrap;">
+            <span style="color: #FAF6EE; font-weight: 700; font-size: 0.9rem; white-space: nowrap;">Benign</span>
+            <span style="font-size: 0.79rem; color: #9A918A; line-height: 1.45;">Sufficient evidence of benign effect. Not the cause of the patient's disorder.</span>
+          </div>
+          <div style="font-size: 0.74rem; color: #3E7A58; font-weight: 600; margin-top: 0.15rem; letter-spacing: 0.01em;">Not the cause of the patient's disorder</div>
+        </div>
+      </div>
 
-This matters clinically: a patient who hears "72%" may interpret that as precision the number doesn't have. A patient who hears "50–85% over a lifetime, depending on other factors" has a more accurate picture of the uncertainty — which is actually what she needs to make decisions.
+      <div style="margin-top: 1.1rem; padding-top: 0.75rem; border-top: 1px solid #2E2C28; font-size: 0.7rem; color: #4A4845; font-style: italic; text-align: center;">
+        Richards et al. 2015, <em>Genetics in Medicine</em> 17:405–424 · Classifications may be updated as evidence accumulates
+      </div>
 
-**Recommended revision:**
+    </div>
 
-> *BRCA1 pathogenic variants are associated with substantially elevated lifetime risks of breast and ovarian cancer. Risk estimates vary by study methodology and cohort; current data suggest lifetime breast cancer risks of approximately 50–85% and ovarian cancer risks of approximately 40–60% for BRCA1. Patients should discuss individual risk in the context of personal and family history with a genetic counselor.*
+    <p style="margin: 0 0 2.5rem; font-size: 0.88rem; color: #7E7567;">This slide belongs near the beginning of the deck, before any discussion of specific test results. The VUS misuse problem flagged in issue 3 below is harder to catch without this frame in place.</p>
 
-Cite the source for whatever figures you use. If the deck is going into a CME context, the citation belongs on the slide, not just in an appendix.
+    <hr>
 
----
+    <h3 style="font-size: 1.1rem; margin-top: 2rem;">2. Penetrance figure is presented as a definitive and there is no citation</h3>
+    <p><strong>Slide 4</strong> states: <em>"Women with pathogenic BRCA1 variants have a 72% lifetime risk of breast cancer and a 44% lifetime risk of ovarian cancer."</em></p>
+    <p>The 72% figure comes from a specific study — likely Kuchenbaecker et al. (2017, JAMA) who used a prospective cohort of known carriers or other clinical cohort data. The broader literature spans roughly 45% to over 80% for BRCA1 breast cancer risk depending on population, ascertainment method, and cohort (e.g. Antoniou et al. 2003 American Journal of Human Genetics 72:1117–1130 - see below for more references) and better represents known uncertainty. Studies using clinical cohorts historically overestimate penetrance relative to population-based cohorts.</p>
+    <p>This matters clinically: a clinician or patient who hears "72%" may interpret that as precision the number doesn't have.</p>
 
-### 2. VUS management recommendation is incorrect
+    <div class="big-stat-grid" style="margin: 2rem 0;">
+      <div class="big-stat">
+        <div class="big-stat__numbers">
+          <span class="big-stat__before">72%</span>
+          <span class="big-stat__arrow">&#8594;</span>
+          <span class="big-stat__after">45–85%</span>
+        </div>
+        <div class="big-stat__caption">BRCA1 lifetime breast cancer risk: the point estimate on the slide vs. the actual range in the literature. Presenting the point estimate alone overstates the precision of the evidence.</div>
+      </div>
+    </div>
 
-**Slide 6** states: *"Variants of uncertain significance should be disclosed to patients, and at-risk family members may consider predictive testing based on this finding."*
+    <div style="margin: 1.5rem 0 0.5rem; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: #7E7567; font-weight: 500;">Recommended revision</div>
 
-The first part is right. The second part is not — and it's the kind of error that has real consequences.
+    <div style="border: 1px solid #E0D6BF; border-radius: 6px; overflow: hidden; margin-bottom: 0.75rem;">
+      <div style="background: #2D2A24; color: #FAF6EE; padding: 1.1rem 1.5rem; font-size: 0.98rem; font-weight: 500; line-height: 1.4;">
+        BRCA1 pathogenic variants are associated with substantially elevated lifetime risks of breast and ovarian cancer.
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid #E0D6BF;">
+        <div style="padding: 1.25rem 1.5rem; border-right: 1px solid #E0D6BF; font-size: 0.95rem; line-height: 1.6; color: #7E7567; font-style: italic; display: flex; align-items: center;">
+          Risk estimates vary by study methodology and cohort.
+        </div>
+        <div style="padding: 1.25rem 1.5rem;">
+          <p style="font-size: 0.82rem; color: #7E7567; margin: 0 0 1rem 0; line-height: 1.4;">Current data suggest lifetime breast cancer risks of approximately:</p>
+          <div style="margin-bottom: 0.75rem;">
+            <span style="font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.12em; color: #7E7567; display: block; margin-bottom: 0.15rem;">Breast Cancer</span>
+            <span style="font-size: 1.9rem; font-weight: 500; color: #4a56c4; letter-spacing: -0.02em; line-height: 1;">45–85%</span>
+          </div>
+          <div>
+            <span style="font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.12em; color: #7E7567; display: block; margin-bottom: 0.15rem;">Ovarian Cancer</span>
+            <span style="font-size: 1.9rem; font-weight: 500; color: #4a56c4; letter-spacing: -0.02em; line-height: 1;">40–60%</span>
+          </div>
+        </div>
+      </div>
+      <div style="padding: 1rem 1.5rem; background: #F2EBDA; border-left: 4px solid #4a56c4; font-size: 0.92rem; font-style: italic; color: #2D2A24; line-height: 1.5;">
+        Patients should discuss individual risk in the context of personal and family history with a genetic counselor.
+      </div>
+    </div>
 
-A VUS, by definition, has insufficient evidence to determine pathogenicity. Recommending that family members pursue predictive testing based on a VUS treats an unresolved finding as if it carries clinical weight it doesn't yet have. Current ACMG/AMP guidelines and standard clinical practice are explicit: VUS findings should not be used to inform cascade testing or clinical management decisions. Genetic counselors know this, but an oncologist reading this slide may not.
+    <p style="margin: 0 0 2.5rem; font-size: 0.88rem; color: #7E7567;">Cite the source for whatever figures you use. If the deck is going into a CME context, the citation belongs on the slide, not in an appendix.</p>
 
-The disclosure obligation is real. The cascade testing recommendation based solely on VUS status is not supported.
+    <hr>
 
-**Recommended revision:**
+    <h3 style="font-size: 1.1rem; margin-top: 2rem;">3. Variant of Uncertain Significance (VUS) management recommendation is incorrect</h3>
+    <p><strong>Slide 6</strong> states: <em>"Variants of uncertain significance should be disclosed to patients, and at-risk family members may consider predictive testing based on this finding."</em></p>
 
-> *Variants of uncertain significance (VUS) should be disclosed to patients and documented in the medical record. VUS findings should not be used as the basis for predictive testing in at-risk family members or to guide clinical management. Patients should be informed that VUS classifications may be updated as scientific evidence evolves, and that recontact with the ordering provider or a genetic counselor is appropriate if classification changes.*
+    <div style="background: #F2EBDA; border-left: 4px solid #4a56c4; border-radius: 0 6px 6px 0; padding: 1.5rem 1.75rem; margin: 1.5rem 0 2.5rem;">
+      <div style="font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: #7E7567; font-weight: 500; margin-bottom: 0.75rem;"></div>
+      <p style="margin: 0; font-size: 1rem; line-height: 1.65; font-style: italic;">A VUS, by definition, has insufficient evidence to classify as pathogenic or benign.</p>
+    </div>
 
----
+    <p> It is important to remember that we have single nucleotide changes throughout our genomes that have no clinical relevance. Any change is often assumed to be clinically significant. This is not the case. Future research could associate a VUS with disease or it could be benign. 
+    
+    <p>Recommending that family members pursue predictive testing based on a VUS treats an unresolved finding as if it carries clinical weight it doesn't yet have. American College of Medical Genetics and Genomics and the Association for Molecular Pathology guidelines are explicit: VUS findings should not be used in clinical decision making (Richards et al. 2015 Genetics in Medicine). Genetic counselors know this, but an oncologist reading this slide may not.</p>
 
-### 3. Somatic BRCA testing does not establish germline status
+    <div style="background: #F2EBDA; border-left: 4px solid #4a56c4; border-radius: 0 6px 6px 0; padding: 1.5rem 1.75rem; margin: 1.5rem 0 2.5rem;">
+      <div style="font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: #7E7567; font-weight: 500; margin-bottom: 0.75rem;">Recommended revision</div>
+      <p style="margin: 0; font-size: 1rem; line-height: 1.65; font-style: italic;">"Variants of uncertain significance (VUS) should be disclosed to patients and documented in the medical record. VUS findings should not be used as the basis for predictive testing in at-risk family members or to guide clinical management. Patients should be informed that VUS classifications may be updated as scientific evidence evolves, and that they should follow up with their ordering provider or genetic counselor to check on any VUS result that is more than one to two years old."</p>
+    </div>
 
-**Slide 7** states: *"Tumor BRCA testing identifies patients who may benefit from PARP inhibitor therapy and can reveal hereditary risk."*
+    <hr>
 
-The first clause is correct. The second is not — or more precisely, it's accurate in a narrow technical sense but will almost certainly be misread.
+    <h3 style="font-size: 1.1rem; margin-top: 2rem;">4. Somatic BRCA testing does not establish germline status</h3>
+    <p><strong>Slide 7</strong> states: <em>"Tumor BRCA testing identifies patients who may benefit from PARP inhibitor therapy and can reveal hereditary risk."</em></p>
+    <p>The first clause is correct. The second is not — or more precisely, it's accurate in a narrow technical sense but will almost certainly be misread.</p>
+    <p>Somatic (tumor-based) BRCA testing identifies variants present in the tumor. A BRCA variant detected in tumor tissue <em>may</em> reflect an underlying germline mutation, but it may also be a somatic mutation acquired during tumor development. Tumor testing cannot reliably distinguish between these. The slide as written will lead some clinicians to treat a positive tumor BRCA result as evidence of hereditary risk — which is only sometimes true, and is never confirmed without germline testing.</p>
+    <p>Patients whose germline status is not confirmed following a positive tumor BRCA result may not receive appropriate genetic counseling or cascade testing referrals for family members. Let's clear that up.</p>
 
-Somatic (tumor-based) BRCA testing identifies variants present in the tumor. A BRCA variant detected in tumor tissue *may* reflect an underlying germline mutation, but it may also be a somatic mutation acquired during tumor development. Tumor testing cannot reliably distinguish between these. The slide as written will lead some clinicians to treat a positive tumor BRCA result as evidence of hereditary risk — which is only sometimes true, and is never confirmed without germline testing.
+    <div style="margin: 1.5rem 0 0.5rem; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: #7E7567; font-weight: 500;">Recommended revision</div>
 
-This is a meaningful clinical gap. Patients whose germline status is not confirmed following a positive tumor BRCA result may not receive appropriate genetic counseling or cascade testing referrals for family members.
+    <div style="background: #1A1815; border-radius: 12px; overflow: hidden; margin-bottom: 2.5rem;">
 
-**Recommended revision:**
+      <div style="background: #2D2A24; padding: 0.85rem 1.5rem; text-align: center; border-bottom: 1px solid #3A3630;">
+        <div style="font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.15em; color: #5A5550; font-weight: 500;">Slide 7 — Recommended revision</div>
+        <div style="color: #FAF6EE; font-size: 0.95rem; font-weight: 600; margin-top: 0.25rem;">Understanding BRCA Test Results: Somatic vs. Germline</div>
+      </div>
 
-> *Tumor-based BRCA testing identifies somatic variants that may predict response to PARP inhibitor therapy. A BRCA variant detected in tumor tissue is not sufficient to confirm germline (hereditary) status. Germline genetic testing is required to establish hereditary risk and inform management for the patient and at-risk family members. Patients with positive or uncertain tumor BRCA results should be referred to genetic counseling to discuss germline testing.*
+      <div style="display: grid; grid-template-columns: 1fr 1fr;">
 
----
+        <div style="padding: 1.25rem 1.25rem 1.5rem; border-right: 1px solid #2E2C28;">
+          <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #C07840; margin-bottom: 0.85rem;">Somatic (Tumor) Testing</div>
 
-### 4. Minor: limitations are buried
+          <div style="text-align: center; margin-bottom: 1rem;">
+            <svg viewBox="0 0 130 95" width="130" height="95" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="21" fill="#3A3530" stroke="#5A5550" stroke-width="1.5"/>
+              <circle cx="32" cy="32" r="9" fill="#4A4540"/>
+              <circle cx="74" cy="27" r="19" fill="#3A3530" stroke="#5A5550" stroke-width="1.5"/>
+              <circle cx="74" cy="27" r="8" fill="#4A4540"/>
+              <circle cx="108" cy="40" r="18" fill="#3A3530" stroke="#5A5550" stroke-width="1.5"/>
+              <circle cx="108" cy="40" r="7" fill="#4A4540"/>
+              <circle cx="24" cy="72" r="20" fill="#3A2820" stroke="#C07840" stroke-width="2"/>
+              <circle cx="24" cy="72" r="9" fill="#5A3820"/>
+              <text x="24" y="77" text-anchor="middle" font-size="11" fill="#C07840" font-weight="bold">✦</text>
+              <circle cx="65" cy="76" r="22" fill="#3A2018" stroke="#B85450" stroke-width="2"/>
+              <circle cx="65" cy="76" r="10" fill="#5A2A20"/>
+              <text x="65" y="81" text-anchor="middle" font-size="12" fill="#B85450" font-weight="bold">✦</text>
+              <circle cx="108" cy="74" r="17" fill="#3A3530" stroke="#5A5550" stroke-width="1.5"/>
+              <circle cx="108" cy="74" r="7" fill="#4A4540"/>
+            </svg>
+            <div style="font-size: 0.67rem; color: #5A5550; font-style: italic;">Mutation present in some cells only</div>
+          </div>
 
-The deck addresses testing limitations — sensitivity, VUS prevalence, the fact that a negative result doesn't exclude a genetic etiology — but these points appear on Slide 8, after the patient management recommendations on Slides 6–7. Clinicians reading a slide deck in a clinical setting often don't make it to Slide 8.
+          <div style="font-size: 0.69rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5A5550; font-weight: 500; margin-bottom: 0.45rem;">Can tell you</div>
+          <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem;">
+            <span style="color: #5C8870; font-weight: 700; font-size: 0.82rem; flex-shrink: 0; margin-top: 0.05rem;">✓</span>
+            <span style="font-size: 0.78rem; color: #B8AFA3; line-height: 1.45;">Whether the tumor carries a BRCA variant that may predict PARP inhibitor response</span>
+          </div>
+          <div style="font-size: 0.69rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5A5550; font-weight: 500; margin: 0.7rem 0 0.45rem;">Cannot tell you</div>
+          <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.45rem;">
+            <span style="color: #B85450; font-weight: 700; font-size: 0.82rem; flex-shrink: 0; margin-top: 0.05rem;">✕</span>
+            <span style="font-size: 0.78rem; color: #B8AFA3; line-height: 1.45;">Whether the variant is inherited or acquired in the tumor</span>
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
+            <span style="color: #B85450; font-weight: 700; font-size: 0.82rem; flex-shrink: 0; margin-top: 0.05rem;">✕</span>
+            <span style="font-size: 0.78rem; color: #B8AFA3; line-height: 1.45;">Whether family members are at increased risk</span>
+          </div>
+        </div>
 
-The limitations that most directly affect how clinicians will act — particularly the VUS caveat and the somatic/germline distinction — should be surfaced at the point of use, not consolidated at the end. This is a structural recommendation, not a content one: the information is in the deck, it's just not where it will be seen.
+        <div style="padding: 1.25rem 1.25rem 1.5rem;">
+          <div style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #4a56c4; margin-bottom: 0.85rem;">Germline Testing</div>
 
----
+          <div style="text-align: center; margin-bottom: 1rem;">
+            <svg viewBox="0 0 130 95" width="130" height="95" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="21" fill="#1A1E38" stroke="#4a56c4" stroke-width="2"/>
+              <circle cx="32" cy="32" r="9" fill="#252A50"/>
+              <text x="32" y="37" text-anchor="middle" font-size="10" fill="#4a56c4" font-weight="bold">✦</text>
+              <circle cx="74" cy="27" r="19" fill="#1A1E38" stroke="#4a56c4" stroke-width="2"/>
+              <circle cx="74" cy="27" r="8" fill="#252A50"/>
+              <text x="74" y="32" text-anchor="middle" font-size="10" fill="#4a56c4" font-weight="bold">✦</text>
+              <circle cx="108" cy="40" r="18" fill="#1A1E38" stroke="#4a56c4" stroke-width="2"/>
+              <circle cx="108" cy="40" r="7" fill="#252A50"/>
+              <text x="108" y="45" text-anchor="middle" font-size="10" fill="#4a56c4" font-weight="bold">✦</text>
+              <circle cx="24" cy="72" r="20" fill="#1A1E38" stroke="#4a56c4" stroke-width="2"/>
+              <circle cx="24" cy="72" r="9" fill="#252A50"/>
+              <text x="24" y="77" text-anchor="middle" font-size="10" fill="#4a56c4" font-weight="bold">✦</text>
+              <circle cx="65" cy="76" r="22" fill="#1A1E38" stroke="#4a56c4" stroke-width="2"/>
+              <circle cx="65" cy="76" r="10" fill="#252A50"/>
+              <text x="65" y="81" text-anchor="middle" font-size="11" fill="#4a56c4" font-weight="bold">✦</text>
+              <circle cx="108" cy="74" r="17" fill="#1A1E38" stroke="#4a56c4" stroke-width="2"/>
+              <circle cx="108" cy="74" r="7" fill="#252A50"/>
+              <text x="108" y="79" text-anchor="middle" font-size="10" fill="#4a56c4" font-weight="bold">✦</text>
+            </svg>
+            <div style="font-size: 0.67rem; color: #5A5550; font-style: italic;">Mutation present in every cell</div>
+          </div>
 
-## Summary
+          <div style="font-size: 0.69rem; text-transform: uppercase; letter-spacing: 0.1em; color: #5A5550; font-weight: 500; margin-bottom: 0.45rem;">Can tell you</div>
+          <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.45rem;">
+            <span style="color: #5C8870; font-weight: 700; font-size: 0.82rem; flex-shrink: 0; margin-top: 0.05rem;">✓</span>
+            <span style="font-size: 0.78rem; color: #B8AFA3; line-height: 1.45;">Whether the BRCA variant is inherited — present in every cell from birth</span>
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.45rem;">
+            <span style="color: #5C8870; font-weight: 700; font-size: 0.82rem; flex-shrink: 0; margin-top: 0.05rem;">✓</span>
+            <span style="font-size: 0.78rem; color: #B8AFA3; line-height: 1.45;">Whether family members may be at increased risk and should consider cascade testing</span>
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
+            <span style="color: #5C8870; font-weight: 700; font-size: 0.82rem; flex-shrink: 0; margin-top: 0.05rem;">✓</span>
+            <span style="font-size: 0.78rem; color: #B8AFA3; line-height: 1.45;">Long-term surveillance and management decisions for the patient</span>
+          </div>
+        </div>
 
-Three of the four issues above involve claims that are technically defensible but will predictably be read as something more certain or more actionable than the evidence supports. That's the category of error most worth catching in scientific review — not outright inaccuracies, but statements that will function incorrectly in the hands of the intended audience.
+      </div>
 
-The fixes are targeted. The deck doesn't need to be rebuilt; it needs the penetrance slide to carry its uncertainty honestly, the VUS slide to clearly say what the standard of care actually is, and the somatic/germline distinction to be explicit rather than implied.
+      <div style="padding: 0.7rem 1.5rem; background: #1E2238; border-top: 1px solid #2E2C28; font-size: 0.78rem; color: #9BA5E0; text-align: center; font-style: italic;">
+        A positive tumor BRCA result warrants referral to genetic counseling to discuss germline testing — it does not confirm hereditary risk on its own.
+      </div>
 
----
+    </div>
 
-*This memo is an anonymized example of scientific content oversight for educational and portfolio purposes. The slide content described is representative, not drawn from an actual product or client.*
+    <hr>
+
+    <h3 style="font-size: 1.1rem; margin-top: 2rem;">5. Minor: limitations are buried</h3>
+    <p>The deck addresses testing limitations — sensitivity, VUS prevalence, the fact that a negative result doesn't exclude a genetic etiology — but these points appear on Slide 8, after the patient management recommendations on Slides 6–7. Clinicians reading a slide deck in a clinical setting often don't make it to Slide 8.</p>
+    <p>The limitations that most directly affect how clinicians will act — the VUS caveat and the somatic/germline distinction — should be surfaced at the point of use, not consolidated at the end. The information is in the deck; it's just not where it will be seen.</p>
+  </section>
+
+  <div class="pull-quote">Four of the five issues above involve claims that are technically defensible but will predictably be read as something more certain or more actionable than the evidence supports. That's the category of error most worth catching in scientific review.</div>
+
+  <section class="case-study__section">
+    <h2>Summary</h2>
+    <p>The fixes are targeted. The deck doesn't need to be rebuilt — it needs a variant classification orientation slide added near the top, the penetrance slide to carry its uncertainty honestly, the VUS slide to clearly state what the standard of care actually is, and the somatic/germline distinction to be explicit rather than implied.</p>
+
+    <p style="margin-top: 3rem; font-size: 0.85rem; color: #7E7567; font-style: italic;">This memo is an anonymized example of scientific content oversight for educational and portfolio purposes. The slide content described is representative, not drawn from an actual product or client.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>References</h2>
+    <ol style="font-size: 0.95rem; line-height: 1.7; padding-left: 1.5rem;">
+      <li style="margin-bottom: 1rem;">
+        Richards S, Aziz N, Bale S, et al. Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. <em>Genet Med.</em> 2015;17(5):405–424.
+        <span style="display: block; color: #7E7567; font-size: 0.88rem; margin-top: 0.2rem;">Source for the ACMG/AMP five-tier variant classification framework (pathogenic, likely pathogenic, VUS, likely benign, benign) and clinical guidance on variant use in practice. The VUS management and cascade testing guidance referenced throughout this review derives from this framework.</span>
+      </li>
+      <li style="margin-bottom: 1rem;">
+        Kuchenbaecker KB, Hopper JL, Barnes DR, et al. Risks of breast, ovarian, and contralateral breast cancer for BRCA1 and BRCA2 mutation carriers. <em>JAMA.</em> 2017;317(23):2402–2416.
+        <span style="display: block; color: #7E7567; font-size: 0.88rem; margin-top: 0.2rem;">Prospective cohort of known BRCA1/2 carriers; source of the 72% BRCA1 breast cancer risk estimate used on Slide 4.</span>
+      </li>
+      <li style="margin-bottom: 1rem;">
+        Antoniou A, Pharoah PDP, Narod S, et al. Average risks of breast and ovarian cancer associated with BRCA1 or BRCA2 mutations detected in case series unselected for family history. <em>Am J Hum Genet.</em> 2003;72(5):1117–1130.
+        <span style="display: block; color: #7E7567; font-size: 0.88rem; margin-top: 0.2rem;">Meta-analysis of 22 studies not selected for family history; BRCA1 cumulative breast cancer risk ~65% by age 70. Frequently cited lower-end estimate from a rigorous source.</span>
+      </li>
+      <li style="margin-bottom: 1rem;">
+        Chen S, Parmigiani G. Meta-analysis of BRCA1 and BRCA2 penetrance. <em>J Clin Oncol.</em> 2007;25(11):1329–1333. PMID 17416853.
+        <span style="display: block; color: #7E7567; font-size: 0.88rem; margin-top: 0.2rem;">Meta-analytic mean cumulative BRCA1 breast cancer risk at age 70: 57% (95% CI 47–66%). Provides the most systematic lower-bound estimate across the literature and is the basis for the 45–85% range noted in this review.</span>
+      </li>
+      <li style="margin-bottom: 1rem;">
+        Brohet et al. Breast and ovarian cancer risks in a large series of clinically ascertained families with a high proportion of BRCA1 and BRCA2 Dutch founder mutations. <em>J Med Genet.</em> 2014. doi:10.1136/jmedgenet-2013-101974.
+        <span style="display: block; color: #7E7567; font-size: 0.88rem; margin-top: 0.2rem;">Dutch founder mutation cohort; cumulative BRCA1 breast cancer risk by age 70: 45% (95% CI 36–52%). Among the lowest point estimates in the literature; illustrates how population and ascertainment affect penetrance figures.</span>
+      </li>
+    </ol>
+
+  </section>
+
+  <a href="index.html" class="case-study__back">&#8592; Writing samples</a>
+
+</article>
+```

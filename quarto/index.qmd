@@ -13,8 +13,11 @@ format:
 
 ```{=html}
 <section class="hero">
-  <img src="assets/karyotype.svg" alt="A stylized colorful karyotype: 23 chromosome pairs in different colors." class="hero__image">
-  <p class="hero__caption">A spectral karyotype paints each chromosome a different color so we can finally see what's there. The same principle applies to the rest of science.</p>
+  <img src="assets/karyotype_real.png" alt="A sky spectral karyotype: 23 chromosome pairs in different colors." class="hero__image">
+  <p class="hero__caption">A spectral karyotype paints each chromosome a different color so we can finally see what's there. </p>
+
+  <p class="hero__attribution">image credit: National Human Genome Research (USA) via wikimedia commons </p>
+
   <a href="#what-i-do" class="hero__scroll">scroll ↓</a>
 </section>
 
@@ -22,12 +25,12 @@ format:
   <div class="do-band__inner">
     <p class="tagline">Science is the language of our health, our food, our environment and <em>everyone</em> deserves access to that language.</p>
 
-    <p style="font-size: 1.12rem; line-height: 1.55; margin-bottom: 0;">I build content and learning systems for genuinely difficult things — and I measure whether they do what they're supposed to. PhD in biology, ten-plus years across university teaching, instructional design, scientific writing, and editorial leadership.</p>
+    <p style="font-size: 1.12rem; line-height: 1.55; margin-bottom: 0;">I build content and learning systems for genuinely difficult things — and I measure whether they do what they're supposed to. I've earned a PhD in biology, and have ten-plus years across university teaching, instructional design, scientific writing and data analysis, and team leadership.</p>
 
     <ul class="do-list">
-      <li><strong>Translate.</strong> Clinical and research science, rewritten for the people who actually use it — clinicians, patients, learners, advocates. Without flattening the uncertainty that's really there.</li>
-      <li><strong>Design.</strong> Content systems, review frameworks, and editorial workflows that scale without losing rigor. I've built ones that work for two students and ones that work for two thousand.</li>
-      <li><strong>Lead.</strong> Teams, courses, and high-stakes scientific communication, end to end. I'm the person you call when a sentence is wrong, and the person who can explain why.</li>
+      <li><strong>Dissect.</strong> Biological, genomic, and outcomes data, analyzed and visualized start to finish. I do the analysis and build the visual, so the person who knows what the numbers mean is the same person who decided how to show them. That's not always a given.</li>
+      <li><strong>Design.</strong> Clinical and research science, restructured for the people who actually use it — clinicians, patients, learners, advocates. Without flattening the uncertainty that's really there.</li>
+      <li><strong>Lead.</strong> Teams, courses, and high-stakes scientific communication, end to end. I'm the person you call when the whole framework or just a sentence is wrong, and the person who can explain why.</li>
     </ul>
   </div>
 </section>

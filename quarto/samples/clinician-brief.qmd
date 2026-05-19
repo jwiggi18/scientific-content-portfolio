@@ -1,69 +1,90 @@
 ---
 title: "Clinical Exome and Genome Sequencing: What the Results Can and Can't Tell You"
+pagetitle: "Clinical Exome and Genome Sequencing — Jodie Wiggins, PhD"
 description: "Interpretation, limitations, and responsible use for clinical practice"
+page-layout: article
+format:
+  html:
+    css: ../styles.scss
 ---
 
-**Audience:** Healthcare Providers, Clinical Geneticists, Genetic Counselors
-**Purpose:** Support accurate interpretation and appropriate clinical use of exome and genome sequencing results
-**Context:** Scientific writing sample — translation of genomic testing methodology into clinician-facing technical content
+```{=html}
+<article class="case-study">
 
----
+  <header class="case-study__header">
+    <div class="case-study__kicker">Clinician-facing scientific communication · Clinical genomics</div>
+    <h1 class="case-study__title">Clinical Exome and Genome Sequencing: What the Results Can and Can't Tell You</h1>
+    <p class="case-study__dek">A technical brief for healthcare providers on interpreting exome and genome sequencing results — what these tests reliably detect, where they fall short, and how to use findings responsibly in clinical practice.</p>
+    <ul class="case-skills">
+      <li>Clinician-facing translation</li>
+      <li>Exome &amp; genome sequencing</li>
+      <li>Variant interpretation</li>
+      <li>ACMG/AMP classification framework</li>
+      <li>Clinical genomics</li>
+    </ul>
+    <p style="font-size: 0.82rem; color: #7E7567; margin-top: 1.25rem; font-style: italic;">Audience: Healthcare Providers, Clinical Geneticists, Genetic Counselors</p>
+  </header>
 
-## What these tests are
+  <section class="case-study__section">
+    <h2>What these tests are</h2>
+    <p>Clinical exome sequencing targets the protein-coding regions of the genome, where the substantial majority of currently characterized disease-causing variants reside. Whole genome sequencing (WGS) extends coverage to non-coding regions, including regulatory sequences that contribute to disease in a subset of cases.</p>
+    <p>The choice between exome and WGS should be driven by clinical context. Exome sequencing is appropriate as a first-line test for suspected single-gene or oligogenic conditions. WGS is worth considering when prior sequencing is negative and broader variant detection is clinically warranted, or when the clinical picture suggests non-coding involvement.</p>
+  </section>
 
-Clinical exome sequencing targets the protein-coding regions of the genome, where the substantial majority of currently characterized disease-causing variants reside. Whole genome sequencing (WGS) extends coverage to non-coding regions, including regulatory sequences that contribute to disease in a subset of cases.
+  <section class="case-study__section">
+    <h2>What sequencing can detect — and what it misses</h2>
+    <p>Exome sequencing reliably detects single nucleotide variants (SNVs) and small insertions and deletions (indels) in protein-coding regions. WGS extends this to non-coding regions and improves sensitivity for some structural variants, but neither technology captures all disease-relevant variation.</p>
 
-The choice between exome and WGS should be driven by clinical context. Exome sequencing is appropriate as a first-line test for suspected single-gene or oligogenic conditions. WGS is worth considering when prior sequencing is negative and broader variant detection is clinically warranted, or when the clinical picture suggests non-coding involvement.
+    <div style="background: #F2EBDA; border-left: 4px solid #4a56c4; border-radius: 0 6px 6px 0; padding: 1.5rem 1.75rem; margin: 1.5rem 0;">
+      <div style="font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: #7E7567; font-weight: 500; margin-bottom: 0.85rem;">What current sequencing consistently misses or undercharacterizes</div>
+      <ul style="margin: 0; padding-left: 1.25rem; line-height: 1.7;">
+        <li>Large structural variants and copy number variants (though some labs add CNV analysis)</li>
+        <li>Repeat expansions (e.g., Fragile X, Huntington's, myotonic dystrophy)</li>
+        <li>Mosaic variants, particularly at low allele frequency</li>
+        <li>Variants in regions of low sequence complexity or high homology</li>
+      </ul>
+    </div>
+  </section>
 
----
+  <div class="pull-quote">A negative sequencing result does not exclude a genetic etiology. It means the test didn't find a variant it was designed and powered to detect — which is not the same thing.</div>
 
-## What sequencing can detect — and what it misses
+  <section class="case-study__section">
+    <h2>Interpreting variant classifications</h2>
+    <p>Clinical laboratories classify variants using the ACMG/AMP five-tier framework, incorporating population frequency, functional data, segregation, and prior clinical observations:</p>
+    <ul>
+      <li><strong>Pathogenic / Likely pathogenic</strong> — consistent with a genetic diagnosis when aligned with the patient's phenotype</li>
+      <li><strong>Variant of uncertain significance (VUS)</strong> — insufficient evidence to classify as pathogenic or benign; should not drive clinical decisions or cascade testing</li>
+      <li><strong>Likely benign / Benign</strong> — not expected to contribute to disease</li>
+    </ul>
+    <p>Two points worth emphasizing in clinical practice. First, VUS is not a diagnosis. Recommending predictive testing for family members based solely on a VUS finding is not supported by current guidelines and should be avoided. Second, classifications are not permanent — they reflect the current state of the evidence and may be reclassified as data accumulate. A VUS from three years ago is worth reassessing.</p>
+  </section>
 
-Exome sequencing reliably detects single nucleotide variants (SNVs) and small insertions and deletions (indels) in protein-coding regions. WGS extends this to non-coding regions and improves sensitivity for some structural variants, but neither technology captures all disease-relevant variation.
+  <section class="case-study__section">
+    <h2>Phenotype drives interpretation</h2>
+    <p>Detailed, accurate phenotypic information isn't optional — it's how variant interpretation gets traction. Prioritization algorithms weight variants against the clinical picture; a variant that looks unremarkable in a generic patient may become the leading candidate once the phenotype is specific.</p>
+    <p>Incomplete or nonspecific phenotypic data produces more uncertain results and more VUS returns.</p>
+  </section>
 
-**What current sequencing consistently misses or undercharacterizes:**
-- Large structural variants and copy number variants (though some labs add CNV analysis)
-- Repeat expansions (e.g., Fragile X, Huntington's, myotonic dystrophy)
-- Mosaic variants, particularly at low allele frequency
-- Variants in regions of low sequence complexity or high homology
+  <div class="pull-quote">The most common bottleneck in diagnostic sequencing workflows is not the sequencing — it's the phenotypic information available at the time of analysis.</div>
 
-A negative sequencing result does not exclude a genetic etiology. It means the test didn't find a variant it was designed and powered to detect — which is not the same thing.
+  <section class="case-study__section">
+    <h2>Using results in practice</h2>
+    <p>Sequencing results are most useful as part of a broader diagnostic strategy, not as a standalone answer. Clinical interpretation should integrate sequencing findings with phenotype, family history, and any prior test results. For pathogenic or likely pathogenic findings, referral to genetic counseling is appropriate to discuss implications for the patient and family members, including cascade testing.</p>
+    <p>For inconclusive results, the most useful thing a clinician can do is document the specific phenotypic information that informed the test order and communicate it clearly to the laboratory. Many reanalyses yield results that initial analysis missed, not because the sequencing changed, but because the phenotypic input did.</p>
+  </section>
 
----
+  <section class="case-study__section">
+    <h2>What to communicate to patients</h2>
+    <p>A few points that frequently require explicit discussion:</p>
+    <ul>
+      <li>A negative result is not a clean bill of genetic health. It means the test didn't find what it was looking for.</li>
+      <li>VUS findings are common and are not diagnoses. Families should not make major medical decisions based on a VUS alone.</li>
+      <li>Results can change over time. Patients should be encouraged to follow up with their provider or genetic counselor if they haven't heard back about a VUS result after a year or two.</li>
+      <li>Sequencing has implications for family members, which is worth discussing before testing, not only after.</li>
+    </ul>
+  </section>
 
-## Interpreting variant classifications
+  <a href="index.html" class="case-study__back">&#8592; Writing samples</a>
 
-Clinical laboratories classify variants using the ACMG/AMP five-tier framework, incorporating population frequency, functional data, segregation, and prior clinical observations:
-
-- **Pathogenic / Likely pathogenic** — consistent with a genetic diagnosis when aligned with the patient's phenotype
-- **Variant of uncertain significance (VUS)** — insufficient evidence to classify as pathogenic or benign; should not drive clinical decisions or cascade testing
-- **Likely benign / Benign** — not expected to contribute to disease
-
-Two points worth emphasizing in clinical practice. First, VUS is not a diagnosis. Recommending predictive testing for family members based solely on a VUS finding is not supported by current guidelines and should be avoided. Second, classifications are not permanent — they reflect the current state of the evidence and may be reclassified as data accumulate. A VUS from three years ago is worth reassessing.
-
----
-
-## Phenotype drives interpretation
-
-Detailed, accurate phenotypic information isn't optional — it's how variant interpretation gets traction. Prioritization algorithms weight variants against the clinical picture; a variant that looks unremarkable in a generic patient may become the leading candidate once the phenotype is specific.
-
-Incomplete or nonspecific phenotypic data produces more uncertain results and more VUS returns. The most common bottleneck in diagnostic sequencing workflows is not the sequencing — it's the phenotypic information available at the time of analysis.
-
----
-
-## Using results in practice
-
-Sequencing results are most useful as part of a broader diagnostic strategy, not as a standalone answer. Clinical interpretation should integrate sequencing findings with phenotype, family history, and any prior test results. For pathogenic or likely pathogenic findings, referral to genetic counseling is appropriate to discuss implications for the patient and family members, including cascade testing.
-
-For inconclusive results, the most useful thing a clinician can do is document the specific phenotypic information that informed the test order and communicate it clearly to the laboratory. Many reanalyses yield results that initial analysis missed, not because the sequencing changed, but because the phenotypic input did.
-
----
-
-## What to communicate to patients
-
-A few points that frequently require explicit discussion:
-
-- A negative result is not a clean bill of genetic health. It means the test didn't find what it was looking for.
-- VUS findings are common and are not diagnoses. Families should not make major medical decisions based on a VUS alone.
-- Results can change over time. Patients should be encouraged to follow up with their provider or genetic counselor if they haven't heard back about a VUS result after a year or two.
-- Sequencing has implications for family members, which is worth discussing before testing, not only after.
+</article>
+```

@@ -9,7 +9,7 @@ $cream-shade:  #F2EBDA;
 $ink:          #2D2A24;
 $muted:        #7E7567;
 $rule:         #E0D6BF;
-$accent:       #C44A6E;
+$accent:       #4a56c4;
 
 $body-bg:      $cream;
 $body-color:   $ink;
@@ -136,6 +136,15 @@ hr {
   font-style: italic;
   max-width: 540px;
   line-height: 1.5;
+}
+
+.hero__attribution {
+  font-size: 0.62rem;
+  line-height: 1.3;
+  color: $muted;
+  opacity: 0.65;
+  text-align: center;
+  margin: 0.25rem 0 0;
 }
 
 .hero__scroll {
