@@ -2,7 +2,7 @@
 
 > This file lives in `_session-notes/` with an underscore prefix so neither Jekyll nor Quarto will render or publish it. It's a private working file. Move or delete whenever.
 
-**Last updated:** 2026-05-11 (IPEDS analysis session — async work completed by Claude)
+**Last updated:** 2026-05-20 (writing samples polish session — visual design, SVGs, clinical accuracy fixes)
 
 ---
 
@@ -30,6 +30,43 @@ Jodie is a teaching-track associate professor (career-track, full-time faculty, 
 ### Session 1 (2026-05-07)
 - **`quarto/work/stem-completion-equity-analysis.qmd`** — full case-study scaffold, public IPEDS data, ready to fill in with real analysis when energy allows.
 - **`quarto/work/_general-genetics-outcomes-analysis.qmd`** — earlier scaffold using institutional data; renamed with `_` prefix so Quarto won't render it. Kept as a private draft, not published. Don't pursue without IRB / departmental sign-off.
+
+### Session 3 (2026-05-20) — writing samples visual polish
+
+**All three writing samples in `quarto/samples/` substantially redesigned visually and fixed for clinical accuracy.** Summary of what changed:
+
+**`scientific-content-review.qmd`**
+- New issue #1 inserted: ACMG/AMP variant classification orientation slide (dark-background pill design, one row per tier, VUS as accent-bordered standout, `data-tier` attributes for animation). Existing issues renumbered 2–5.
+- Duplicate "Medical communications" skill pill removed.
+- Dek updated to "Five issues identified. Four required revision; one addition recommended."
+- Issue #3 (VUS recontact language): fixed clinical accuracy — passive "recontact is appropriate" replaced with explicit patient-initiates direction ("they should follow up with their ordering provider or genetic counselor to check on any VUS result that is more than one to two years old"). Labs do not reliably proactively recontact patients.
+- Issue #4 (somatic/germline): recommended revision text replaced with a two-panel dark slide mockup — somatic side (amber, 2/6 cells with mutation markers) vs. germline side (blue, all 6 cells), plus key-takeaway footer bar.
+- Richards et al. 2015 (ACMG/AMP framework paper) added as first reference.
+- Pull-quote and summary updated to reflect five issues.
+
+**`patient-advocate-explainer.qmd`**
+- Dense first paragraph broken into three inline SVG visuals:
+  1. DNA→protein flow (nucleus, two-strand DNA zigzag with rungs, arrow, protein as connected circles)
+  2. Variant comparison (two 5-base sequences in colored blocks, changed base highlighted with dark border and "variant" label)
+  3. Chromosome illustration — expanded from 185px to 455px height to include:
+     - Top: detailed G-band-style chromosome with 7 coding bands of varying widths, clipPath pill, centromere, legend
+     - Bottom: full karyotype of all 23 chromosome pairs (24 types: 1–22, X, Y) as solid warm-gray bars scaled to approximate real chromosome sizes, bottom-aligned per row, mtDNA note
+- "Understanding your results" section: variant classifications redesigned with dark pill rows matching the scientific-content-review treatment (3 patient-appropriate categories: pathogenic/LP in red, VUS as blue standout, likely benign/benign in green).
+- Draft working notes (Jodie's unpublished text) cleaned up.
+
+**`clinician-brief.qmd`** — back link updated only.
+
+**`index.qmd` (samples index)**
+- Back links on all three samples changed from "← All work" to "← Writing samples" pointing to `index.html`
+- "← All work" added to samples index pointing to `../work/index.html`
+- Teaser text for scientific-content-review updated (was "four issues identified, three requiring revision")
+
+**Visual design system established in `samples/`:**
+- Dark-background pill rows: container `#1A1815`, standard rows `#2A2720`, VUS/standout `#1E2238` with `border: 2px solid #4a56c4`
+- Each pill row has `data-tier` attribute — ready for CSS/JS animation if desired
+- SVG palette: accent `#4a56c4`, ink `#2D2A24`, muted `#7E7567`, cream `#FAF6EE`, warm gray `#8A8078` (karyotype bars), base colors for nucleotides: A=#C07840, T=#4a56c4, G=#5C8870, C=#B85450
+
+---
 
 ### Session 2 (2026-05-11) — async work by Claude
 **The IPEDS analysis is now substantially complete.** Here's what was built:
@@ -134,10 +171,11 @@ Built in Session 2. Needs Jodie's review + decision to publish. See above for th
 
 **Prompt to paste if extending to 2023:** *"Read `_session-notes/next-steps.md`, then help me download the remaining IPEDS years and extend the analysis to 2023."*
 
-### B. Rewrite the genomics writing samples in her real voice
-The three samples in `samples/` (scientific-content-review, clinician-brief, patient-advocate-explainer) are well-organized but read as corporate-speak. Rewrite them in the voice of the Quarto case studies — direct, specific, slightly wry, anti-buzzword. Existing structure mostly stays; tone changes.
+### B. ✅ Polish the genomics writing samples — DONE (mostly)
+Visual redesign and clinical accuracy fixes completed in Session 3. The samples are visually strong — dark pill designs, inline SVGs, correct clinical language. What's still open:
+- **Voice rewrite**: the prose in all three samples still reads more corporate/formal than Jodie's natural voice in the case studies. The structure is right; the tone hasn't been touched yet. Low priority if the portfolio is performing, but worth one more pass before pitching heavily.
 
-**Prompt to paste:** *"Read `_session-notes/next-steps.md`, then help me rewrite the genomics samples in my real voice."*
+**Prompt to paste if doing the voice pass:** *"Read `_session-notes/next-steps.md`, then help me rewrite the genomics samples in my real voice — the structure and visuals are set, just the prose tone needs work."*
 
 ### C. Build the target employer list
 Once she's picked her top 1–2 role categories, draft a list of 15–20 specific employers — real names, current openings where findable, with notes on which to prioritize and why. Tailored to her constraint set (remote, small team, opted-in audience, no customer-service dynamics).
