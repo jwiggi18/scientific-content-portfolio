@@ -15,7 +15,7 @@ format:
   <header class="case-study__header">
     <div class="case-study__kicker">Data analysis · Public dataset · Biodiversity &amp; spatial data</div>
     <h1 class="case-study__title">Mapping <em>Crotaphytus collaris</em> sightings in Oklahoma</h1>
-    <p class="case-study__dek">A spatial analysis of iNaturalist observations of the Eastern Collared Lizard. Where are sightings concentrated, and how much of that pattern reflects the animal's actual distribution versus where people go?</p>
+    <p class="case-study__dek">A spatial analysis of iNaturalist observations of the Eastern Collared Lizard — where sightings cluster, what the patterns reveal about sampling bias, and where observational data runs out of answers.</p>
     <ul class="case-skills">
       <li>iNaturalist Observations API</li>
       <li>Spatial data analysis</li>
@@ -26,63 +26,94 @@ format:
   </header>
 
   <section class="case-study__section">
-    <h2>Why this question</h2>
-    <p>Species occurrence datasets are frequently used to infer distribution, model habitat, or flag conservation concern. But observational data — collected by volunteers submitting sightings — carries a structural problem: it reflects where people go, not just where animals are.</p>
-    <p><em>The question:</em> where are iNaturalist sightings of <em>Crotaphytus collaris</em> concentrated in Oklahoma, and do the spatial patterns in the data match plausible biology — or something else?</p>
-    <p>This is the entry point into a larger methodological question that matters for any analysis that treats citizen science data as a proxy for true distribution.</p>
+    <h2>My research on this animal</h2>
+    <p>I spent several years studying <em>Crotaphytus collaris</em> — the Eastern Collared Lizard, Oklahoma's state reptile — as part of my doctoral work at Oklahoma State University. My research focused on two intertwined questions: what role does early-life coloration play in sexual selection, and does this species have sex chromosomes?</p>
+    <p>Male hatchlings develop bright orange lateral bars in the fall — months before they're sexually mature. These bars aren't decoration. They function as social signals: males with more developed bars establish territories earlier, treat female hatchlings less aggressively (initiating social bonds that pay off at the next breeding season), and ultimately sire more offspring. This is precocial sexual selection — sexual selection operating before puberty, with fitness consequences that unfold later. The coloration disappears as males reach sexual maturity and transition to the adult color pattern. My dissertation documented the costs and benefits of this system over multiple breeding seasons, tracking individuals from hatch to reproduction.</p>
+    <p>The sex chromosome work emerged from the same long-term dataset. <em>C. collaris</em> has temperature-influenced sex determination — incubation temperature can bias offspring sex ratios — which made the discovery of sex chromosome signatures all the more interesting. Using gene dose analysis, we found evidence for sex chromosomes in a species where temperature can still override them. That paper was published in <em>Herpetologica</em> in 2020.</p>
+
+    <div style="margin: 2rem 0; padding: 1.5rem; background: #F8F7F4; border-left: 3px solid #C8BFB0; border-radius: 2px;">
+      <p style="margin: 0 0 0.75rem 0; font-size: 0.88rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #7E7567;">Publications</p>
+      <ul style="margin: 0; padding-left: 1.25rem; list-style: disc;">
+        <li style="margin-bottom: 0.6rem; line-height: 1.5; font-size: 0.95rem;">
+          Wiggins, J.M., J. Landers, J.W. Agan, and S.F. Fox. (2023). When do young collared lizards (<em>Crotaphytus collaris</em>) first copulate with and fertilize females?
+          <em>Herpetologica</em> 79: 91–97.
+          <a href="https://doi.org/10.1655/Herpetologica-D-22-00039" target="_blank" rel="noopener" style="white-space: nowrap;">doi:10.1655/Herpetologica-D-22-00039 →</a>
+        </li>
+        <li style="margin-bottom: 0.6rem; line-height: 1.5; font-size: 0.95rem;">
+          Wiggins, J.M., E. Santoyo-Brito, J.B. Scales, and S.F. Fox. (2020). Gene dose indicates presence of sex chromosomes in collared lizards (<em>Crotaphytus collaris</em>), a species with temperature-influenced sex determination.
+          <em>Herpetologica</em> 76: 27–30.
+          <a href="https://doi.org/10.1655/Herpetologica-D-19-00036" target="_blank" rel="noopener" style="white-space: nowrap;">doi:10.1655/Herpetologica-D-19-00036 →</a>
+        </li>
+        <li style="line-height: 1.5; font-size: 0.95rem;">
+          Wiggins, J.M. (2018). Costs and benefits of precocial sexual dichromatism in hatchling male collared lizards (<em>Crotaphytus collaris</em>). Doctoral dissertation, Oklahoma State University.
+          <a href="https://shareok.org" target="_blank" rel="noopener" style="white-space: nowrap;">SHAREOK repository →</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="case-study__section">
+    <h2>This project: mapping iNaturalist sightings</h2>
+    <p>Oklahoma is core range for <em>C. collaris</em>, and I wanted to see what the public iNaturalist record looks like — where sightings concentrate, how data quality is distributed, and whether the patterns in the data match biology or something else. The answer turns out to be partly both, which makes it a useful case study in what observational datasets can and can't tell you.</p>
   </section>
 
   <section class="case-study__section">
     <h2>The data</h2>
-    <p>Observations pulled from the <strong>iNaturalist Observations API</strong> — filtered to <em>Crotaphytus collaris</em> in Oklahoma, research grade and casual observations included. Records span 1979–2026, though meaningful data density begins in the 2010s as iNaturalist adoption grew.</p>
-    <p>The dataset was fetched programmatically, flattened from JSON to CSV, and cleaned prior to mapping: coordinate missingness removed, captive/cultivated records excluded, date fields parsed. 1,759 georeferenced observations total; 1,735 (98.6%) carry research grade status.</p>
+    <p>Observations pulled from the <strong>iNaturalist Observations API</strong>, filtered to <em>Crotaphytus collaris</em> in Oklahoma. Records span 1979–2026, though meaningful data density begins in the 2010s as iNaturalist adoption grew. The dataset was fetched programmatically, flattened from JSON to CSV, and cleaned prior to mapping: coordinate missingness removed, captive/cultivated records excluded, date fields parsed. 1,759 georeferenced observations total; 1,735 (98.6%) carry research grade status.</p>
   </section>
 
   <section class="case-study__section">
-    <h2>What the map shows</h2>
-    <p>The basic observation map reveals two clear clusters: one in the southwest corner of the state centered on the Wichita Mountains Wildlife Refuge, and one in the northeast centered on the Osage Reservation. Both are well-known wildlife areas with regular visitor traffic and active naturalist communities.</p>
+    <h2>Where the sightings are</h2>
+    <p>The map below shows all observations colored by quality grade. Zoom and hover for details — research grade points (blue) have photo-confirmed identifications; casual (red) were submitted without sufficient evidence for community review.</p>
 
-    <div style="margin: 2rem 0; text-align: center;">
-      <img src="lizard/figures/map_quality.png"
-           alt="Map of Oklahoma showing iNaturalist collared lizard observations by quality grade. Clusters visible near Wichita Mountains Wildlife Refuge in the southwest and the Osage Reservation in the northeast. Points colored by quality grade: blue for research, red for casual."
-           style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;" />
+    <div style="margin: 1.5rem 0; border: 1px solid #E5E7EB; border-radius: 6px; overflow: hidden;">
+      <iframe
+        src="lizard/figures/map_interactive.html"
+        width="100%"
+        height="530"
+        style="border: none; display: block;"
+        title="Interactive map of collared lizard iNaturalist observations in Oklahoma"
+      ></iframe>
     </div>
 
-    <p>The near-total dominance of research-grade observations (98.6%) tells its own story: these are sightings confirmed by the community, with photos and identifications. That's a meaningful data quality filter — but it also means the dataset is shaped by where identification-ready naturalists go, not just where lizards live.</p>
+    <p>Two clusters dominate: the southwest corner around the <strong>Wichita Mountains Wildlife Refuge</strong>, and the northeast around the <strong>Osage Reservation</strong>. Both are well-known wildlife destinations with active naturalist communities. The interior of the state — large stretches of grassland and scrub that likely support the species — shows almost no observations.</p>
   </section>
 
   <section class="case-study__section">
     <h2>What I expected to find — and what the data said</h2>
     <p>I wrote the expected pattern before running the analysis.</p>
-    <p><em>What I expected:</em> sightings concentrated in the western half of the state, which represents the eastern extent of the species' documented range; some cluster around the Wichita Mountains, which are a known stronghold; sparse coverage in the panhandle and north-central areas.</p>
-    <p><em>What I found:</em> the western cluster confirmed — but the Osage Reservation cluster in the northeast was not what I predicted. The Osage Reservation sits near the northeastern edge of the species' range, but the sighting density there rivals the Wichita Mountains. That's likely a sampling artifact: the Osage is a major destination for wildlife photographers and birders, and observer effort, not lizard density, may be driving the signal.</p>
-    <p>The interior of Oklahoma — large stretches of grassland and scrub habitat that likely support the species — shows almost no observations. Not because lizards aren't there, but because people aren't submitting sightings from there.</p>
+    <p><em>What I expected:</em> sightings concentrated in the western half of the state, which represents the eastern extent of the documented range; some cluster around the Wichita Mountains, a known stronghold; sparse coverage in the panhandle and north-central areas.</p>
+    <p><em>What I found:</em> the western cluster confirmed — but the Osage Reservation cluster in the northeast was not what I predicted. The Osage sits near the northeastern edge of the species' range, but sighting density there rivals the Wichita Mountains. That's likely a sampling artifact: the Osage is a major destination for wildlife photographers and birders, and observer effort — not lizard density — is probably driving the signal.</p>
+    <p>The near-total dominance of research-grade observations (98.6%) is worth noting too. The research-grade filter improves data quality, but it also systematically favors locations with active observer communities. The filtering that makes the data more reliable also makes it less representative of the full range.</p>
   </section>
 
   <section class="case-study__section">
     <h2>Observations over time</h2>
-    <p>The temporal pattern shows near-zero observations before 2010, then a steep rise as iNaturalist gained users — with a pronounced spike after 2015 and peak activity in the early 2020s.</p>
+    <p>The temporal pattern shows near-zero submissions before 2010, then a steep rise as iNaturalist gained users — with pronounced activity through the early 2020s. The growth reflects platform adoption as much as any change in lizard populations.</p>
 
-    <div style="margin: 2rem 0; text-align: center;">
-      <img src="lizard/figures/observations_over_time.png"
-           alt="Line chart showing number of iNaturalist observations per year from 1979 to 2026. Near zero before 2010, rising steeply from 2015, peaking around 2021-2022."
-           style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;" />
+    <div style="margin: 1.5rem 0; border: 1px solid #E5E7EB; border-radius: 6px; overflow: hidden; background: white;">
+      <iframe
+        src="lizard/figures/timeseries_interactive.html"
+        width="100%"
+        height="330"
+        style="border: none; display: block;"
+        title="iNaturalist collared lizard observations per year"
+      ></iframe>
     </div>
 
-    <p>The pre-2010 observations are real occurrences entered retroactively — useful for historical context, but not comparable in density or spatial coverage to the modern data. Any trend analysis treating the full dataset as a continuous time series would be misleading. The growth in observations after 2015 reflects platform growth and user behavior as much as it reflects lizard population dynamics.</p>
+    <p>Any trend analysis treating the full 1979–2026 dataset as continuous would be misleading. The pre-2010 records are real but entered retroactively and not comparable in density or spatial coverage to the modern data.</p>
   </section>
 
   <section class="case-study__section">
     <h2>Where the data stops being useful</h2>
-    <p>This dataset can map where sightings occur. It cannot tell you where the species is absent, or what fraction of the Oklahoma population the observed individuals represent. Sighting absence in a grid cell is not the same as species absence — it may mean no observer visited with a camera and iNaturalist account.</p>
-    <p>The research-grade filter improves data quality but narrows geographic coverage further: research grade requires corroboration by multiple users, which systematically favors locations with active observer communities. The filtering that makes the data more reliable also makes it less representative of the full range.</p>
+    <p>This dataset maps where sightings occur — it cannot tell you where the species is absent. Sighting absence in a grid cell is not evidence of species absence; it may mean no observer visited with a camera and an iNaturalist account. Given what I know about the biology and field sites for this species, there are almost certainly significant populations in areas with near-zero iNaturalist coverage.</p>
   </section>
 
   <section class="case-study__section">
     <h2>What I'd dig into next</h2>
-    <p><strong>GBIF comparison.</strong> iNaturalist feeds into GBIF, but GBIF also aggregates museum records, systematic surveys, and other sources. Comparing the two datasets would surface where observational coverage is likely insufficient and where museum records fill gaps.</p>
-    <p><strong>Observer effort normalization.</strong> Dividing sighting counts by estimated observer effort (total iNaturalist observations of any species in the same area and period) would produce a corrected occurrence rate — reducing the confounding effect of popular wildlife areas.</p>
-    <p><strong>Habitat overlay.</strong> Overlaying land cover or ecoregion data would let you ask whether the observed clustering matches habitat type or human access patterns — and where suitable-but-unsampled habitat exists.</p>
+    <p><strong>GBIF comparison.</strong> iNaturalist feeds into GBIF, but GBIF also aggregates museum records and systematic surveys. Comparing the two would surface where observational coverage is likely insufficient and where older records fill gaps.</p>
+    <p><strong>Observer effort normalization.</strong> Dividing sighting counts by total iNaturalist observations of any species in the same area and period would produce a corrected occurrence rate — reducing the confounding effect of popular wildlife areas.</p>
+    <p><strong>Habitat overlay.</strong> Overlaying land cover or ecoregion data would let you ask whether clustering matches habitat type or human access patterns, and where suitable-but-unsampled habitat exists.</p>
   </section>
 
   <section class="case-study__section">
@@ -95,17 +126,11 @@ import pandas as pd
 BASE_URL = "https://api.inaturalist.org/v1/observations"
 
 def fetch_observations(taxon_id, place_id, per_page=200):
-    all_results = []
-    page = 1
+    all_results, page = [], 1
     while True:
-        params = {
-            "taxon_id": taxon_id,
-            "place_id": place_id,
-            "per_page": per_page,
-            "page": page,
-            "order": "desc",
-            "order_by": "created_at"
-        }
+        params = {"taxon_id": taxon_id, "place_id": place_id,
+                  "per_page": per_page, "page": page,
+                  "order": "desc", "order_by": "created_at"}
         r = requests.get(BASE_URL, params=params)
         data = r.json()
         results = data.get("results", [])
