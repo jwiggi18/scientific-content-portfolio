@@ -11,7 +11,23 @@ format:
 ```{=html}
 <div style="max-width: 720px; margin: 0 auto; padding: 2rem 0;">
 
-<p style="font-size: 1.12rem; line-height: 1.55;">Case studies on content design, course architecture, and program building. Each one is a story about a substantive problem, what I actually did about it, and what changed.</p>
+<p style="font-size: 1.12rem; line-height: 1.55;">Case studies on content design, course architecture, program building, and data analysis. Each one is a story about a substantive problem, what I actually did about it, and what changed.</p>
+
+<h2 style="font-size: 0.82rem; letter-spacing: 0.18em; text-transform: uppercase; color: #7E7567; margin: 2rem 0 1.5rem 0; font-weight: 500;">Data analysis</h2>
+
+<a href="stem-completion-equity-analysis.html" class="work-card">
+  <div class="work-card__meta">Data analysis · Public dataset · Higher education</div>
+  <h3 class="work-card__title">What national data says about the STEM completion gap</h3>
+  <p class="work-card__teaser">A reproducible analysis of U.S. bachelor's degree completion in STEM fields using public IPEDS data — who finishes, who doesn't, where the gap lives by field and sector, and where the data runs out of answers.</p>
+</a>
+
+<a href="collared-lizard.html" class="work-card">
+  <div class="work-card__meta">Data analysis · Public dataset · Biodiversity &amp; spatial data</div>
+  <h3 class="work-card__title">Mapping <em>Crotaphytus collaris</em> sightings in Oklahoma</h3>
+  <p class="work-card__teaser">A spatial analysis of iNaturalist observations of the Eastern Collared Lizard — where sightings cluster, what the patterns reveal about sampling bias, and where observational data runs out of answers.</p>
+</a>
+
+<h2 style="font-size: 0.82rem; letter-spacing: 0.18em; text-transform: uppercase; color: #7E7567; margin: 4rem 0 1.5rem 0; font-weight: 500;">Content design &amp; program building</h2>
 
 <a href="genetics-course-redesign.html" class="work-card">
   <div class="work-card__meta">Course redesign · Higher education</div>
@@ -23,12 +39,6 @@ format:
   <div class="work-card__meta">Program design &amp; launch · Federally-funded research initiative</div>
   <h3 class="work-card__title">Building an education program from nothing</h3>
   <p class="work-card__teaser">An education and outreach division for a federally-funded phylogenetics initiative — including a researcher-educator workshop model whose results surprised the people who commissioned it.</p>
-</a>
-
-<a href="stem-completion-equity-analysis.html" class="work-card">
-  <div class="work-card__meta">Data analysis · Public dataset · Higher education</div>
-  <h3 class="work-card__title">What national data says about the STEM completion gap</h3>
-  <p class="work-card__teaser">A reproducible analysis of U.S. bachelor's degree completion in STEM fields using public IPEDS data — who finishes, who doesn't, where the gap lives by field and sector, and where the data runs out of answers.</p>
 </a>
 
 <h2 style="font-size: 0.82rem; letter-spacing: 0.18em; text-transform: uppercase; color: #7E7567; margin: 4rem 0 2rem 0; font-weight: 500;">Writing samples</h2>
