@@ -82,14 +82,14 @@ format:
   <section class="case-study__section">
     <h2>What I expected to find — and what the data said</h2>
     <p>I wrote the expected pattern before running the analysis.</p>
-    <p><em>What I expected:</em> sightings concentrated in the western half of the state, which represents the eastern extent of the documented range; some cluster around the Wichita Mountains, a known stronghold; sparse coverage in the panhandle and north-central areas.</p>
-    <p><em>What I found:</em> the western cluster confirmed — but the Osage Reservation cluster in the northeast was not what I predicted. The Osage sits near the northeastern edge of the species' range, but sighting density there rivals the Wichita Mountains. That's likely a sampling artifact: the Osage is a major destination for wildlife photographers and birders, and observer effort — not lizard density — is probably driving the signal.</p>
+    <p><em>What I expected:</em> sightings concentrated in areas with exposed rock scattered throughout the state and at known habitat (Wichita Mountains, Arcadia Dam); sparse coverage in the panhandle and north-central areas.</p>
+    <p><em>What I found:</em> Wichita Mountains cluster confirmed — but the Osage Reservation cluster in the northeast was not what I predicted. The Osage sits near the northeastern edge of the species' range, but sighting density there rivals the Wichita Mountains. That's likely a sampling artifact: the Osage is a major destination for wildlife photographers and birders, and observer effort — not lizard density — might be driving the signal.</p>
     <p>The near-total dominance of research-grade observations (98.6%) is worth noting too. The research-grade filter improves data quality, but it also systematically favors locations with active observer communities. The filtering that makes the data more reliable also makes it less representative of the full range.</p>
   </section>
 
   <section class="case-study__section">
     <h2>Observations over time</h2>
-    <p>The temporal pattern shows near-zero submissions before 2010, then a steep rise as iNaturalist gained users — with pronounced activity through the early 2020s. The growth reflects platform adoption as much as any change in lizard populations.</p>
+    <p>The temporal pattern shows near-zero submissions before 2010, then a steep rise as iNaturalist gained users — with pronounced activity through the early 2020s. The growth reflects platform adoption and likely not change in lizard populations.</p>
 
     <div style="margin: 1.5rem 0; border: 1px solid #E5E7EB; border-radius: 6px; overflow: hidden; background: white;">
       <iframe
@@ -106,7 +106,7 @@ format:
 
   <section class="case-study__section">
     <h2>Where the data stops being useful</h2>
-    <p>This dataset maps where sightings occur — it cannot tell you where the species is absent. Sighting absence in a grid cell is not evidence of species absence; it may mean no observer visited with a camera and an iNaturalist account. Given what I know about the biology and field sites for this species, there are almost certainly significant populations in areas with near-zero iNaturalist coverage.</p>
+    <p>This dataset maps where sightings occur — it cannot tell us where the species is absent. Sighting absence in a grid cell is not evidence of species absence; it may mean no observer visited with a camera and an iNaturalist account. Given what I know about the biology and field sites for this species, there are almost certainly significant populations in areas with near-zero iNaturalist coverage.</p>
   </section>
 
   <section class="case-study__section">
