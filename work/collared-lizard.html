@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A spatial analysis of iNaturalist observations of the Eastern Collared Lizard in Oklahoma — exploring what the data shows, and what it reveals about how observational biodiversity data gets made.">
+
+<title>Mapping Crotaphytus collaris sightings — Jodie Wiggins, PhD – Jodie Wiggins PhD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e5762492bded20b0f8a9e3923b92df1e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../styles.scss">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jodie Wiggins PhD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">home</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../work/index.html"> 
+<span class="menu-text">Work</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">My Details</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mapping Crotaphytus collaris sightings in Oklahoma</h1>
+</div>
+
+<div>
+  <div class="description">
+    A spatial analysis of iNaturalist observations of the Eastern Collared Lizard in Oklahoma — exploring what the data shows, and what it reveals about how observational biodiversity data gets made.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<article class="case-study">
+
+  <header class="case-study__header">
+    <div class="case-study__kicker">Data analysis · Public dataset · Biodiversity &amp; spatial data</div>
+    <h1 class="case-study__title">Mapping <em>Crotaphytus collaris</em> sightings in Oklahoma</h1>
+    <p class="case-study__dek">A spatial analysis of iNaturalist observations of the Eastern Collared Lizard — where sightings cluster, what the patterns reveal about sampling bias, and where observational data runs out of answers.</p>
+    <ul class="case-skills">
+      <li>iNaturalist Observations API</li>
+      <li>Spatial data analysis</li>
+      <li>Sampling bias in observational data</li>
+      <li>Python · pandas · Plotly</li>
+      <li>Reproducible reporting (Quarto)</li>
+    </ul>
+  </header>
+
+  <section class="case-study__section">
+    <h2>My research on this animal</h2>
+    <p>I spent several years studying <em>Crotaphytus collaris</em> — the Eastern Collared Lizard, Oklahoma's state reptile — as part of my doctoral work at Oklahoma State University. My research focused on two intertwined questions: what role does early-life coloration play in sexual selection, and does this species have sex chromosomes?</p>
+    <p>Male hatchlings develop bright orange lateral bars in the fall — months before they're sexually mature. These bars aren't decoration. They function as social signals: males with more developed bars establish territories earlier, treat female hatchlings less aggressively (initiating social bonds that pay off at the next breeding season), and ultimately sire more offspring. This is precocial sexual selection — sexual selection operating before puberty, with fitness consequences that unfold later. The coloration disappears as males reach sexual maturity and transition to the adult color pattern. My dissertation documented the costs and benefits of this system over multiple breeding seasons, tracking individuals from hatch to reproduction.</p>
+    <p>The sex chromosome work emerged from the same long-term dataset. <em>C. collaris</em> has temperature-influenced sex determination — incubation temperature can bias offspring sex ratios — which made the discovery of sex chromosome signatures all the more interesting. Using gene dose analysis, we found evidence for sex chromosomes in a species where temperature can still override them. That paper was published in <em>Herpetologica</em> in 2020.</p>
+
+    <div style="margin: 2rem 0; padding: 1.5rem; background: #F8F7F4; border-left: 3px solid #C8BFB0; border-radius: 2px;">
+      <p style="margin: 0 0 0.75rem 0; font-size: 0.88rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #7E7567;">Publications</p>
+      <ul style="margin: 0; padding-left: 1.25rem; list-style: disc;">
+        <li style="margin-bottom: 0.6rem; line-height: 1.5; font-size: 0.95rem;">
+          Wiggins, J.M., J. Landers, J.W. Agan, and S.F. Fox. (2023). When do young collared lizards (<em>Crotaphytus collaris</em>) first copulate with and fertilize females?
+          <em>Herpetologica</em> 79: 91–97.
+          <a href="https://doi.org/10.1655/Herpetologica-D-22-00039" target="_blank" rel="noopener" style="white-space: nowrap;">doi:10.1655/Herpetologica-D-22-00039 →</a>
+        </li>
+        <li style="margin-bottom: 0.6rem; line-height: 1.5; font-size: 0.95rem;">
+          Wiggins, J.M., E. Santoyo-Brito, J.B. Scales, and S.F. Fox. (2020). Gene dose indicates presence of sex chromosomes in collared lizards (<em>Crotaphytus collaris</em>), a species with temperature-influenced sex determination.
+          <em>Herpetologica</em> 76: 27–30.
+          <a href="https://doi.org/10.1655/Herpetologica-D-19-00036" target="_blank" rel="noopener" style="white-space: nowrap;">doi:10.1655/Herpetologica-D-19-00036 →</a>
+        </li>
+        <li style="line-height: 1.5; font-size: 0.95rem;">
+          Wiggins, J.M. (2018). Costs and benefits of precocial sexual dichromatism in hatchling male collared lizards (<em>Crotaphytus collaris</em>). Doctoral dissertation, Oklahoma State University.
+          <a href="https://shareok.org" target="_blank" rel="noopener" style="white-space: nowrap;">SHAREOK repository →</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="case-study__section">
+    <h2>This project: mapping iNaturalist sightings</h2>
+    <p>Oklahoma is core range for <em>C. collaris</em>, and I wanted to see what the public iNaturalist record looks like — where sightings concentrate, how data quality is distributed, and whether the patterns in the data match biology or something else. The answer turns out to be partly both, which makes it a useful case study in what observational datasets can and can't tell you.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>The data</h2>
+    <p>Observations pulled from the <strong>iNaturalist Observations API</strong>, filtered to <em>Crotaphytus collaris</em> in Oklahoma. Records span 1979–2026, though meaningful data density begins in the 2010s as iNaturalist adoption grew. The dataset was fetched programmatically, flattened from JSON to CSV, and cleaned prior to mapping: coordinate missingness removed, captive/cultivated records excluded, date fields parsed. 1,759 georeferenced observations total; 1,735 (98.6%) carry research grade status.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>Where the sightings are</h2>
+    <p>The map below shows all observations colored by quality grade. Zoom and hover for details — research grade points (blue) have photo-confirmed identifications; casual (red) were submitted without sufficient evidence for community review.</p>
+
+    <div style="margin: 1.5rem 0; border: 1px solid #E5E7EB; border-radius: 6px; overflow: hidden;">
+      <iframe src="lizard/figures/map_interactive.html" width="100%" height="530" style="border: none; display: block;" title="Interactive map of collared lizard iNaturalist observations in Oklahoma"></iframe>
+    </div>
+
+    <p>Two clusters dominate: the southwest corner around the <strong>Wichita Mountains Wildlife Refuge</strong>, and the northeast around the <strong>Osage Reservation</strong>. Both are well-known wildlife destinations with active naturalist communities. The interior of the state — large stretches of grassland and scrub that likely support the species — shows almost no observations.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What I expected to find — and what the data said</h2>
+    <p>I wrote the expected pattern before running the analysis.</p>
+    <p><em>What I expected:</em> sightings concentrated in areas with exposed rock scattered throughout the state and at known habitat (Wichita Mountains, Arcadia Dam); sparse coverage in the panhandle and north-central areas.</p>
+    <p><em>What I found:</em> Wichita Mountains cluster confirmed — but the Osage Reservation cluster in the northeast was not what I predicted. The Osage sits near the northeastern edge of the species' range, but sighting density there rivals the Wichita Mountains. That's likely a sampling artifact: the Osage is a major destination for wildlife photographers and birders, and observer effort — not lizard density — might be driving the signal.</p>
+    <p>The near-total dominance of research-grade observations (98.6%) is worth noting too. The research-grade filter improves data quality, but it also systematically favors locations with active observer communities. The filtering that makes the data more reliable also makes it less representative of the full range.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>Observations over time</h2>
+    <p>The temporal pattern shows near-zero submissions before 2010, then a steep rise as iNaturalist gained users — with pronounced activity through the early 2020s. The growth reflects platform adoption and likely not change in lizard populations.</p>
+
+    <div style="margin: 1.5rem 0; border: 1px solid #E5E7EB; border-radius: 6px; overflow: hidden; background: white;">
+      <iframe src="lizard/figures/timeseries_interactive.html" width="100%" height="330" style="border: none; display: block;" title="iNaturalist collared lizard observations per year"></iframe>
+    </div>
+
+    <p>Any trend analysis treating the full 1979–2026 dataset as continuous would be misleading. The pre-2010 records are real but entered retroactively and not comparable in density or spatial coverage to the modern data.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>Where the data stops being useful</h2>
+    <p>This dataset maps where sightings occur — it cannot tell us where the species is absent. Sighting absence in a grid cell is not evidence of species absence; it may mean no observer visited with a camera and an iNaturalist account. Given what I know about the biology and field sites for this species, there are almost certainly significant populations in areas with near-zero iNaturalist coverage.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>What I'd dig into next</h2>
+    <p><strong>GBIF comparison.</strong> iNaturalist feeds into GBIF, but GBIF also aggregates museum records and systematic surveys. Comparing the two would surface where observational coverage is likely insufficient and where older records fill gaps.</p>
+    <p><strong>Observer effort normalization.</strong> Dividing sighting counts by total iNaturalist observations of any species in the same area and period would produce a corrected occurrence rate — reducing the confounding effect of popular wildlife areas.</p>
+    <p><strong>Habitat overlay.</strong> Overlaying land cover or ecoregion data would let you ask whether clustering matches habitat type or human access patterns, and where suitable-but-unsampled habitat exists.</p>
+  </section>
+
+  <section class="case-study__section">
+    <h2>The code</h2>
+    <p>Data fetched from the iNaturalist API, cleaned and mapped in Python. The fetch script and processed CSV are in the repository.</p>
+
+    <pre><code class="language-python">import requests, json, time
+import pandas as pd
+
+BASE_URL = "https://api.inaturalist.org/v1/observations"
+
+def fetch_observations(taxon_id, place_id, per_page=200):
+    all_results, page = [], 1
+    while True:
+        params = {"taxon_id": taxon_id, "place_id": place_id,
+                  "per_page": per_page, "page": page,
+                  "order": "desc", "order_by": "created_at"}
+        r = requests.get(BASE_URL, params=params)
+        data = r.json()
+        results = data.get("results", [])
+        if not results:
+            break
+        all_results.extend(results)
+        if len(all_results) &gt;= data["total_results"]:
+            break
+        page += 1
+        time.sleep(1)
+    return all_results
+
+# Crotaphytus collaris taxon_id = 36226; Oklahoma place_id = 59
+records = fetch_observations(taxon_id=36226, place_id=59)
+
+rows = []
+for obs in records:
+    coords = obs.get("location", "").split(",")
+    rows.append({
+        "id": obs.get("id"),
+        "observed_on": obs.get("observed_on"),
+        "quality_grade": obs.get("quality_grade"),
+        "latitude": float(coords[0]) if len(coords) == 2 else None,
+        "longitude": float(coords[1]) if len(coords) == 2 else None,
+        "common_name": obs.get("taxon", {}).get("preferred_common_name"),
+        "captive": obs.get("captive"),
+    })
+
+df = pd.DataFrame(rows)
+df.to_csv("inat_collared_lizard_oklahoma.csv", index=False)
+</code></pre>
+
+    <p style="margin-top: 1rem; font-size: 0.92rem; color: #7E7567;"><em>Data: iNaturalist Observations API, public endpoint, no registration required. Full fetch script and processed CSV available in the <code>data-portfolio/projects/lizard/</code> directory of this repository.</em></p>
+  </section>
+
+  <a class="case-study__back" href="./">← All work</a>
+
+</article>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jwiggi18\.github\.io\/scientific-content-portfolio\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
