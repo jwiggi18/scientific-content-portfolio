@@ -178,8 +178,8 @@ ul.task-list li input[type="checkbox"] {
       <li><strong>Completions (C_A survey)</strong> — degree counts by 6-digit CIP code, award level, race/ethnicity, and gender, by institution and year. Bachelor's degrees = <code>AWLEVEL=5</code>, first majors only (<code>MAJORNUM=1</code>).</li>
       <li><strong>Institutional Characteristics (HD)</strong> — sector, Carnegie classification, control type. The grouping variables that make the rest meaningful.</li>
     </ul>
-    <p><strong>Scope:</strong> U.S. Title IV degree-granting institutions. Years: 2013, 2015–2017 (2014 data excluded — file truncated at row 253,038, reducing institution coverage by ~28%; the artifact produced a spurious one-year dip that is not a real trend). <strong>STEM definition:</strong> NSF STEM CIP crosswalk (2-digit families: 11, 14, 15, 26, 27, 40, 41, 03). Health professions (CIP 51) reported separately — including them substantially shifts the gendered patterns in the data.</p>
-    <p>~2,600–2,800 institutions per year. ~78,000–82,000 institution × CIP × demographic rows per year after filtering to bachelor's level.</p>
+    <p><strong>Scope:</strong> U.S. Title IV degree-granting institutions. Years: 2013, 2015–2023 (2014 data excluded — file truncated at row 253,038, reducing institution coverage by ~28%; the artifact produced a spurious one-year dip that is not a real trend). <strong>STEM definition:</strong> NSF STEM CIP crosswalk (2-digit families: 11, 14, 15, 26, 27, 40, 41, 03). Health professions (CIP 51) reported separately — including them substantially shifts the gendered patterns in the data.</p>
+    <p>~2,440–2,800 institutions per year. ~78,000–84,000 institution × CIP × demographic rows per year after filtering to bachelor's level.</p>
   </section>
 
   <section class="case-study__section">
@@ -191,28 +191,77 @@ ul.task-list li input[type="checkbox"] {
 
   <section class="case-study__section">
     <h2>Finding 1: The gap is persistent, not closing</h2>
-    <p>The core measure: STEM degrees as a share of each group's total bachelor's degrees earned. If a group earns 10% of all bachelor's in STEM, that 10% is their STEM share. It controls for differences in group size and total enrollment growth.</p>
+    <p>The core measure: STEM degrees as a share of each group's total bachelor's degrees earned. If a group earned a total of 500,000 bachelor's degrees in a given year and 75,000 of those are STEM degrees their stem share is calculated as 75,000/500,000 = 15%. </p>
 
     <div style="margin: 2rem 0; text-align: center;">
-      <img src="ipeds/figures/fig1_stem_share_trend.png" alt="Line chart: STEM share of all bachelor's degrees by race/ethnicity, 2013-2017. Asian 17.3%, White 9.9%, Hispanic 8.5%, Black 6.4%." style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;">
+      <img src="ipeds/figures/fig1_stem_share_trend.png" alt="Line chart: STEM share of all bachelor's degrees by race/ethnicity, 2013-2023. Asian 19.7%, White 11.0%, Hispanic 9.8%, Black 8.0%." style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;">
     </div>
 
-    <p>Black students earned 5.7% of their bachelor's degrees in STEM in 2013. By 2017 that was 6.4% — a 0.7 percentage point gain over four years. White students went from 8.6% to 9.9% over the same period. The gap between Black and White STEM share was 2.9 percentage points in 2013 and 3.5 points in 2017. It grew while both numbers rose.</p>
-    <p>Hispanic students fared somewhat better — 7.3% to 8.5%, tracking closer to White students — but still below. Asian students are consistently the highest at 15–17%, and rising.</p>
-    <p>The trend lines are all moving in the same direction. That matters: it means overall STEM enrollment is expanding and pulling everyone along. It does not mean the gap is closing. The four lines are not converging.</p>
+    <p>Black students earned 5.7% of their bachelor's degrees in STEM in 2013. By 2023 that was 8.0% — a 2.3 percentage point gain over ten years. White students went from 8.6% to 11.0% over the same period. The gap between Black students' STEM share and White students' STEM share was 2.9 percentage points in 2013 and 3.0 points in 2023. Nearly unchanged across a decade in which both numbers rose substantially.</p>
+    <p>The gap did not move in a straight line. It widened to 3.6 pp by 2018 as White students' STEM enrollment accelerated faster, then slowly narrowed — reaching 3.0 pp by 2023, nearly back to where it started. Both movements happened while everyone was gaining. The lines are rising together but not converging.</p>
+
+    <p>Hispanic students fared better — 7.3% to 9.8% over the decade, and the gap to White students narrowed slightly from 1.3 pp to 1.2 pp. That counts as marginal progress against a persistent structural pattern. Asian students rose from 15.3% to 19.7%, the largest absolute gain of any group and the widest advantage over White students.</p>
+
+    <div style="margin: 1.75rem 0; background: #f0ede8; border-radius: 8px; padding: 1.25rem 1.5rem; overflow-x: auto;">
+      
+<table class="caption-top table">
+<thead>
+<tr class="header" style="border-bottom: 2px solid #d6d0c8;">
+<th data-quarto-table-cell-role="th" style="text-align: left; padding: 0.5rem 1.5rem 0.5rem 0; color: #7E7567; font-weight: 600; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em; white-space: nowrap;"></th>
+<th data-quarto-table-cell-role="th" style="text-align: right; padding: 0.5rem 1.5rem; color: #7E7567; font-weight: 600; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em;">2013</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; padding: 0.5rem 1.5rem; color: #7E7567; font-weight: 600; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em;">2023</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; padding: 0.5rem 1.5rem; color: #7E7567; font-weight: 600; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em; white-space: nowrap;">pp change</th>
+<th data-quarto-table-cell-role="th" style="text-align: right; padding: 0.5rem 0 0.5rem 1.5rem; color: #7E7567; font-weight: 600; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em; white-space: nowrap;">gap to White (2023)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd" style="border-bottom: 1px solid #d6d0c8;">
+<td style="padding: 0.75rem 1.5rem 0.75rem 0; font-weight: 600; color: #222">Asian</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; color: #444; font-variant-numeric: tabular-nums;">15.3%</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; color: #444; font-variant-numeric: tabular-nums;">19.7%</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; font-weight: 700; color: #4a7c59; font-variant-numeric: tabular-nums;">+4.4</td>
+<td style="text-align: right; padding: 0.75rem 0 0.75rem 1.5rem; font-weight: 700; color: #4a7c59; font-variant-numeric: tabular-nums;">+8.7</td>
+</tr>
+<tr class="even" style="border-bottom: 1px solid #d6d0c8;">
+<td style="padding: 0.75rem 1.5rem 0.75rem 0; font-weight: 600; color: #222">White</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; color: #444; font-variant-numeric: tabular-nums;">8.6%</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; color: #444; font-variant-numeric: tabular-nums;">11.0%</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; font-weight: 700; color: #4a7c59; font-variant-numeric: tabular-nums;">+2.4</td>
+<td style="text-align: right; padding: 0.75rem 0 0.75rem 1.5rem; color: #7E7567; font-variant-numeric: tabular-nums;">—</td>
+</tr>
+<tr class="odd" style="border-bottom: 1px solid #d6d0c8;">
+<td style="padding: 0.75rem 1.5rem 0.75rem 0; font-weight: 600; color: #222">Hispanic</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; color: #444; font-variant-numeric: tabular-nums;">7.3%</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; color: #444; font-variant-numeric: tabular-nums;">9.8%</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; font-weight: 700; color: #4a7c59; font-variant-numeric: tabular-nums;">+2.5</td>
+<td style="text-align: right; padding: 0.75rem 0 0.75rem 1.5rem; font-weight: 700; color: #b05a3a; font-variant-numeric: tabular-nums;">−1.2</td>
+</tr>
+<tr class="even">
+<td style="padding: 0.75rem 1.5rem 0.75rem 0; font-weight: 600; color: #222">Black</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; color: #444; font-variant-numeric: tabular-nums;">5.7%</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; color: #444; font-variant-numeric: tabular-nums;">8.0%</td>
+<td style="text-align: right; padding: 0.75rem 1.5rem; font-weight: 700; color: #4a7c59; font-variant-numeric: tabular-nums;">+2.3</td>
+<td style="text-align: right; padding: 0.75rem 0 0.75rem 1.5rem; font-weight: 700; color: #b05a3a; font-variant-numeric: tabular-nums;">−3.0</td>
+</tr>
+</tbody>
+</table>
+
+      <p style="font-size: 0.7rem; color: #7E7567; margin-top: 0.75rem; margin-bottom: 0;">STEM share of each group's bachelor's degrees. pp change = percentage point change, 2013–2023. Gap to White = difference from White STEM share in 2023; negative values indicate below White.</p>
+    </div>
+    <p>The trend lines are all moving in the same direction across the full decade. That matters: it means overall STEM enrollment is expanding and pulling everyone along. It does not mean the gap is closing. A decade of growth and the four lines are not meaningfully converging.</p>
   </section>
 
   <section class="case-study__section">
     <h2>Finding 2: Who's actually driving the growth</h2>
-    <p>Counts indexed to 2013 = 100 show how each group's STEM bachelor's production grew over the window.</p>
+    <p>Counts indexed to 2013 = 100 show how each group's STEM bachelor's production grew over the decade.</p>
 
     <div style="margin: 2rem 0; text-align: center;">
-      <img src="ipeds/figures/fig2_stem_growth_indexed.png" alt="Line chart: indexed growth in STEM bachelor's degrees by race/ethnicity, 2013-2017. Hispanic +56%, Asian +29%, Black +16%, White +15%." style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;">
+      <img src="ipeds/figures/fig2_stem_growth_indexed.png" alt="Line chart: indexed growth in STEM bachelor's degrees by race/ethnicity, 2013-2023. Hispanic +129%, Asian +79%, Black +44%, White +18%." style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;">
     </div>
 
-    <p>Hispanic STEM bachelor's completions grew 56% between 2013 and 2017, from 28,633 to 44,775 — nearly four times the rate for White students (+15%). Asian completions grew 29%. Black completions grew 16%, just barely outpacing White growth.</p>
-    <p>The Hispanic growth is real and notable. It shows up in the STEM share chart too — the Hispanic line is the one actually closing distance on White. But even at +56% growth, Hispanic students started from a lower absolute base (28,633 in 2013 vs. 197,256 for White), and their STEM share in 2017 (8.5%) is still below the White rate in 2013 (8.6%).</p>
-    <p>The Black growth story is the harder one: +16% raw growth over four years, but this is slightly above the overall STEM completion growth rate (~24%), so it isn't translating into a closing gap.</p>
+    <p>Hispanic students' STEM bachelor's completions grew 129% between 2013 and 2023, from 28,633 to 65,457 — more than seven times the rate for White students (+18%). Asian students' completions grew 79% (36,136 to 64,708). Black students' completions grew 44% (20,664 to 29,808), outpacing White students substantially but still far behind Hispanic and Asian students' rates.</p>
+    <p>The growth story for Hispanic students over the full decade is striking. It shows up in the STEM share chart too — the line for Hispanic students has closed more distance on White students than any other group. But the starting base still matters: Hispanic students began at 28,633 STEM degrees in 2013 versus 197,256 for White students. Even after doubling, their share gap to White students has barely moved — from 1.3 pp to 1.2 pp. Scale and share are two different problems.</p>
+    <p>The growth story for Black students is harder to read. +44% raw growth over ten years sounds substantial, but it's still the slowest absolute share gain of any group against White students. The STEM share gap between Black and White students in 2023 (3.0 pp) is almost identical to 2013 (2.9 pp). The pipeline grew; the gap did not close.</p>
   </section>
 
   <section class="case-study__section">
@@ -220,14 +269,35 @@ ul.task-list li input[type="checkbox"] {
     <p>The aggregated STEM share hides enormous variation. Biology and computer science behave nothing like engineering and physical sciences.</p>
 
     <div style="margin: 2rem 0; text-align: center;">
-      <img src="ipeds/figures/fig3_field_breakdown.png" alt="Paired horizontal bar charts: Black and Hispanic share of degrees by STEM field, 2013 vs 2017." style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;">
+      <img src="ipeds/figures/fig3_field_breakdown.png" alt="Paired dumbbell charts: Black and Hispanic share of degrees by STEM field, 2013 vs 2023." style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;">
     </div>
 
     <p>A few things stand out:</p>
-    <p><strong>Computer science is the wrong kind of outlier.</strong> Black students had 10.7% of CS bachelor's in 2013 — the highest of any non-biology STEM field. By 2017 that had dropped to 8.4%, while the field as a whole grew 40%. CS added about 20,000 bachelor's degrees between 2013 and 2017; the share of those going to Black students fell. The field expanded and Black representation shrank within it.</p>
-    <p><strong>Biology is the most diverse major STEM field by a wide margin.</strong> Black (7.6%) and Hispanic (13.1%) both have their highest representation in biological sciences by 2017, and the Hispanic number represents a significant gain from 9.7% in 2013. Biology is also the largest single STEM field by degree count (118,856 bachelor's in 2017), which makes this meaningful at scale.</p>
-    <p><strong>Engineering is nearly unchanged.</strong> Black representation in engineering went from 4.0% in 2013 to 3.7% in 2017, while engineering added about 30,000 annual bachelor's degrees. Flat to declining share in a growing field.</p>
-    <p><strong>Hispanic students are gaining across the board.</strong> Every field shows Hispanic growth from 2013 to 2017, with the largest gains in biology (+3.4 pp), physical sciences (+3.0 pp), and engineering (+1.7 pp).</p>
+    <p><strong>Computer science is the wrong kind of outlier.</strong> Black students had 10.7% of CS bachelor's in 2013 — the highest of any non-biology STEM field. By 2023 that had dropped to 8.6%, while CS as a whole more than doubled in size (+122%). CS added over 63,000 bachelor's degrees between 2013 and 2023; the share of those going to Black students fell. The field expanded dramatically and Black representation shrank within it — a decade-long pattern, not a blip.</p>
+
+    <div style="display: flex; align-items: stretch; gap: 0; margin: 1.25rem 0 1.5rem; max-width: 420px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.09);">
+      <div style="width: 5px; background: #b05a3a; flex-shrink: 0;"></div>
+      <div style="background: #fdf5f2; padding: 0.9rem 1.1rem; flex: 1;">
+        <div style="font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: #b05a3a; margin-bottom: 0.5rem;">Black students in CS — share of field</div>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <div style="text-align: center;">
+            <div style="font-size: 0.72rem; color: #7E7567;">2013</div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #333; line-height: 1.1;">10.7%</div>
+          </div>
+          <div style="font-size: 1.4rem; color: #b05a3a;">↓</div>
+          <div style="text-align: center;">
+            <div style="font-size: 0.72rem; color: #7E7567;">2023</div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #333; line-height: 1.1;">8.6%</div>
+          </div>
+          <div style="margin-left: 0.5rem; padding: 0.3rem 0.65rem; background: #b05a3a; border-radius: 4px; font-size: 0.85rem; font-weight: 700; color: #fff; white-space: nowrap;">−2.1 pp</div>
+        </div>
+        <div style="font-size: 0.72rem; color: #7E7567; margin-top: 0.5rem;">While total CS bachelor's grew 122% over the same period.</div>
+      </div>
+    </div>
+    <p><strong>Biology is the most diverse major STEM field and has grown more so.</strong> Black students (8.0%) and Hispanic students (16.7%) both reach their highest representation in biological sciences by 2023. The Hispanic gain in biology — from 9.7% in 2013 to 16.7% in 2023, a 7.0 pp increase — is the single largest field-level representation gain in the dataset. Biology is also the largest STEM field by degree count (132,558 bachelor's in 2023), making this meaningful at scale.</p>
+    <p><strong>Engineering made modest progress for Black students and large gains for Hispanic students.</strong> Black representation in engineering went from 4.0% in 2013 to 4.3% in 2023 — barely moved while the field added 33,000 annual degrees (+38%). Hispanic representation in engineering went from 9.0% to 14.5%, a 5.5 pp gain in a growing field. Those are two very different trajectories in the same discipline.</p>
+    <p><strong>Math and statistics is a quiet decline for Black students.</strong> Black representation in mathematics and statistics fell from 4.8% in 2013 to 3.5% in 2023. This didn't appear in the earlier 2013–2017 window and is new to the extended data. It's the only field where Black share has declined while the field itself grew.</p>
+    <p><strong>Hispanic students are gaining across every field.</strong> Every field shows Hispanic growth from 2013 to 2023, with the largest gains in biology (+7.0 pp), engineering (+5.5 pp), physical sciences (+6.4 pp), and engineering technologies (+5.8 pp). The breadth of the gain is as notable as the magnitude.</p>
     <p>The field-level variation matters for interpreting the national number. "STEM" isn't one pipeline — it's seven substantially different ones, with substantially different representation patterns. An intervention designed for engineering won't transfer directly to biology, and vice versa.</p>
   </section>
 
@@ -235,28 +305,29 @@ ul.task-list li input[type="checkbox"] {
     <h2>Finding 4: Public vs. private nonprofit — the sector effect is real but consistent</h2>
 
     <div style="margin: 2rem 0; text-align: center;">
-      <img src="ipeds/figures/fig4_sector_breakdown.png" alt="Side-by-side line charts: STEM share by race/ethnicity at public vs. private nonprofit institutions, 2013-2017." style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;">
+      <img src="ipeds/figures/fig4_sector_breakdown.png" alt="Side-by-side line charts: STEM share by race/ethnicity at public vs. private nonprofit institutions, 2013-2023." style="max-width: 100%; border: 1px solid #EEEEEE; border-radius: 4px;">
     </div>
 
-    <p>Public institutions show consistently higher STEM shares across all racial/ethnic groups — roughly 1–1.5 percentage points higher than private nonprofit institutions for Black and Hispanic students. This is partly a size effect: public institutions are larger, enroll more students, and tend to have more engineering programs. But the relative order of groups is the same at both sector types, and the gap between groups is similar.</p>
-    <p>What this tells you: the equity gap is not primarily a sector artifact. The same pattern shows up whether you're looking at a public research university or a private liberal arts college. It's not explained by where students are enrolled.</p>
+    <p>Public institutions show consistently higher STEM shares across all racial/ethnic groups — roughly 1–1.5 percentage points higher than private nonprofit institutions for Black and Hispanic students, a gap that persists across the full 2013–2023 window. At public institutions, Black students' STEM share rose from 6.2% to 9.0% and Hispanic students' from 7.8% to 10.4%. At private nonprofits, Black students' rose from 5.2% to 7.6% and Hispanic students' from 6.9% to 9.6%. Both sectors improved, in roughly parallel tracks.</p>
+    <p>What this tells you: the equity gap is not primarily a sector artifact. The same pattern shows up whether you're looking at a public research university or a private liberal arts college. The sector difference in absolute STEM share is real, but the gap <em>between groups</em> is similar at both — the structural underrepresentation isn't explained by where students are enrolled.</p>
   </section>
 
   <section class="case-study__section">
     <h2>Where the data stops being able to answer the question</h2>
-    <p>IPEDS is institutional and aggregate. It counts degrees awarded — it doesn't record who left, when, or why. The gap this analysis documents is a completion gap. The attrition gap — <em>at what point in the sequence are students leaving STEM?</em> — requires different data. The BPS longitudinal survey and HSLS:09 cohort study are the right tools for that question; IPEDS isn't.</p>
+    <p>IPEDS is institutional and aggregate. It counts degrees awarded — it doesn't record who left, when, or why. The gap this analysis documents is a completion gap. The attrition gap — <em>at what point in the sequence are students leaving STEM?</em> — requires different data. To get at those questions we need to work from the BPS longitudinal survey and HSLS:09 cohort study.</p>
     <p>A few other limits worth naming:</p>
-    <p>The analysis uses HD2022 institutional characteristics to classify institutions across 2013–2017 data. Control type (public / private) is stable; Carnegie classification can shift as institutions grow. Carnegie-stratified results were excluded from the final writeup for this reason.</p>
-    <p>The 2014 data file truncated during download (EOF error at row 253,038, reducing institution coverage by ~28%). Real-world data quality issues like this are normal in IPEDS work — the right call is to document them and exclude rather than silently include a corrupted year.</p>
+    <p>The analysis uses HD2022 institutional characteristics to classify institutions across 2013–2023 data. Control type (public / private) is stable over time; Carnegie classification can shift as institutions grow. Carnegie-stratified results were excluded from the final writeup for this reason.</p>
+    <p>The 2014 data file truncated during download (EOF error at row 253,038, reducing institution coverage by ~28%) so it was excluded and called out.</p>
     <p>The NSF STEM CIP crosswalk is documented and replicable, but "STEM" still does a lot of definitional work. Health professions (CIP 51) are excluded here; including them shifts the gendered patterns substantially and modestly shifts the racial/ethnic patterns as well.</p>
   </section>
 
   <section class="case-study__section">
-    <h2>What I'd dig into next</h2>
-    <p><strong>Extend to 2018–2023.</strong> This analysis covers 2013–2017; downloading additional years from the NCES complete data files would let the same code produce the full decade picture. The methodology is built for it.</p>
-    <p><strong>Institutional outliers.</strong> The institutions that close the gap — the ones whose patterns don't match their sector average — are the analytically interesting ones. A residual analysis would surface them. That's a more targeted analysis than this one, and the one that's actually useful for program design.</p>
+    <h2>What's next</h2>
+    <p><strong>Institutional outliers.</strong> The institutions that close the gap, not matching the pattern, are the analytically interesting ones. A residual analysis would surface them. That's a more targeted analysis than this one, and the one that's actually useful for program design.</p>
+    <p><strong>Explaining the Math/Statistics decline for Black students.</strong> Black representation in mathematics and statistics fell from 4.8% to 3.5% between 2013 and 2023, the only field where the pattern moved backward while the field grew. That result wasn't visible in the 2013–2017 window. What's driving it deserves a closer look: whether it's driven by particular institution types, enrollment shifts within the field, or something else requires finer-grained data.</p>
     <p><strong>Persistence vs. completion.</strong> IPEDS degrees-awarded data can't tell you when students left. Linking to BPS or HSLS:09 would let you ask: is the gap opening at entry into STEM majors, during gateway courses, or at the point of degree completion? Those are three different problems with three different levers.</p>
-    <p><strong>Field-level trends for 4-digit CIPs.</strong> Computer science (11) contains both traditional CS and information systems. Engineering (14) contains civil, mechanical, electrical, and chemical. The 2-digit aggregation used here is already informative, but 4-digit would show where within these fields the representation patterns are most uneven.</p>
+    <p><strong>Field-level trends for 4-digit CIPs.</strong> Computer science (11) contains both traditional CS and information systems. Engineering (14) contains civil, mechanical, electrical, and chemical. The 2-digit aggregation used here is already informative, but 4-digit would show where within these fields the representation patterns are most uneven — and whether the CS decline for Black students is concentrated in particular sub-fields.</p>
+    <p><strong>COVID effects.</strong> The 2020–2021 window is visible as a flattening in some trend lines. Whether the disruption produced any lasting structural shifts in who completes STEM degrees — or whether lines return to pre-pandemic trajectory — will only be readable with additional years of post-2023 data.</p>
   </section>
 
   <section class="case-study__section">

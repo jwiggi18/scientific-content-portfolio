@@ -158,18 +158,15 @@ def chart2_counts_growth():
 def chart3_field_breakdown():
     field_df = pd.read_csv(os.path.join(FIG_DIR, "field_df.csv"))
 
-    # Focus on Black and Hispanic, 2017 values, sorted by field size
     df17 = field_df[field_df['Year']==2017].copy()
     df13 = field_df[field_df['Year']==2013].copy()
 
-    # Drop Science Technologies (tiny N)
     df17 = df17[df17['Field'] != 'Science Technologies']
     df13 = df13[df13['Field'] != 'Science Technologies']
 
-    # Sort by 2017 total
     order = df17.sort_values('Total')['Field'].tolist()
 
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5.5), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(13, 5.5), sharey=True)
     fig.suptitle('Racial/ethnic share of STEM degrees varies enormously by field',
                  fontsize=13, fontweight='bold', x=0.05, ha='left', y=1.02)
 
@@ -183,17 +180,32 @@ def chart3_field_breakdown():
         vals_13 = [df13[df13['Field']==f][col].values[0] for f in order]
         y_pos   = np.arange(len(order))
 
-        ax.barh(y_pos, vals_17, color=color, alpha=0.85, height=0.5, zorder=3, label='2017')
-        ax.barh(y_pos, vals_13, color=color, alpha=0.35, height=0.5, zorder=2, label='2013')
+        # Connecting lines — group color for gains, muted for declines
+        for i, (v13, v17) in enumerate(zip(vals_13, vals_17)):
+            line_color = color if v17 >= v13 else '#AAAAAA'
+            ax.hlines(i, v13, v17, color=line_color, lw=2.5, zorder=2)
 
-        # Add value labels
-        for i, (v17, v13) in enumerate(zip(vals_17, vals_13)):
-            ax.text(v17 + 0.15, i, f'{v17:.1f}%', va='center', fontsize=9, color='#333333')
+        # 2013: open circle
+        ax.scatter(vals_13, y_pos, color='white', edgecolors=color,
+                   s=55, linewidths=2, zorder=4, label='2013')
+        # 2017: filled circle
+        ax.scatter(vals_17, y_pos, color=color,
+                   s=55, zorder=5, label='2017')
+
+        # Value labels: 2017 always to the right of the rightmost dot
+        for i, (v13, v17) in enumerate(zip(vals_13, vals_17)):
+            right = max(v13, v17)
+            ax.text(right + 0.25, i, f'{v17:.1f}%',
+                    va='center', fontsize=8.5, color='#333333')
+            # For declines, also label the 2013 value to the left
+            if v13 > v17:
+                ax.text(v13 + 0.25, i + 0.35, f'{v13:.1f}% (\'13)',
+                        va='center', fontsize=7.5, color='#888888')
 
         ax.set_yticks(y_pos)
         ax.set_yticklabels([f.replace(' & ', '\n& ') for f in order], fontsize=9.5)
         ax.set_xlabel('Share of degrees in field (%)', fontsize=10)
-        ax.set_xlim(0, max(vals_17) * 1.45)
+        ax.set_xlim(0, max(max(vals_17), max(vals_13)) * 1.55)
         ax.set_title(f'{label}', fontsize=11, fontweight='bold', color=color, pad=8)
         ax.grid(axis='x', zorder=0)
         ax.axvline(0, color='#CCCCCC', lw=0.8)
@@ -202,7 +214,7 @@ def chart3_field_breakdown():
     plt.tight_layout()
     fig.text(0.0, -0.05,
              'Source: IPEDS Completions Survey, 2013 and 2017. Share = group\'s degrees in field ÷ all degrees in field.\n'
-             'Science Technologies excluded (N<600). STEM CIP crosswalk per NSF.',
+             'Science Technologies excluded (N<600). Open circle = 2013, filled = 2017. STEM CIP crosswalk per NSF.',
              fontsize=8, color='#888888', va='top')
 
     out = os.path.join(FIG_DIR, "fig3_field_breakdown.png")
